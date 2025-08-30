@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Law_college/static/css/main.0f212bd6.css",
-    "main.js": "/Law_college/static/js/main.c06571fe.js",
-    "static/js/453.70c6c098.chunk.js": "/Law_college/static/js/453.70c6c098.chunk.js",
-    "static/media/logo1.png": "/Law_college/static/media/logo1.4cf68f88830cd92e0f22.png",
-    "index.html": "/Law_college/index.html",
-    "main.0f212bd6.css.map": "/Law_college/static/css/main.0f212bd6.css.map",
-    "main.c06571fe.js.map": "/Law_college/static/js/main.c06571fe.js.map",
-    "453.70c6c098.chunk.js.map": "/Law_college/static/js/453.70c6c098.chunk.js.map"
+    "main.css": "/law_college/static/css/main.0f212bd6.css",
+    "main.js": "/law_college/static/js/main.7c19b02e.js",
+    "static/js/453.70c6c098.chunk.js": "/law_college/static/js/453.70c6c098.chunk.js",
+    "static/media/logo1.png": "/law_college/static/media/logo1.4cf68f88830cd92e0f22.png",
+    "index.html": "/law_college/index.html",
+    "main.0f212bd6.css.map": "/law_college/static/css/main.0f212bd6.css.map",
+    "main.7c19b02e.js.map": "/law_college/static/js/main.7c19b02e.js.map",
+    "453.70c6c098.chunk.js.map": "/law_college/static/js/453.70c6c098.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f212bd6.css",
-    "static/js/main.c06571fe.js"
+    "static/js/main.7c19b02e.js"
   ]
 }
