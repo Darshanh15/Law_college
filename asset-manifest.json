@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Law_college/static/css/main.ad25583f.css",
-    "main.js": "/Law_college/static/js/main.c6e6a57e.js",
+    "main.css": "/Law_college/static/css/main.7e181670.css",
+    "main.js": "/Law_college/static/js/main.6db23f69.js",
     "static/js/453.70c6c098.chunk.js": "/Law_college/static/js/453.70c6c098.chunk.js",
     "static/media/university.jpg": "/Law_college/static/media/university.e0f0d032f096da955f8a.jpg",
     "static/media/Samford.jpg": "/Law_college/static/media/Samford.b53268da42c2ef2e7c88.jpg",
@@ -10,13 +10,18 @@
     "static/media/2021.jpg": "/Law_college/static/media/2021.ee82579b8707910700c4.jpg",
     "static/media/logo2.png": "/Law_college/static/media/logo2.58f32f0afa44a2c62ac3.png",
     "static/media/2025.png": "/Law_college/static/media/2025.4957c66a643612ea706f.png",
+    "static/media/Parvathi.jpg": "/Law_college/static/media/Parvathi.ba3ece94fa28b327d5d2.jpg",
+    "static/media/Sarswathamma.jpg": "/Law_college/static/media/Sarswathamma.2c6e0b88098f61cfdb2e.jpg",
+    "static/media/Thriveni.jpg": "/Law_college/static/media/Thriveni.30c30ee8a5df2ffc9481.jpg",
+    "static/media/Durgesh.jpg": "/Law_college/static/media/Durgesh.ecdd46e7360d7f4d7557.jpg",
+    "static/media/Shivaprasad.jpg": "/Law_college/static/media/Shivaprasad.ff166407aa28d55b1d84.jpg",
     "index.html": "/Law_college/index.html",
-    "main.ad25583f.css.map": "/Law_college/static/css/main.ad25583f.css.map",
-    "main.c6e6a57e.js.map": "/Law_college/static/js/main.c6e6a57e.js.map",
+    "main.7e181670.css.map": "/Law_college/static/css/main.7e181670.css.map",
+    "main.6db23f69.js.map": "/Law_college/static/js/main.6db23f69.js.map",
     "453.70c6c098.chunk.js.map": "/Law_college/static/js/453.70c6c098.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad25583f.css",
-    "static/js/main.c6e6a57e.js"
+    "static/css/main.7e181670.css",
+    "static/js/main.6db23f69.js"
   ]
 }
