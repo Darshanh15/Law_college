@@ -27,7 +27,6 @@ const Modal = ({ isOpen, onClose, member }) => {
             <p>{member.p1}</p>
             <p>{member.p2}</p>
             <p>{member.p3}</p>
-            <p>{member.p4}</p>
           </div>
         </div>
       </div>
