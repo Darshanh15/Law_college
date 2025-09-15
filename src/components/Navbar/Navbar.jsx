@@ -742,7 +742,7 @@ const Navbar = () => {
                 </button>
                 {activeSubDropdown === "nonlaw" && (
                   <div className="sub-menu">
-                    <Link to="/Lawqp80" onClick={handleCloseMenu}>80</Link>
+                    <Link to="/Lawqp80" onClick={handleCloseMenu}>80/20</Link>
                     {/* <Link to="/nonlaw/20" onClick={handleCloseMenu}>20</Link> */}
                     <Link to="/Lawqp100" onClick={handleCloseMenu}>100</Link>
                   </div>
@@ -756,7 +756,7 @@ const Navbar = () => {
                 </button>
                 {activeSubDropdown === "law" && (
                   <div className="sub-menu">
-                    <Link to="/Nonlawqp80" onClick={handleCloseMenu}>80</Link>
+                    <Link to="/Nonlawqp80" onClick={handleCloseMenu}>80/20</Link>
                     {/* <Link to="/law/20" onClick={handleCloseMenu}>20</Link> */}
                     <Link to="/Nonlawqp100" onClick={handleCloseMenu}>100</Link>
                   </div>
