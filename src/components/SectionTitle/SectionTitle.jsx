@@ -11,3 +11,4 @@ const SectionTitle = ({ backgroundText, title }) => {
 };
 
 export default SectionTitle;
+

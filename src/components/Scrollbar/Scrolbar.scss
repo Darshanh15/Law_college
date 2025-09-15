@@ -1,0 +1,31 @@
+.scrolbar {
+  max-height: 300px;  // adjust as per your design
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  line-height: 1.6;
+  color: #444;
+
+  /* Custom Scrollbar (Chrome, Edge, Safari) */
+  &::-webkit-scrollbar {
+    width: 8px; /* scrollbar thickness */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1; /* track background */
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #3b82f6; /* blue thumb */
+    border-radius: 10px; /* rounded edges */
+    border: 2px solid #f1f1f1; /* spacing effect */
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #2563eb; /* darker blue hover */
+  }
+
+  /* Firefox support */
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6 #f1f1f1;
+}

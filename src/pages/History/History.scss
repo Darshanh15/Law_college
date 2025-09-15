@@ -1,0 +1,137 @@
+
+.history-page {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+
+  .history-hero {
+    background: url('../../assets/law.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      text-align: center;
+      color: #fff;
+      border-radius: 12px;
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .timeline {
+    position: relative;
+    margin: 50px auto;
+    max-width: 1100px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      width: 4px;
+      height: 100%;
+      background: #004080;
+      transform: translateX(-50%);
+    }
+
+    .timeline-item {
+      padding: 20px;
+      position: relative;
+      width: 50%;
+
+      .timeline-content {
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        position: relative;
+        animation: fadeInUp 0.8s ease;
+
+        .year {
+          font-size: 1.5rem;
+          font-weight: bold;
+          color: #004080;
+          margin-bottom: 10px;
+          display: block;
+        }
+
+        h3 {
+          font-size: 1.3rem;
+          margin-bottom: 10px;
+          color: #222;
+        }
+
+        p {
+          font-size: 1rem;
+          margin-bottom: 15px;
+          color: #555;
+        }
+
+        img {
+          width: 100%;
+          border-radius: 10px;
+          margin-top: 10px;
+        }
+      }
+
+      &.left {
+        left: 0;
+        text-align: right;
+
+        .timeline-content {
+          margin-right: 30px;
+        }
+      }
+
+      &.right {
+        left: 50%;
+
+        .timeline-content {
+          margin-left: 30px;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      &::before {
+        left: 10px;
+      }
+
+      .timeline-item {
+        width: 100%;
+        padding-left: 40px;
+        margin-bottom: 30px;
+
+        &.right {
+          left: 0;
+        }
+
+        .timeline-content {
+          margin: 0;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

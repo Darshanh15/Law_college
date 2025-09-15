@@ -1,0 +1,281 @@
+// .floating-buttons {
+//   position: fixed;
+//   top: 40%;
+//   left: 0;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 10px;
+//   z-index: 1000;
+// }
+
+// .floating-btn {
+//   background: #800080; // purple
+//   color: #fff;
+//   font-size: 1.5rem;
+//   width: 45px;
+//   height: 45px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   border-radius: 6px;
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+//   transition: all 0.3s ease;
+//   text-decoration: none;
+
+//   &:hover {
+//     background: #5a005a;
+//     transform: scale(1.1);
+//   }
+// }
+
+// // Mobile adjustment
+// @media (max-width: 768px) {
+//   .floating-buttons {
+//     top: auto;
+//     bottom: 20px;
+//     left: 10px;
+//     flex-direction: row;
+//   }
+
+//   .floating-btn {
+//     font-size: 1.2rem;
+//     width: 40px;
+//     height: 40px;
+//   }
+// }
+
+
+
+// .floating-buttons {
+//   position: fixed;
+//   top: 40%;
+//   left: 0;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 10px;
+//   z-index: 1000;
+// }
+
+// .floating-btn {
+//   background: #800080;
+//   color: #fff;
+//   font-size: 1.5rem;
+//   width: 45px;
+//   height: 45px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   border-radius: 6px;
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+//   transition: all 0.3s ease;
+//   text-decoration: none;
+//   position: relative;
+//   overflow: hidden;
+
+//   &:hover {
+//     background: #5a005a;
+//   }
+
+//   .btn-label {
+//     position: absolute;
+//     left: 100%; // start outside button
+//     top: 0;
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+//     background: #fff;
+//     color: #000;
+//     font-size: 0.85rem;
+//     font-weight: bold;
+//     padding: 0 12px;
+//     white-space: nowrap;
+//     border-radius: 0 6px 6px 0;
+//     transform: translateX(0);
+//     opacity: 0;
+//     transition: all 0.3s ease;
+//   }
+
+//   &:hover .btn-label {
+//     left: 100%;
+//     opacity: 1;
+//     transform: translateX(0);
+//   }
+// }
+
+// // Mobile version
+// @media (max-width: 768px) {
+//   .floating-buttons {
+//     top: auto;
+//     bottom: 20px;
+//     left: 10px;
+//     flex-direction: row;
+//   }
+
+//   .floating-btn {
+//     width: 40px;
+//     height: 40px;
+
+//     .btn-label {
+//       display: none; // Hide labels on small screens
+//     }
+//   }
+// }
+
+
+
+.floating-buttons {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 950;
+}
+
+.floating-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+
+  .icon-box {
+    width: 45px;
+    height: 45px;
+    background: #800080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .btn-label {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0 12px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.3s ease;
+    border-radius: 0 10px 10px 0;
+  }
+
+  &:hover .btn-label {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {  // Apply these styles only on screens ≤ 768px (mobile/tablet)
+  .floating-buttons {
+   top: 75%;          // keep them vertically centered
+    // left: 5px;        // stick to left side
+    bottom: auto;      // remove bottom positioning
+    flex-direction: column; // keep vertical layout
+    transform: translateY(-50%); // center vertically
+  }
+
+  .floating-btn {
+    width: 182px;   // smaller size for mobile
+    height: 40px;
+    border-radius: 10px;
+
+
+    .btn-label {
+      font-size: 12px;
+      padding: 6px 10px;
+  }}
+}
+
+
+
+// .floating-buttons {
+//   position: fixed;
+//   top: 40%;
+//   left: 0;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 10px;
+//   z-index: 1000;
+// }
+
+// .floating-btn {
+//   display: flex;
+//   align-items: center;
+//   height: 45px;
+//   text-decoration: none;
+//   position: relative;
+//   border-radius: 6px;
+//   overflow: visible;
+
+//   .icon-box {
+//     width: 45px;
+//     height: 45px;
+//     background: #800080;           /* purple box */
+//     color: #fff;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border-radius: 6px;
+//     box-shadow: 0 4px 6px rgba(0,0,0,.25);
+//     font-size: 1.4rem;
+//     flex-shrink: 0;
+//   }
+
+//   .btn-label {
+//     margin-left: 8px;
+//     background: #fff;
+//     color: #000;
+//     font-weight: 800;
+//     font-size: 0.92rem;
+//     padding: 0 12px;
+//     height: 45px;
+//     display: flex;
+//     align-items: center;
+//     white-space: nowrap;
+//     border-radius: 0 6px 6px 0;
+//     box-shadow: 0 4px 6px rgba(0,0,0,.15);
+
+//     /* hidden by default (slides in from left of its spot) */
+//     transform: translateX(-110%);
+//     opacity: 0;
+//     transition: transform .25s ease, opacity .25s ease;
+//   }
+
+//   /* desktop: show on hover */
+//   &:hover .btn-label {
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+// }
+
+// /* touch devices: show when we add .open via JS */
+// .floating-btn.open .btn-label {
+//   transform: translateX(0);
+//   opacity: 1;
+// }
+
+// /* Mobile layout: keep vertical on left side */
+// @media (max-width: 768px) {
+//   .floating-buttons {
+//     top: 50%;
+//     left: 10px;
+//     transform: translateY(-50%);
+//     flex-direction: column;
+//     gap: 8px;
+//   }
+//   .floating-btn { height: 42px; }
+//   .floating-btn .icon-box { width: 42px; height: 42px; }
+//   .floating-btn .btn-label { height: 42px; font-size: 0.85rem; }
+// }

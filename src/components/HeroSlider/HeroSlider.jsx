@@ -2,35 +2,39 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./HeroSlider.scss";
 
-import img1 from '../../assets/home/greeps.jpg'
-import img2 from '../../assets/home/jerry.jpg'
-import img3 from '../../assets/home/orange.jpg'
+import img1 from '../../assets/collage_img/blc.jpeg'
+import img2 from '../../assets/home/university.jpg'
+import img3 from '../../assets/home/Samford.jpg'
+import img4 from '../../assets/collage_img/blc1.jpeg'
+import img5 from '../../assets/collage_img/blc2.jpeg'
+// import img6 from '../../assets/collage img/main (13).jpeg'
+
 
 const slides = [
   {
     id: 1,
     image: img1,
-    subtitle: "Welcome to Our FARMS2Bizz",
+    subtitle: "Welcome to Our Law Collage",
     title: "We Build <span class='highlight'>Dreams</span>",
-    description: "Your success is our mission. Let’s grow together. Cut down the intermediaries and grow profits with our 150+ item inventory and tech-enabled delivery system.",
+    description: "Your success is our mission. Let’s grow together. Cut down the intermediaries and grow profits with our ",
     primaryBtn: "Get Started",
     secondaryBtn: "Learn More",
   },
   {
     id: 2,
-    image: img2,
-    subtitle: "Our Services",
+    image: img4,
+    subtitle: "Our Collage",
     title: "Creative <span class='highlight'>Solutions</span>",
-    description: "Your success is our mission. Let’s grow together. Cut down the intermediaries and grow profits with our 150+ item inventory and tech-enabled delivery system.",
-    primaryBtn: "View Services",
+    description: "Your success is our mission. Let’s grow together. Cut down the intermediaries and grow profits.",
+    primaryBtn: "View more",
     secondaryBtn: "Contact Us",
   },
   {
     id: 3,
-    image: img3,
+    image: img5,
     subtitle: "Join Us",
     title: "Let’s <span class='highlight'>Collaborate</span>",
-    description: "Your success is our mission. Let’s grow together. Cut down the intermediaries and grow profits with our 150+ item inventory and tech-enabled delivery system.",
+    description: "Your success is our mission. Let’s grow together. Cut down the intermediaries and grow profits.",
     primaryBtn: "Join Now",
     secondaryBtn: "Contact Us",
   },

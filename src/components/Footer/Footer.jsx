@@ -1,11 +1,11 @@
 
 
 import React from "react";
-import { FaFacebookF, FaInstagram, FaYoutube , FaWhatsapp} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube , FaWhatsapp, FaEnvelope} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 import './Footer.scss'
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo2.png";
 
 function Footer() {
   return (
@@ -13,15 +13,15 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-brand">
           <Link to="/" ><img src={logo} alt="logo" /></Link>
-          <p>FARM2Bizz</p>
+          <p>bangalorelawcollege</p>
         </div>
 
         <div className="footer-links">
           <h4>Address</h4>
           <ul>
-            <li>#3/4, 6/4, Defence Colony</li>
-            <li>Chimasandra, Bidarahalli Hobli</li>
-            <li>Virgonagar Post</li>
+            <li>#/#,  Bangalore</li>
+            <li>Bangalore Bangalore</li>
+            <li>Bangalore Post</li>
             <li> Bangalore -560049</li>
             {/* <li><a href="/privacy">Privacy Policy</a></li> */}
           </ul>
@@ -30,11 +30,11 @@ function Footer() {
 <div className="footer-links">
   <h4>Quick Links</h4>
   <ul>
-    <li><Link to="/" >Home</Link></li>
-    <li><Link to="/aboutus" >About Us</Link></li>
-    <li><Link to="/clients" >Clients</Link></li>
-    <li><Link to="/processsteps" >Our Export</Link></li>
-    <li><Link to="/crops" > Crops</Link></li>
+    <li><Link to="/Law_college" >Home</Link></li>
+    <li><Link to="/gallery" >Gallery</Link></li>
+    <li><Link to="/history" >History</Link></li>
+    <li><Link to="/admissions" >Admission</Link></li>
+    {/* <li><Link to="/crops" > Crops</Link></li> */}
     <li><Link to="/contact" >Contact Us</Link></li>
   </ul>
 </div>
@@ -42,10 +42,13 @@ function Footer() {
         <div className="footer-social">
           <h4>Follow Us</h4>
           <div className="social-icons">
-            <a href="https://www.facebook.com/"><FaFacebookF /></a>
-            <a href="https://www.instagram.com/"><FaInstagram /></a>
-            <a href="https://www.youtube.com/"><FaYoutube /></a>
-            <a href="https://wa.me/9035901469"> <FaWhatsapp /> </a>
+            <a href="https://www.facebook.com/share/1ZKMX97uyg/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/bangalorelawclg?igsh=bmhzZTNxbzJ5emt2" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            {/* <a href="https://www.youtube.com/"><FaYoutube /></a> */}
+            <a href="https://wa.me/918618235882" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /> </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bangalorelawclg@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
+
+
             
           </div>
         </div>
@@ -53,7 +56,7 @@ function Footer() {
       
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} FARM2Bizz All rights reserved.
+        © {new Date().getFullYear()} bangalorelawcollege All rights reserved.
       </div>
     </footer>
   );

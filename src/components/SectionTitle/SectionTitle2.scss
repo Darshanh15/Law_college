@@ -1,0 +1,80 @@
+// .section-title {
+//   position: relative;
+//   text-align: center;
+//   margin: 7rem 0;
+
+//   &__logo {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     opacity: 0.19;        // watermark effect
+//     width: 500px;         // adjust size
+//     pointer-events: none; // prevent blocking clicks
+//   }
+
+//   &__main {
+//     position: relative;
+//     font-size: 3rem;
+//     font-weight: bold;
+//     color: #222;
+//     z-index: 1; // text stays above logo
+//   }
+// }
+
+
+
+.section-title {
+  position: relative;
+  text-align: center;
+  margin: 5rem 0;
+
+  &__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.08;        // watermark effect
+    width: 400px;         // desktop size
+    max-width: 80%;       // prevents overflow
+    pointer-events: none; // avoid blocking clicks
+  }
+
+  &__main {
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222;
+    z-index: 1; // keeps title above logo
+  }
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    margin: 4rem 0;
+
+    &__logo {
+      width: 300px; // smaller logo on mobile
+      opacity: 0.1; // slightly clearer
+    }
+
+    &__main {
+      font-size: 2rem; // smaller heading
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    margin: 3rem 0;
+
+    &__logo {
+      width: 200px; // extra small devices
+    }
+
+    &__main {
+      font-size: 1rem;
+    }
+  }
+}

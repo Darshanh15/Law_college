@@ -1,10 +1,14 @@
 import React from 'react'
 import './About.scss'
+import SectionTitle from '../../components/SectionTitle/SectionTitle'
 
 function About() {
   return (
-    <div>About</div>
+    <>
+    <SectionTitle />
+    </>
+    
   )
 }
 
-export default About
+export default About;

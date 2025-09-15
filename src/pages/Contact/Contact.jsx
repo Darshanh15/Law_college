@@ -1,10 +1,18 @@
-import React from 'react'
-import './Contact.scss'
+import React from "react";
+import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
+import "./Contact.scss";
+import Contact1 from "./Contact1";
 
-function Contact() {
+const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
 
-export default Contact
+    <>
+    
+    <SectionTitle2 title="Contact Us" />
+    
+<Contact1 />
+    </>
+  );
+};
+
+export default Contact;

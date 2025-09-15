@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 1.5rem;  // 24px from bottom
   right: 1.5rem;   // 24px from right
-  background-color: #2e7d32; // green
+  background-color: #800080; // green
   color: #fff;
   border: none;
   outline: none;
@@ -14,7 +14,7 @@
   transition: all 0.3s ease;
 
   &:hover {
-    background-color: #1b5e20; // darker green
+    background-color: #df4bdf; // darker green
     transform: translateY(-3px);
   }
 
