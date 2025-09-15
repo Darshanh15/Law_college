@@ -33,6 +33,11 @@ import PopupModal from './components/PopupModal/PopupModal';
 import FAQ from './components/FAQ/FAQ';
 import Intrship from './pages/Intrship/Intrship';
 import BoardManagement from './pages/BoardManagement/BoardManagement';
+import NonlawQp100 from './pages/QuestionPaper/Nonlaw/NonlawQp100';
+import NonlawQp80 from './pages/QuestionPaper/Nonlaw/NonlawQp80';
+import LawQp80 from './pages/QuestionPaper/Law/LawQp80';
+import LawQp100 from './pages/QuestionPaper/Law/LawQp100';
+
 
 function MainContent() {
   return (
@@ -54,6 +59,15 @@ function MainContent() {
         <Route path="/Years3LLB" element={<Years3LLB />} />
         <Route path="/Years5LLB" element={<Years5LLB />} />
         <Route path="/Faq" element={<FAQ />} />
+
+        <Route path="/Lawqp100" element={<LawQp100 />} />
+        <Route path="/Lawqp80" element={<LawQp80 />} />
+
+        <Route path="/Nonlawqp100" element={<NonlawQp100 />} />
+        <Route path="/Nonlawqp80" element={<NonlawQp80 />} />
+
+
+
         <Route path="/BoardManagement" element={<BoardManagement />} />
       </Routes>
       {/* <WhatsAppButton /> */}
