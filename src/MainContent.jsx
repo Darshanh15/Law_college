@@ -38,6 +38,8 @@ import NonlawQp80 from './pages/QuestionPaper/Nonlaw/NonlawQp80';
 import LawQp80 from './pages/QuestionPaper/Law/LawQp80';
 import LawQp100 from './pages/QuestionPaper/Law/LawQp100';
 import QuestionPapers from './pages/QuestionPapers/QuestionPapers';
+import AdmissionPage from './pages/hiring/AdmissionPage';
+import CriteriaPage from './pages/hiring/CriteriaPage';
 
 
 function MainContent() {
@@ -72,6 +74,10 @@ function MainContent() {
         <Route path="/BoardManagement" element={<BoardManagement />} />
 
         <Route path="/QuestionPapers" element={<QuestionPapers />} />
+        <Route path="/AdmissionPage" element={<AdmissionPage />} />
+        <Route path="/CriteriaPage" element={<CriteriaPage />} />
+
+
       </Routes>
       {/* <WhatsAppButton /> */}
       <FloatingButtons />

@@ -34,18 +34,7 @@
       animation: fadeInLeft 1s ease-in-out;
       bottom: 10px;
     }
-     
-
-    .download-btn {
-      margin-top: 1rem;
-      color: #b45309;
-      font-weight: 600;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
-      
-    }
+    
      h3 {
         top: 10px;
     font-size: 1.4rem;
@@ -64,55 +53,24 @@
     border-radius: 20px;
   }
 
-  
 .read-more {
-  display: inline-block;
-  margin-top: 1rem;
-  font-size: 1rem;
+  display: inline-block; // use inline-block instead of block
+  margin: 0.5rem auto; // auto left/right centers it
+  padding: 0.4rem 1rem;
+  background: #0b4a91;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 0.9rem;
   font-weight: 600;
-  color: #b45309;
   text-decoration: none;
-  position: relative;
-  transition: all 0.3s ease;
-  left: -15px;
-
-  // underline animation
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 0%;
-    height: 2px;
-    background-color: #b45309;
-    transition: width 0.3s ease;
-  }
+  cursor: pointer;
+  transition: background 0.3s;
 
   &:hover {
-    color: #92400e; // darker shade on hover
-    cursor: pointer;
-    text-decoration: none;
-
-    &::after {
-      width: 100%;
-    }
-  }
-
-  // optional "arrow" on hover
-  &::before {
-    content: "→";
-    opacity: 0;
-    margin-right: 6px;
-    transition: all 0.3s ease;
-  }
-
-  &:hover::before {
-    opacity: 1;
-    margin-right: 10px;
+    background: #083265;
   }
 }
-
-}
+  }
   }
 
 //   .board-middle {

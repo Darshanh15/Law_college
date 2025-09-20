@@ -788,60 +788,7 @@ const Navbar = () => {
         </li>
 
 
-        {/* Admission (multi-level dropdown) */}
-        <li className="dropdown">
-          <button onClick={() => toggleDropdown("admission")}>
-            Admission 
-          </button>
-
-          {activeDropdown === "admission" && (
-            <div className="dropdown-menu">
-              {/* Non Law */}
-              
-              <div className="sub-dropdown">
-                <button onClick={() => toggleSubDropdown("AdmissionProcess")}>
-                   Admission Process 
-                </button>
-                {activeSubDropdown === "AdmissionProcess" && (
-                  <div className="sub-menu">
-                    <Link to="/admissions" onClick={handleCloseMenu}>admissions</Link>
-                  </div>
-                )}
-              </div>
-
-              {/* FAQ's */}
-              <div className="sub-dropdown">
-                <button onClick={() => toggleSubDropdown("faq")}>
-                   FAQ's
-                </button>
-                {activeSubDropdown === "faq" && (
-                  <div className="sub-menu">
-                    
-                    <Link to="/Faq" onClick={handleCloseMenu}>FAQ's</Link>
-
-                  </div>
-                  
-                )}
-                
-              </div>
-              {/* Career */}
-              <div className="sub-dropdown">
-                <button onClick={() => toggleSubDropdown("Career")}>
-                  Career
-                </button>
-                {activeSubDropdown === "Career" && (
-                  <div className="sub-menu">
-                    <Link to="/Nonlawqp80" onClick={handleCloseMenu}>Teaching and non teaching</Link>
-                    <Link to="/Nonlawqp100" onClick={handleCloseMenu}>critera</Link>
-
-                  </div>
-                  
-                )}
-                
-              </div>
-            </div>
-          )}
-        </li>
+ 
 
  {/* Admission */}
         <li className="dropdown">
@@ -873,10 +820,10 @@ const Navbar = () => {
         </button>
         {activeSubDropdown === "Career" && (
           <div className="sub-menu">
-            <Link to="/Nonlawqp80" onClick={handleCloseMenu}>
+            <Link to="/AdmissionPage" onClick={handleCloseMenu}>
               Teaching and Non-Teaching
             </Link>
-            <Link to="/Nonlawqp100" onClick={handleCloseMenu}>
+            <Link to="/CriteriaPage" onClick={handleCloseMenu}>
               Criteria
             </Link>
           </div>
@@ -924,11 +871,6 @@ const Navbar = () => {
           )}
         </li> */}
 
-        <li>
-          <Link to="/contact" onClick={handleCloseMenu}>
-            College achivements
-          </Link>
-        </li>
 
         <li>
           <Link to="/contact" onClick={handleCloseMenu}>

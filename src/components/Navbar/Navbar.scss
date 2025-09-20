@@ -207,7 +207,7 @@
   background: white;
   padding: 0.8rem 2rem;
   position: sticky;
-  top: 40px;
+  top: 50px;
   z-index: 1000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
@@ -413,7 +413,7 @@
     }
     .menu-icon {
       display: block;
-      z-index: 110; // keeps icon above overlay
+      // z-index: ; // keeps icon above overlay
     }
 
     .nav-links {

@@ -5,7 +5,7 @@ import SectionTitle2 from '../../components/SectionTitle/SectionTitle2'
 function Intrship() {
   return (
     <>
-        <SectionTitle2 title="Intrship" />
+        <SectionTitle2 title="AdmissionForm" />
         <div className="mt-4">
             <AdmissionForm />
         </div>

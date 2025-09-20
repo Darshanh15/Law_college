@@ -71,7 +71,7 @@ const Principal = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <button className="close-btn" onClick={() => setActiveMember(null)}>
-              ✖
+             ✕
             </button>
             <img src={activeMember.img} alt={activeMember.name} />
             <h2>{activeMember.name}</h2>

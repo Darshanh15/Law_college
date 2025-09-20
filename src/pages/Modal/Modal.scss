@@ -100,7 +100,8 @@
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.7);
+   background: #fff !important;   /* solid white */
+  border: none !important;
   backdrop-filter: blur(6px);
   display: flex;
   justify-content: center;
@@ -120,6 +121,8 @@
   position: relative;
   animation: slideUp 0.4s ease;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  align-items: center;
+  border-radius: 20px !important;
 
   .modal-header {
     display: flex;
@@ -133,6 +136,7 @@
       border-radius: 50%;
       object-fit: cover;
       border: 3px solid #0b4a91;
+      left: 300px;
     }
 
     h2 {
