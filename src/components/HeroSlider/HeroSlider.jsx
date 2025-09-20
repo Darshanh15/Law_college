@@ -68,7 +68,7 @@ const HeroSlider = () => {
               dangerouslySetInnerHTML={{ __html: slide.title }}
             />
             <p className="description">{slide.description}</p>
-            <button className="btn primary" onClick={() => navigate("/crops")}>{slide.primaryBtn}</button>
+            <button className="btn primary" onClick={() => navigate("/intrship")}>{slide.primaryBtn}</button>
             <button className="btn secondary" onClick={() => navigate("/contact")}>{slide.secondaryBtn}</button>
           </div>
         </div>
