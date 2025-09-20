@@ -723,6 +723,7 @@ const Navbar = () => {
               <Link to="/Years5llb" onClick={handleCloseMenu}>
                 5 Years B.A LLB
               </Link>
+              
             </div>
           )}
         </li>
@@ -736,15 +737,16 @@ const Navbar = () => {
           {activeDropdown === "questionpaper" && (
             <div className="dropdown-menu">
               {/* Non Law */}
+              
               <div className="sub-dropdown">
                 <button onClick={() => toggleSubDropdown("nonlaw")}>
                    Non Law 
                 </button>
                 {activeSubDropdown === "nonlaw" && (
                   <div className="sub-menu">
-                    <Link to="/Lawqp80" onClick={handleCloseMenu}>80/20</Link>
-                    {/* <Link to="/nonlaw/20" onClick={handleCloseMenu}>20</Link> */}
-                    <Link to="/Lawqp100" onClick={handleCloseMenu}>100</Link>
+                    {/* <Link to="/Lawqp80" onClick={handleCloseMenu}>80/20</Link>
+                    <Link to="/Lawqp100" onClick={handleCloseMenu}>100</Link> */}
+                    <Link to="/QuestionPapers" onClick={handleCloseMenu}>QuestionPapers</Link>
                   </div>
                 )}
               </div>
@@ -756,12 +758,17 @@ const Navbar = () => {
                 </button>
                 {activeSubDropdown === "law" && (
                   <div className="sub-menu">
-                    <Link to="/Nonlawqp80" onClick={handleCloseMenu}>80/20</Link>
-                    {/* <Link to="/law/20" onClick={handleCloseMenu}>20</Link> */}
-                    <Link to="/Nonlawqp100" onClick={handleCloseMenu}>100</Link>
+                    {/* <Link to="/Nonlawqp80" onClick={handleCloseMenu}>80/20</Link>
+                    <Link to="/Nonlawqp100" onClick={handleCloseMenu}>100</Link> */}
+                    <Link to="/QuestionPapers" onClick={handleCloseMenu}>QuestionPapers</Link>
+
                   </div>
+                  
                 )}
+                
               </div>
+              
+
 
               {/* Law and Nonlaw */}
               {/* <div className="sub-dropdown">
@@ -780,25 +787,108 @@ const Navbar = () => {
           )}
         </li>
 
-        {/* Admission */}
+
+        {/* Admission (multi-level dropdown) */}
         <li className="dropdown">
           <button onClick={() => toggleDropdown("admission")}>
             Admission 
           </button>
+
           {activeDropdown === "admission" && (
             <div className="dropdown-menu">
-              <Link to="/admissions" onClick={handleCloseMenu}>
-                 Admission Process
-              </Link>
-              <Link to="/Faq" onClick={handleCloseMenu}>
-                 FAQ's
-              </Link>
-              <Link to="/intrship" onClick={handleCloseMenu}>
-                 Intrship
-              </Link>
+              {/* Non Law */}
+              
+              <div className="sub-dropdown">
+                <button onClick={() => toggleSubDropdown("AdmissionProcess")}>
+                   Admission Process 
+                </button>
+                {activeSubDropdown === "AdmissionProcess" && (
+                  <div className="sub-menu">
+                    <Link to="/admissions" onClick={handleCloseMenu}>admissions</Link>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ's */}
+              <div className="sub-dropdown">
+                <button onClick={() => toggleSubDropdown("faq")}>
+                   FAQ's
+                </button>
+                {activeSubDropdown === "faq" && (
+                  <div className="sub-menu">
+                    
+                    <Link to="/Faq" onClick={handleCloseMenu}>FAQ's</Link>
+
+                  </div>
+                  
+                )}
+                
+              </div>
+              {/* Career */}
+              <div className="sub-dropdown">
+                <button onClick={() => toggleSubDropdown("Career")}>
+                  Career
+                </button>
+                {activeSubDropdown === "Career" && (
+                  <div className="sub-menu">
+                    <Link to="/Nonlawqp80" onClick={handleCloseMenu}>Teaching and non teaching</Link>
+                    <Link to="/Nonlawqp100" onClick={handleCloseMenu}>critera</Link>
+
+                  </div>
+                  
+                )}
+                
+              </div>
             </div>
           )}
         </li>
+
+ {/* Admission */}
+        <li className="dropdown">
+  <button onClick={() => toggleDropdown("admission")}>
+    Admission 
+  </button>
+
+  {activeDropdown === "admission" && (
+    <div className="dropdown-menu">
+
+      {/* Admission Process (single link) */}
+      <div className="sub-dropdown">
+        <Link to="/admissions" onClick={handleCloseMenu}>
+          Admission Process
+        </Link>
+      </div>
+
+      {/* FAQ's (single link) */}
+      <div className="sub-dropdown">
+        <Link to="/Faq" onClick={handleCloseMenu}>
+          FAQ's
+        </Link>
+      </div>
+
+      {/* Career (with 2 sub-links) */}
+      <div className="sub-dropdown">
+        <button onClick={() => toggleSubDropdown("Career")}>
+          Career
+        </button>
+        {activeSubDropdown === "Career" && (
+          <div className="sub-menu">
+            <Link to="/Nonlawqp80" onClick={handleCloseMenu}>
+              Teaching and Non-Teaching
+            </Link>
+            <Link to="/Nonlawqp100" onClick={handleCloseMenu}>
+              Criteria
+            </Link>
+          </div>
+        )}
+      </div>
+
+    </div>
+  )}
+</li>
+
+        
+
 
         <li>
           <Link to="/gallery" onClick={handleCloseMenu}>

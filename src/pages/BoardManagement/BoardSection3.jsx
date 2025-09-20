@@ -53,6 +53,9 @@ const BoardSection3 = () => {
                 <img src={member.img} alt={member.name} />
                 <h3>{member.name}</h3>
                 <span className="role">{member.role}</span>
+                <a className="read-more"  onClick={(e) => { e.preventDefault(); setActiveMember(member);}}>
+                  Bio
+                </a>
               </div>
 
               {/* Middle Section */}
@@ -61,10 +64,10 @@ const BoardSection3 = () => {
                 <h3>
                   {member.role} <span>{member.name}</span>
                 </h3>
-                <p className="quote">“{member.quote}”</p>
+                {/* <p className="quote">“{member.quote}”</p> */}
                 <p>{member.p3}</p>
 
-                <a
+                {/* <a
                   className="read-more"
                   onClick={(e) => {
                     e.preventDefault();
@@ -72,7 +75,7 @@ const BoardSection3 = () => {
                   }}
                 >
                   Bio..
-                </a>
+                </a> */}
               </div>
             </div>
           </section>

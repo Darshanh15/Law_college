@@ -10,6 +10,7 @@ const Home1 = () => {
   const navigate = useNavigate();
 
   return (
+    <>
     <div className="home">
       
 
@@ -43,7 +44,7 @@ const Home1 = () => {
           <p>Leadership and guidance for the institution.</p>
         </div>
         <div className="link-card" onClick={() => navigate("/history")}>
-          <h3>📖 History</h3>
+          <h3>📖 Milestone of the collage</h3>
           <p>Learn about our legacy and achievements.</p>
         </div>
         <div className="link-card" onClick={() => navigate("/contact")}>
@@ -51,7 +52,21 @@ const Home1 = () => {
           <p>Get in touch with us for more details.</p>
         </div>
       </section>
+
+      <section class="trust-section">
+  <div class="overlay">
+    <h1>Law Wings Educational Trust <sup>®</sup></h1>
+    <p>
+      Law Wings Educational Trust started with the aspiration to provide able
+      citizens to the society. Legal Profession is meant to be a devout
+      profession which requires passionate and compassionate professionals.
+      With Bengaluru Law College we aspire to accomplish the above motto.
+    </p>
+  </div>
+</section>
+
     </div>
+    </>
   );
 };
 

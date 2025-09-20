@@ -1,0 +1,52 @@
+.question-papers {
+  padding: 2rem;
+  text-align: center;
+
+  .qp-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0b4a91;
+    margin-bottom: 2rem;
+  }
+
+  .folder-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .flip-entry-info {
+    width: 180px;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .flip-entry-visual-card {
+      background: #f0f4ff;
+      border-radius: 10px;
+      padding: 30px 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      .flip-entry-icon {
+        font-size: 40px;
+      }
+    }
+
+    .flip-entry-visual-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      background: #e6eeff;
+    }
+
+    .flip-entry-title {
+      margin-top: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+    }
+  }
+}

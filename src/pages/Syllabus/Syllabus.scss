@@ -1,0 +1,68 @@
+.syllabus-container {
+  padding: 2rem;
+  background: #f8f9fb;
+  min-height: 100vh;
+
+  .title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0b4a91;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 2rem;
+  }
+
+  .syllabus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .semester-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .semester-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #0b4a91;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    //   list-style: decimal; // numbers
+//   padding-left: 1.5rem;
+
+      li {
+        font-size: 1rem;
+        color: #333;
+        padding: 0.4rem 0;
+        border-bottom: 1px dashed #ddd;
+         margin: 0.5rem 0;
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}

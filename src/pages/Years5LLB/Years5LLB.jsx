@@ -1,9 +1,11 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import "./Years5LLB.scss";
+import Syllabus5y from "../Syllabus/Syllabus5y";
 
 const Years5LLB = () => {
   return (
+     <>
     <div className="years-llb">
       {/* Hero Section */}
       <section className="llb-hero">
@@ -80,15 +82,17 @@ const Years5LLB = () => {
       </section>
 
       {/* Contact CTA */}
-      <section className="llb-contact">
+      {/* <section className="llb-contact">
         <h2>Have Questions?</h2>
         <p>Reach out to our admission office for guidance and information.</p>
         <div className="contact-btns">
           <a href="tel:+919876543210" className="cta-btn">📞 Call Us</a>
           <a href="mailto:info@bangalorelawcollege.com" className="cta-btn">✉️ Email Us</a>
         </div>
-      </section>
+      </section> */}
     </div>
+    <Syllabus5y />
+   </>
   );
 };
 

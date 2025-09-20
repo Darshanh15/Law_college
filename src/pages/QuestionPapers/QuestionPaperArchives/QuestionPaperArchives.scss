@@ -1,0 +1,37 @@
+.question-archives {
+  padding: 2rem;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0b4a91;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+
+  .subject-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  iframe {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background: #fafafa;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: scale(1.01);
+      box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  // spacing between cards
+  .col-lg-6 {
+    margin-bottom: 2rem;
+  }
+}
