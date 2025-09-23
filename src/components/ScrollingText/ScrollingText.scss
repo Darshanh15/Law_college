@@ -1,45 +1,24 @@
-// .scroll-container {
-//   width: 100%;
-//   background: #004d40; // dark green background
-//   color: white;
-//   overflow: hidden;
-//   white-space: nowrap;
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   z-index: 1000;
-//   padding: 8px 0;
-
-//   // make it responsive
-//   font-size: 16px;
-//   @media (max-width: 768px) {
-//     font-size: 14px;
-//   }
-// }
-
-// .scroll-text {
-//   display: inline-block;
-//   padding-left: 100%;
-//   animation: scroll-left 15s linear infinite;
-// }
-
-// @keyframes scroll-left {
-//   0% {
-//     transform: translateX(0%);
-//   }
-//   100% {
-//     transform: translateX(-100%);
-//   }
-// }
-
-
-// .scroll-container {
+// .scroll-wrapper {
 //   display: flex;
 //   align-items: center;
-//   gap: 1rem;
+//   justify-content: space-between;
 //   background: #0b4a91;
 //   color: white;
 //   padding: 0.5rem 1rem;
+//   overflow: hidden;
+
+//     overflow: hidden;
+
+//   // Stick it at the top
+//   position: fixed;
+//   // top: 0;
+//   // left: 0;
+//   width: 100%;
+//   z-index: 1000; // keep above everything
+// }
+
+// .scroll-container {
+//   flex: 1;
 //   overflow: hidden;
 //   white-space: nowrap;
 
@@ -48,6 +27,70 @@
 //     animation: scroll-left 12s linear infinite;
 //     font-weight: 600;
 //   }
+// }
+
+// .scroll-btn {
+//   background: #f4a629;
+//   color: white;
+//   border: none;
+//   padding: 0.4rem 1rem;
+//   border-radius: 4px;
+//   font-weight: 600;
+//   cursor: pointer;
+//   white-space: nowrap;
+//   margin-left: 1rem;
+// }
+
+// @keyframes scroll-left {
+//   0% {
+//     transform: translateX(100%);
+//   }
+//   100% {
+//     transform: translateX(-100%);
+//   }
+// }
+
+// .scroll-wrapper {
+//     flex-direction: row;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   background: #0b4a91;
+//   color: white;
+//   padding: 0.5rem 1rem;
+//   overflow: hidden;
+
+//   // For mobile, stack text + buttons vertically
+//   @media (max-width: 768px) {
+//     flex-direction: column;
+//     align-items: flex-start;
+//     gap: 2rem;
+//   }
+// }
+
+// .scroll-container {
+//   flex: 1;
+//   overflow: hidden;
+//   white-space: nowrap;
+
+//   .scroll-text {
+//     display: inline-block;
+//     animation: scroll-left 12s linear infinite;
+//     font-weight: 600;
+//   }
+
+//   @media (max-width: 768px) {
+//     width: 100%;
+//     max-height: 5vh;
+//     .scroll-text {
+//       font-size: 0.9rem;
+//     }
+//   }
+// }
+
+// .scroll-buttons {
+//   display: flex;
+//   gap: 0.5rem;
 
 //   .scroll-btn {
 //     background: #f4a629;
@@ -58,6 +101,25 @@
 //     font-weight: 600;
 //     cursor: pointer;
 //     white-space: nowrap;
+//     transition: background 0.3s ease;
+
+//     &:hover {
+//       background: #d68a1f;
+//     }
+//   }
+
+//   @media (max-width: 768px) {
+//     width: 100%;
+//     justify-content: flex-start;
+//     flex-wrap: wrap;
+
+//     .scroll-btn {
+//       flex: 1 1 auto;
+//       text-align: center;
+//        padding: 0.4rem 0.2rem;
+//     border-radius: 4px;
+//     font-weight: 400;
+//     }
 //   }
 // }
 
@@ -70,60 +132,35 @@
 //   }
 // }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .scroll-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #0b4a91;
-  color: white;
-  padding: 0.5rem 1rem;
-  overflow: hidden;
-
-    overflow: hidden;
-
-  // Stick it at the top
   position: fixed;
-//   top: 0;
-//   left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: 1000; // keep above everything
-}
-
-.scroll-container {
-  flex: 1;
-  overflow: hidden;
-  white-space: nowrap;
-
-  .scroll-text {
-    display: inline-block;
-    animation: scroll-left 12s linear infinite;
-    font-weight: 600;
-  }
-}
-
-.scroll-btn {
-  background: #f4a629;
-  color: white;
-  border: none;
-  padding: 0.4rem 1rem;
-  border-radius: 4px;
-  font-weight: 600;
-  cursor: pointer;
-  white-space: nowrap;
-  margin-left: 1rem;
-}
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.scroll-wrapper {
-    flex-direction: row;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -132,11 +169,12 @@
   padding: 0.5rem 1rem;
   overflow: hidden;
 
-  // For mobile, stack text + buttons vertically
+  // Mobile: stack vertically
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem;
   }
 }
 
@@ -155,6 +193,7 @@
     width: 100%;
     .scroll-text {
       font-size: 0.9rem;
+      animation-duration: 16s; // slower for small screens
     }
   }
 }
@@ -179,17 +218,17 @@
     }
   }
 
+  // Mobile buttons adjust
   @media (max-width: 768px) {
     width: 100%;
     justify-content: flex-start;
     flex-wrap: wrap;
 
     .scroll-btn {
-      flex: 1 1 auto;
+      flex: 1 1 45%;
       text-align: center;
-       padding: 0.4rem 0.2rem;
-    border-radius: 4px;
-    font-weight: 400;
+      padding: 0.4rem 0.5rem;
+      font-weight: 500;
     }
   }
 }
