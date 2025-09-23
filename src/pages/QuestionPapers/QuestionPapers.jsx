@@ -4,6 +4,12 @@ import QuestionPaperArchives from "./QuestionPaperArchives/QuestionPaperArchives
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 
 const subjects = [
+{
+    name: "Administrative Law",
+    link: "https://drive.google.com/drive/folders/1If1fQcMUgUObVCm40FEOo8c-tFbDE_6_",
+  },
+
+
   {
     name: "Family Law",
     link: "https://drive.google.com/drive/folders/1uUv-Bz42nSXezVsq8vIXSFQewGsYsfYK",

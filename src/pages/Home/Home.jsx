@@ -14,7 +14,7 @@ function Home() {
      <HeroSlider />
      <Hero />
      <Home1 />
-     <Principal />
+     {/* <Principal /> */}
      {/* <AdmissionForm /> */}
      <Contact1 />
       <Testimonials />

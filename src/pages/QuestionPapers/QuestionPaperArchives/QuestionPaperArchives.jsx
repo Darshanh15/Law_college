@@ -16,7 +16,7 @@ const subjects = [
 const QuestionPaperArchives = () => {
   return (
     <div className="container-fluid">
-      <h3 className="text-center my-4">LIST OF SUBJECTS</h3>
+      <h3 className="text-center my-4">LIST OF SYLLABUS</h3>
       <div className="row">
         {subjects.map((subject, index) => (
           <div className="col-lg-6 mb-4" key={index}>

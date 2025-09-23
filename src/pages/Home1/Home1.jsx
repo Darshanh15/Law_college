@@ -30,7 +30,7 @@ const Home1 = () => {
         </div>
       </section>
 
-      {/* <PrincipalSection /> */}
+      <PrincipalSection />
       {/* <Testimonials /> */}
 
       {/* Quick Navigation Cards */}

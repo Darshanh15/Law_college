@@ -2,6 +2,7 @@ import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import "./Years5LLB.scss";
 import Syllabus5y from "../Syllabus/Syllabus5y";
+import QuestionPaperArchives from "../QuestionPapers/QuestionPaperArchives/QuestionPaperArchives";
 
 const Years5LLB = () => {
   return (
@@ -92,6 +93,7 @@ const Years5LLB = () => {
       </section> */}
     </div>
     <Syllabus5y />
+    <QuestionPaperArchives />
    </>
   );
 };
