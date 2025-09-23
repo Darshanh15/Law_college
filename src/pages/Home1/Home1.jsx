@@ -30,8 +30,8 @@ const Home1 = () => {
         </div>
       </section>
 
-      <PrincipalSection />
-      <Testimonials />
+      {/* <PrincipalSection /> */}
+      {/* <Testimonials /> */}
 
       {/* Quick Navigation Cards */}
       <section className="quick-links">
