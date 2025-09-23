@@ -40,6 +40,8 @@ import LawQp100 from './pages/QuestionPaper/Law/LawQp100';
 import QuestionPapers from './pages/QuestionPapers/QuestionPapers';
 import AdmissionPage from './pages/hiring/AdmissionPage';
 import CriteriaPage from './pages/hiring/CriteriaPage';
+import AnnualReport from './pages/History/AnnualReport';
+import Enquiry from './pages/Enquiry/Enquiry';
 
 
 function MainContent() {
@@ -57,11 +59,15 @@ function MainContent() {
         <Route path="/faculty" element={<Faculty />} />
         <Route path="/GoverningCouncil" element={<GoverningCouncil />} />
         <Route path="/history" element={<History />} />
+        <Route path="/AnnualReport" element={<AnnualReport />} />
+
         <Route path="/intrship" element={<Intrship />} />
         <Route path="/NonTeaching" element={<NonTeaching />} />
         <Route path="/Years3LLB" element={<Years3LLB />} />
         <Route path="/Years5LLB" element={<Years5LLB />} />
         <Route path="/Faq" element={<FAQ />} />
+
+        <Route path="/enquiry" element={<Enquiry />} />
 
         <Route path="/Lawqp100" element={<LawQp100 />} />
         <Route path="/Lawqp80" element={<LawQp80 />} />

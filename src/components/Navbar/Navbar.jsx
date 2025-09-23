@@ -703,7 +703,10 @@ const Navbar = () => {
               <Link to="/NonTeaching" onClick={handleCloseMenu}>
                 Non Teaching Staff
               </Link>
-              <Link to="/history" onClick={handleCloseMenu}>
+              {/* <Link to="/history" onClick={handleCloseMenu}>
+                 Milestone of the collage
+              </Link> */}
+              <Link to="/AnnualReport" onClick={handleCloseMenu}>
                  Milestone of the collage
               </Link>
             </div>
