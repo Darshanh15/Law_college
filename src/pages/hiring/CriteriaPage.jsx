@@ -26,7 +26,7 @@ const criteriaData = [
 const CriteriaPage = () => {
   return (
 <>
-    <SectionTitle2 title="Admission Criteria" />
+    <SectionTitle2 title="Job vacatins" />
     <div className="criteria-page">
       {/* <h1>Admission Criteria</h1> */}
 

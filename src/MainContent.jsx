@@ -49,6 +49,7 @@ import ClassRules from './pages/CollegeRules/ClassRules';
 import LibraryRules from './pages/CollegeRules/LibraryRules';
 import ComplaintPage from './pages/Grievance/ComplaintPage';
 import CompliancePage from './pages/Grievance/CompliancePage';
+import HistorySection from './pages/History/HistorySection';
 
 
 
@@ -68,6 +69,7 @@ function MainContent() {
         <Route path="/GoverningCouncil" element={<GoverningCouncil />} />
         <Route path="/history" element={<History />} />
         <Route path="/AnnualReport" element={<AnnualReport />} />
+        <Route path="/HistorySection" element={<HistorySection />} />
 
         <Route path="/intrship" element={<Intrship />} />
         <Route path="/NonTeaching" element={<NonTeaching />} />
