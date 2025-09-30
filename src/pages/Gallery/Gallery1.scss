@@ -1,0 +1,240 @@
+// .gallery {
+//   padding: 2rem;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+
+//   .images-grid {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+//     gap: 1.5rem;
+//     width: 100%;
+//     max-width: 1200px;
+//   }
+
+//   .img-card {
+//     overflow: hidden;
+//     border-radius: 12px;
+//     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+//     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+//     img {
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover;
+//       border-radius: 12px;
+//       transition: transform 0.3s ease;
+//       cursor: pointer;
+//     }
+
+//     &:hover {
+//       transform: translateY(-5px);
+//       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+//       img {
+//         transform: scale(1.05);
+//       }
+//     }
+//   }
+// }
+
+// ----------------------------------------------------------------------------------------------
+
+
+// .gallery {
+//   padding: 2rem;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+
+//   .images-grid {
+//     display: grid;
+//     grid-template-columns: repeat(4, 1fr); // always 4 columns
+//     gap: 1rem;
+//     width: 100%;
+//     max-width: 1400px;
+//   }
+
+//   .img-card {
+//     width: 100%;
+//     aspect-ratio: 1 / 1; // makes every card a perfect square
+//     overflow: hidden;
+//     border-radius: 10px;
+//     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+//     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+//     img {
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover; // keeps image proportional, fills the square
+//       border-radius: 10px;
+//       transition: transform 0.3s ease;
+//       cursor: pointer;
+//     }
+
+//     &:hover {
+//       transform: translateY(-5px);
+//       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+
+//       img {
+//         transform: scale(1.05);
+//       }
+//     }
+//   }
+
+//   // Responsive - fewer columns on small screens
+//   @media (max-width: 1024px) {
+//     .images-grid {
+//       grid-template-columns: repeat(3, 1fr);
+//     }
+//   }
+
+//   @media (max-width: 768px) {
+//     .images-grid {
+//       grid-template-columns: repeat(2, 1fr);
+//     }
+//   }
+
+//   @media (max-width: 480px) {
+//     .images-grid {
+//       grid-template-columns: 1fr;
+//     }
+//   }
+// }
+
+// ----------------------------------------------------------------------------------------------
+
+.gallery {
+  padding: 1rem;
+
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .img-card {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
+    }
+  }
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  flex-direction: column;
+
+  .lightbox-img {
+    max-width: 95%;
+    max-height: 75%;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  }
+
+  .close,
+  .prev,
+  .next {
+    position: absolute;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s ease;
+  }
+
+  .close {
+    top: 15px;
+    right: 20px;
+  }
+
+  .prev {
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .next {
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .prev:hover,
+  .next:hover,
+  .close:hover {
+    transform: scale(1.2);
+  }
+}
+
+/* Responsive Grid */
+@media (max-width: 1024px) {
+  .gallery .images-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .gallery .images-grid {
+    grid-template-columns: repeat(3, 1fr); /* instead of 2 */
+    gap: 0.7rem;
+  }
+
+  .lightbox {
+    .lightbox-img {
+      max-width: 90%;
+      max-height: 70%;
+    }
+
+    .close,
+    .prev,
+    .next {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery .images-grid {
+    grid-template-columns: repeat(2, 1fr); /* instead of 1 */
+    gap: 0.6rem;
+  }
+
+  .lightbox {
+    .lightbox-img {
+      max-width: 95%;
+      max-height: 65%;
+    }
+
+    .close,
+    .prev,
+    .next {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+

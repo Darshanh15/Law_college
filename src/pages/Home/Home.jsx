@@ -7,6 +7,7 @@ import Home1 from '../Home1/Home1'
 import AdmissionForm from '../../components/AdmissionForm/AdmissionForm'
 import Principal from '../Principal/Principal'
 import Testimonials from '../Testimonials/Testimonials'
+import VisionMission from '../VisionMission/VisionMission'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
      <Home1 />
      {/* <Principal /> */}
      {/* <AdmissionForm /> */}
+     {/* <VisionMission /> */}
      <Contact1 />
       <Testimonials />
 

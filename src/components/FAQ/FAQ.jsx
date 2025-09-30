@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./FAQ.scss";
+import SectionTitle2 from "../SectionTitle/SectionTitle2";
 
 const faqs = [
   {
@@ -32,8 +33,10 @@ const FAQ = () => {
   };
 
   return (
+<>
+<SectionTitle2 title="Frequently Asked Questions" />
     <div className="faq-container">
-      <h2>Frequently Asked Questions</h2>
+      {/* <h2>Frequently Asked Questions</h2> */}
       <div className="faq-list">
         {faqs.map((faq, index) => (
           <div
@@ -50,6 +53,7 @@ const FAQ = () => {
         ))}
       </div>
     </div>
+</>
   );
 };
 

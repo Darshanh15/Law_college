@@ -6,20 +6,21 @@ const AnnualReport = () => {
     <div className="annual-report">
       <header className="report-hero">
         <div className="container">
-          <h1>Bengaluru Law College — Annual Report</h1>
+          <h1>Milestone of the Bengaluru Law College</h1>
           <p className="lead">Presented by Dr. Devika S Ajila, Principal</p>
         </div>
       </header>
 
       <main className="container content">
         <section className="intro card">
-          <h2>Message from the Principal</h2>
+          {/* <h2>Message from the Principal</h2>
           <p>
             It is with great pride and enthusiasm that I, <strong>Dr. Devika S
             Ajila</strong>, present the Annual Report of Bengaluru Law College,
             highlighting our academic achievements, service initiatives, and
             institutional progress over the past years.
-          </p>
+          </p> */}
+          <h2>Milestone</h2>
           <p>
             Since our establishment as <em>R.K. Law College</em> in 2009 and our
             transformation into <em>Bengaluru Law College</em> under the Law

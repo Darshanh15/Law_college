@@ -15,7 +15,7 @@ import Footer from './components/Footer/Footer';
 // pages
 import Home from './pages/Home/Home'
 import DevelopmentProgress from './pages/DevelopmentProgress/DevelopmentProgress';
-import Gallery from './pages/Gallery/Gallery'
+import Gallery from './pages/Gallery/Gallery1'
 import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 import FloatingButtons from './components/FloatingButtons/FloatingButtons';
 import About from './pages/About/About'
@@ -38,10 +38,18 @@ import NonlawQp80 from './pages/QuestionPaper/Nonlaw/NonlawQp80';
 import LawQp80 from './pages/QuestionPaper/Law/LawQp80';
 import LawQp100 from './pages/QuestionPaper/Law/LawQp100';
 import QuestionPapers from './pages/QuestionPapers/QuestionPapers';
+import QuestionPapernonlaw from './pages/QuestionPapers/QuestionPapernonlaw';
 import AdmissionPage from './pages/hiring/AdmissionPage';
 import CriteriaPage from './pages/hiring/CriteriaPage';
 import AnnualReport from './pages/History/AnnualReport';
 import Enquiry from './pages/Enquiry/Enquiry';
+import StatutoryCommittees from './pages/StatutoryCommittees/StatutoryCommittees';
+import CollegeRules from './pages/CollegeRules/CollegeRules';
+import ClassRules from './pages/CollegeRules/ClassRules';
+import LibraryRules from './pages/CollegeRules/LibraryRules';
+import ComplaintPage from './pages/Grievance/ComplaintPage';
+import CompliancePage from './pages/Grievance/CompliancePage';
+
 
 
 function MainContent() {
@@ -80,8 +88,19 @@ function MainContent() {
         <Route path="/BoardManagement" element={<BoardManagement />} />
 
         <Route path="/QuestionPapers" element={<QuestionPapers />} />
+        <Route path="/QuestionPapernonlaw" element={<QuestionPapernonlaw />} />
         <Route path="/AdmissionPage" element={<AdmissionPage />} />
         <Route path="/CriteriaPage" element={<CriteriaPage />} />
+
+
+
+        <Route path="/StatutoryCommittees" element={<StatutoryCommittees />} />
+
+        <Route path="/CollegeRules" element={<CollegeRules />} />
+        <Route path="/ClassRules" element={<ClassRules />} />
+        <Route path="/LibraryRules" element={<LibraryRules />} />
+        <Route path="/ComplaintPage" element={<ComplaintPage />} />
+        <Route path="/CompliancePage" element={<CompliancePage />} />
 
 
       </Routes>

@@ -9,13 +9,14 @@ import trusteeImg from "../../assets/clints/prasanna v raju.png";
 const boardMembers = [
   {
     name: "Dr. Renuka Raju",
-    role: "President",
+    role: "President,",
     quote: "Knowledge is like a garden: if it is not cultivated, it cannot be harvested.",
     description: "The institution’s essence lies in imparting knowledge to millions of aspirants who want to make a remarkable growth in the field of legal education and profession",
     p1: "You know, you teach. You do not know, you learn is what we believe in. Every human is born to learn and will continue to do so over the years to come. Our Institution has attempted the first step in this endeavour.",
     p2: "We vow to gift a crew of proficient Advocates to the society.",
-    p3: "“Bangalore Law College is dedicated to nurturing future legal professionals with excellence in education and ethics. We empower students with knowledge, discipline, and practical skills to excel in the field of law.”",
+    p3: "Bangalore Law College is dedicated to nurturing future legal professionals with excellence in education and ethics. We empower students with knowledge, discipline, and practical skills to excel in the field of law. You know, you teach. You do not know, you learn is what we believe in. Every human is born to learn and will continue to do so over the years to come. Our Institution has attempted the first step in this endeavour.",
     img: presidentImg,
+    showBio: false,
   },
   {
     name: "Sri. K Shailesh Raju",
@@ -24,7 +25,7 @@ const boardMembers = [
     description: "A post graduate in literature he started his career in HRD training that catered to students from various streams of education as well as facilitating training for Government officials and Corporates.",
     p1: "A postgraduate in Literature, he began his career in HRD training, where he designed and delivered programs for students across diverse academic streams, in addition to facilitating training sessions for government officials and corporate professionals. With 14 years of valuable experience in HRD, he later ventured into the construction industry, where he continues to actively pursue his professional journey.",
     p2: "He is the Secretary of an NGO that runs a school at sidlaghata and a Nursing college at Kolar in Karnataka.",
-    p3: "Bangalore Law College is dedicated to nurturing future legal professionals with excellence in education and ethics. We empower students with knowledge, discipline, and practical skills to excel in the field of law. Our mission is to create responsible leaders who uphold justice and contribute to society.",
+    p3: "The vision is to empower students to become responsible advocates and leaders who uphold the rule of law, champion justice, and contribute meaningfully to society at national and global levels. To promote discipline, ethical conduct, and a sense of responsibility among students. research, and participation in moot courts, internships, and community legal services. To create a culture of inclusiveness, mentorship, and leadership for holistic student development. To build strong collaborations with the legal fraternity, judiciary, and institutions for the benefit of students. To ensure that the college remains a center of academic excellence and moral integrity.",
     img: vpImg,
   },
   {
@@ -34,7 +35,7 @@ const boardMembers = [
     description: "Sir is a distinguished officer from the 1994 batch, who began his career as a Sub-Inspector and rose steadily through the ranks. Since 2006, he has rendered commendable service in the Anti-Corruption Bureau and was promoted as DySP in the Lokayukta in 2011.",
     p1: "He played a vital role as part of the Special Task Force (STF) that brought down the notorious forest brigand Veerappan and has served in various districts across Karnataka.",
     p2: "An officer decorated with the Chief Minister’s Medal, Shri Prasanna V. Raju has brought pride to our nation through his international service with the UN peacekeeping forces in Sudan, South Sudan, and Kosovo. He later served as a Police Advisor with the United Nations Development Programme (UNDP) to the Interim Government of Afghanistan.Sir also worked as a Legal Advisor and Consultant with the National Investigation Agency (NIA) in Bengaluru. After taking voluntary retirement from the Lokayukta, he followed his passion for teaching. In 2015, he began serving as a Professor at Bengaluru Law College, which later inspired him to take on the role of Managing Trustee of the college",
-    p3: "Bangalore Law College is dedicated to nurturing future legal professionals with excellence in education and ethics. We empower students with knowledge, discipline, and practical skills to excel in the field of law. Our mission is to create responsible leaders who uphold justice and contribute to society. With a student-centric approach, we strive to inspire lifelong learning and professional growth.",
+    p3: "To establish Bengaluru Law College as a premier institution of legal education, rooted in ethics, innovation, and academic excellence. The vision is to guide the college toward producing competent, disciplined, and socially responsible legal professionals who contribute to justice, governance, and nation-building. To provide a strong foundation of academic excellence supported by values of integrity and service. To ensure a student-centric environment that fosters discipline, knowledge, and holistic development. To guide the institution in building future leaders who uphold justice and the democratic framework of society.",
     img: trusteeImg,
   },
 ];
@@ -53,9 +54,11 @@ const BoardSection3 = () => {
                 <img src={member.img} alt={member.name} />
                 <h3>{member.name}</h3>
                 <span className="role">{member.role}</span>
+                {member.showBio !== false && (
                 <a className="read-more"  onClick={(e) => { e.preventDefault(); setActiveMember(member);}}>
                   Bio
                 </a>
+                )}
               </div>
 
               {/* Middle Section */}

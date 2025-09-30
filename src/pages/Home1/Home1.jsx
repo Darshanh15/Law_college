@@ -5,13 +5,26 @@ import "./Home1.scss";
 import img from '../../assets/law.jpg'
 import PrincipalSection from "../PrincipalSection/PrincipalSection";
 import Testimonials from "../Testimonials/Testimonials";
+import VisionMission from "../VisionMission/VisionMission";
 
 const Home1 = () => {
   const navigate = useNavigate();
 
   return (
     <>
+    <VisionMission />
     <div className="home">
+        <section class="trust-section">
+  <div class="overlay">
+    <h1>Law Wings Educational Trust <sup>®</sup></h1>
+    <p>
+      Law Wings Educational Trust started with the aspiration to provide able
+      citizens to the society. Legal Profession is meant to be a devout
+      profession which requires passionate and compassionate professionals.
+      With Bengaluru Law College we aspire to accomplish the above motto.
+    </p>
+  </div>
+</section>
       
 
       {/* Highlights Section */}
@@ -53,17 +66,7 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section class="trust-section">
-  <div class="overlay">
-    <h1>Law Wings Educational Trust <sup>®</sup></h1>
-    <p>
-      Law Wings Educational Trust started with the aspiration to provide able
-      citizens to the society. Legal Profession is meant to be a devout
-      profession which requires passionate and compassionate professionals.
-      With Bengaluru Law College we aspire to accomplish the above motto.
-    </p>
-  </div>
-</section>
+    
 
     </div>
     </>

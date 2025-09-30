@@ -46,7 +46,7 @@ function Footer() {
             <a href="https://www.instagram.com/bangalorelawclg?igsh=bmhzZTNxbzJ5emt2" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             {/* <a href="https://www.youtube.com/"><FaYoutube /></a> */}
             <a href="https://wa.me/918618235882" target="_blank" rel="noopener noreferrer"> <FaWhatsapp /> </a>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bangalorelawclg@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bangalorelawcollege6@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
 
 
             

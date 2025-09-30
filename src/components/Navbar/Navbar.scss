@@ -315,7 +315,7 @@
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1.2rem;
   position: relative;
 
   li {
@@ -326,7 +326,7 @@
       background: none;
       border: none;
       color: black;
-      font-size: 1rem;
+      font-size: 0.9rem;
       cursor: pointer;
       text-decoration: none;
       display: flex;
@@ -420,7 +420,7 @@
     .nav-links {
       // position: absolute;
       position: fixed;
-      top: 70px;
+      top: 50px;
       // right: 0;
 
       //  top: 0;
@@ -471,7 +471,7 @@
     .nav-links {
       // position: absolute;
       position: fixed;
-      top: 70px;
+      top: 50px;
       // right: 0;
 
       //  top: 0;
