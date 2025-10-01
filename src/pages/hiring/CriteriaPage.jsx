@@ -13,13 +13,41 @@ const criteriaData = [
       "Must fulfill UGC and Bar Council of India (BCI) regulations in force"
     ],
   },
-  {
-    title: "Non-Teaching Staff",
+    {
+    title: "Assistant Professor (Kannada / English)",
     points: [
-      "Minimum qualification: High School or Diploma depending on role.",
-      "Experience preferred but freshers can apply.",
-      "Good organizational and teamwork skills.",
-      "Pass the interview and written test if applicable."
+      "Master’s Degree (MA) in English or Kannada – with at least 55% marks.",
+      "UGC NET / KSET / SLET qualified – usually required (unless exempted with PhD).",
+      "PhD – not compulsory but preferred",
+      "Good academic record – strong marks in BA & MA",
+      "Teaching experience – many colleges ask for 2–3 years minimum.",
+      "Fluency in language – for Kannada, fluency in reading/writing/speaking is essential.",
+      "Research/Publications – add value, especially in reputed colleges.",
+      "Soft skills – good communication, ability to guide students, involvement in activities."
+    ],
+  },
+  {
+    title: "Librarian ",
+    points: [
+      "Master’s Degree in Library Science (M.Lib.Sc / MLIS) with 55% marks.",
+      "Must meet UGC eligibility norms.",
+      "Experience in college/university libraries is preferred",
+      "Knowledge of library automation, e-resources, digital databases.",
+      "Familiar with law books, journals, bare acts, case reporters, legal databases",
+      "Good academic record and communication skills.",
+      "Research work or publications in Library Science are an added advantage.",
+    ],
+  },
+  {
+    title: "Non-Teaching Staff / Clerical Staff",
+    points: [
+      "Education – Minimum PUC / 12th pass, many colleges prefer a graduate degree.",
+      "Computer skills – Basic knowledge of MS Office, email, typing.",
+      "Communication – Good in English + Kannada (spoken & written).",
+      "Experience – 1–3 years in office / clerical / front desk work preferred, but freshers may also be hired for junior roles.",
+      "Soft skills – Polite, disciplined, well-presented, able to interact with students, staff, and visitors.",
+      "Work duties – Answer phone calls, maintain records, guide visitors, manage files, help with admissions and student services.",
+      "Other – Trustworthy, punctual, and able to multitask."
     ],
   },
 ];
@@ -27,7 +55,7 @@ const criteriaData = [
 const CriteriaPage = () => {
   return (
 <>
-    <SectionTitle2 title="Job vacatins" />
+    <SectionTitle2 title="job vacancy" />
     <div className="criteria-page">
       {/* <h1>Admission Criteria</h1> */}
 

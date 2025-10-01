@@ -47,20 +47,20 @@ import s1 from "../../../assets/Pdf/sylobus/3y.pdf";
 import s2 from "../../../assets/Pdf/sylobus/5y.pdf";
 
 const subjects = [
+ 
   {
-    name: "3 Year LLB Syllabus",
-    fileId: s1,
+    name: "5 Year LLB Syllabus",
+    fileId: s2,
   },
-  
 ];
 
-const QuestionPaperArchives = () => {
+const QuestionPaperArchives5 = () => {
   return (
     <div className="container-fluid">
       <h3 className="text-center my-4">LIST OF SYLLABUS</h3>
       <div className="row">
         {subjects.map((subject, index) => (
-          <div className="col-lg-8 mb-4" key={index}>
+          <div className="col-lg-6 mb-4" key={index}>
             <h5 className="text-center mb-3">{subject.name}</h5>
             <iframe
               src={subject.fileId}  
@@ -75,4 +75,4 @@ const QuestionPaperArchives = () => {
   );
 };
 
-export default QuestionPaperArchives;
+export default QuestionPaperArchives5;

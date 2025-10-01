@@ -4,17 +4,22 @@ import ruleIcon from "../../assets/law.jpg"; // optional small icon
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 
 const rules = [
-  "Maintain silence in the library at all times.",
-  "Students must carry their ID cards to access library facilities.",
-  "Books must be returned on or before the due date to avoid fines.",
-  "Do not damage or mark library books, journals, or magazines.",
-  "Electronic devices should be used responsibly and quietly.",
-  "No food or beverages are allowed inside the library.",
-  "Use library resources for academic purposes only.",
-  "Follow instructions given by library staff promptly.",
-  "Participate in library events and workshops for better learning.",
-  "Handle library equipment and digital resources with care."
-
+"Students must carry their College ID / Library Card to use library facilities.",
+"Silence should be maintained in the library. Mobile phones must be on silent mode.",
+"No food, drinks, or personal belongings (bags, tiffin, etc.) inside the reading hall.",
+"Books can be borrowed only through proper issue entry with a library card.",
+"A book can be borrowed for a maximum of 15 days.",
+"After 15 days, the book must be returned or renewed",
+"If not returned/renewed, a fine of ₹2 per day will be charged until the book is returned.",
+"Reference books, journals, bare acts, law reports, and periodicals are not issued; they can be used only inside the library.",
+"Borrowers are responsible for the safe custody of books. Damaged/lost books must be replaced with the latest edition or paid for (as decided by the librarian).",
+"Any marking, writing, or tearing of pages in library books is strictly prohibited.",
+"Books must be returned immediately if recalled by the Librarian.",
+"Library timings must be strictly followed for issue/return/reading.",
+"Library users should maintain discipline and respect the rights of others.",
+"Misuse of library resources or violation of rules may lead to suspension of library membership.",
+"",
+"",
 ];
 
 const LibraryRules = () => {

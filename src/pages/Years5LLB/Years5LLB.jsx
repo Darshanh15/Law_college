@@ -5,6 +5,7 @@ import Syllabus5y from "../Syllabus/Syllabus5y";
 import QuestionPaperArchives from "../QuestionPapers/QuestionPaperArchives/QuestionPaperArchives";
 import ThreeYearLLB from "../Years3LLB/ThreeYearLLB";
 import FiveYearLLB from "../Years3LLB/FiveYearLLB";
+import QuestionPaperArchives5 from "../QuestionPapers/QuestionPaperArchives/QuestionPaperArchives5";
 
 const Years5LLB = () => {
   return (
@@ -96,7 +97,7 @@ const Years5LLB = () => {
     </div>
     <FiveYearLLB />
     <Syllabus5y />
-    <QuestionPaperArchives />
+    <QuestionPaperArchives5 />
    </>
   );
 };

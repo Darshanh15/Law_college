@@ -79,10 +79,7 @@ const subjects = [
   name: "Economics",
   link: "https://drive.google.com/drive/folders/1JFfxjLye7n4ybavN1jbi4gK1aZOL7Ir4"
 },
-{
-  name: "English",
-  link: "https://drive.google.com/drive/folders/1XHXAbDw6MCrFBQyVA56q_vYDMK4D9-Mc"
-},
+
 {
   name: "Environmental law",
   link: "https://drive.google.com/drive/folders/1zMMSZJOIqJdHRJ5F8CUqnAICnofYGMYF"
@@ -95,10 +92,7 @@ const subjects = [
   name: "Family law II",
   link: "https://drive.google.com/drive/folders/12fbX71RKco39v-qYX_XeefHLarTn9tOt"
 },
-{
-  name: "History",
-  link: "https://drive.google.com/drive/folders/1XKuAR-csG-wMzEDAWFJAA2WL96Q7yRri"
-},
+
 {
   name: "Human rights",
   link: "https://drive.google.com/drive/folders/1l47CD_e-AKDfPop_xbzGkc66-5KxjYP5"
@@ -127,10 +121,7 @@ const subjects = [
   name: "Jurisprudence",
   link: "https://drive.google.com/drive/folders/1ShwdV6xbxu0iZMWb4Oqiod6Tk9ejQgbS"
 },
-{
-  name: "Kannada",
-  link: "https://drive.google.com/drive/folders/1TA_ZZPoMmirJ73bIG9AtWDtJkIT2o3bI"
-},
+
 {
   name: "Labour law",
   link: "https://drive.google.com/drive/folders/1wXIWE6tvN5lX9CWbHtTEXgZoYRjfsaJb"
@@ -162,10 +153,7 @@ const subjects = [
   link: "https://drive.google.com/drive/folders/1iN1kx667b7Z6-nfxfvwjcaFebIsKZ3Yk"
 },
 
-{
-  name: "Political science",
-  link: "https://drive.google.com/drive/folders/189IzQw8mmRllaWsBYgFfKQxY1fpy3Wtk"
-},
+
 
 {
   name: "Public International law",
@@ -177,10 +165,7 @@ const subjects = [
   link: "https://drive.google.com/drive/folders/1SP4vWDVdAR5tp_DoKpwXRYqJlFyrpyJQ"
 },
 
-{
-  name: "Sociology",
-  link: "https://drive.google.com/drive/folders/12DOK4RWXZUiz-mBRmQRPrYDic0fyHX__"
-},
+
 
 {
   name: "Taxation law",
@@ -224,7 +209,7 @@ const QuestionPapers = () => {
         ))}
       </div>
     </div>
-    <QuestionPaperArchives />
+    {/* <QuestionPaperArchives /> */}
     </>
   );
 };

@@ -869,6 +869,9 @@ const Navbar = () => {
               <Link to="/ClassRules" onClick={handleCloseMenu}>
                 Class rule
               </Link>
+              <Link to="/StudentsTowardsTeachers" onClick={handleCloseMenu}>
+                Students Towards Teachers rule
+              </Link>
             </div>
           )}
         </li>

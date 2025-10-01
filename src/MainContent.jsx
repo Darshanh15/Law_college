@@ -50,6 +50,7 @@ import LibraryRules from './pages/CollegeRules/LibraryRules';
 import ComplaintPage from './pages/Grievance/ComplaintPage';
 import CompliancePage from './pages/Grievance/CompliancePage';
 import HistorySection from './pages/History/HistorySection';
+import StudentsTowardsTeachers from './pages/CollegeRules/StudentsTowardsTeachers';
 
 
 
@@ -101,7 +102,8 @@ function MainContent() {
         <Route path="/CollegeRules" element={<CollegeRules />} />
         <Route path="/ClassRules" element={<ClassRules />} />
         <Route path="/LibraryRules" element={<LibraryRules />} />
-        <Route path="/ComplaintPage" element={<ComplaintPage />} />
+        <Route path="/LibraryRules" element={<LibraryRules />} />
+        <Route path="/StudentsTowardsTeachers" element={<StudentsTowardsTeachers />} />
         <Route path="/CompliancePage" element={<CompliancePage />} />
 
 

@@ -15,7 +15,6 @@ const FiveYearLLB = () => {
           <h4>Eligibility</h4>
           <ul>
             <li>Completion of 12th standard (PUC/10+2) with a minimum of 45%–50% marks </li>
-            <li>(varies as per institution/Category).</li>
           </ul>
         </div>
         <div className="info-card">

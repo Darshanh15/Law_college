@@ -92,7 +92,7 @@ const QuestionPapernonlaw = () => {
         ))}
       </div>
     </div>
-    <QuestionPaperArchives />
+    {/* <QuestionPaperArchives /> */}
     </>
   );
 };
