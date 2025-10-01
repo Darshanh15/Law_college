@@ -106,7 +106,7 @@ Over the years, the college has developed into a vibrant hub for legal education
 
       <section className="history-section">
         <div className="container">
-          <h2 className="section-title">Our Journey & Legacy</h2>
+          <h2 className="section-title">Our Journey</h2>
           <p className="intro">
             Bengaluru Law College has grown into a vibrant hub of excellence in
             legal education, discipline, and community service. Here’s a glimpse
