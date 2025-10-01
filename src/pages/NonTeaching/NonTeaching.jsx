@@ -12,6 +12,8 @@ import Parvathi from '../../assets/Non Teaching Staff/Parvathi.jpg'
 import Sarswathamma from '../../assets/Non Teaching Staff/Sarswathamma.jpg'
 import Mayigowda from '../../assets/Non Teaching Staff/Mayigowda.jpg'
 import Manjunath from '../../assets/Non Teaching Staff/Manjunath.jpg'
+import Christ from '../../assets/Non Teaching Staff/Christ Das.jpeg'
+
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 
 const staff = [
@@ -67,6 +69,12 @@ const staff = [
     name: "Mr. Manjunath S",
     role: "Night Security",
     img: Manjunath,
+  },
+   {
+      id: 12,
+    name: "Mr. Christ Das",
+    role: "FDA",
+    img: Christ,
   },
 ];
 

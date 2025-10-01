@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 import "./Admission.scss";
+import CheckList from "../hiring/CheckList";
 
 const Admission = () => {
   return (
@@ -23,6 +24,9 @@ const Admission = () => {
         </p>
         <a href="#apply" className="apply-btn">Apply Now</a>
       </div>
+
+    <CheckList />
+
 
       {/* Why Choose Us */}
       <div className="admission-highlights">
@@ -62,6 +66,7 @@ const Admission = () => {
         </form>
       </div>
     </div>
+
 </>
   );
 };

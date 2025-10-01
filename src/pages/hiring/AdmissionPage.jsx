@@ -4,6 +4,7 @@ import "./AdmissionPage.scss";
 import teachingImg from "../../assets/Gallery/2021.jpg"; // replace with actual image
 import nonTeachingImg from "../../assets/Gallery/2021.jpg"; // replace with actual image
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
+import CheckList from "./CheckList";
 
 const AdmissionPage = () => {
       const currentYear = new Date().getFullYear();
@@ -53,6 +54,8 @@ const AdmissionPage = () => {
         </div>
       </div>
     </div>
+
+    <CheckList />
      </>
   );
 };
