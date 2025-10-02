@@ -6,9 +6,8 @@ const committees = [
   {
     title: "Anti-Ragging Cell",
     description: `Anti-Ragging Cells are an essential feature of every educational institution, ensuring a safe and respectful learning environment for all students. The formation of the Anti-Ragging Cell at Bengaluru Law College is in accordance with UGC guidelines and the University Grants Commission (Prevention of Ragging) Regulations, 2009, under the UGC Act of 1956.
-
 The Anti-Ragging Cell functions as a supervisory and advisory committee dedicated to maintaining a ragging-free campus. It plays a proactive role in promoting awareness, monitoring student behavior, and addressing any incidents of ragging promptly.`,
-    p:'Major Objectives of the Anti-Ragging Cell',
+    obj:'Major Objectives of the Anti-Ragging Cell',
     points: [
       "Major Objectives of the Anti-Ragging Cell",
       "Awareness: Educate students about the degrading, harmful, and illegal effects of ragging.",
@@ -155,32 +154,161 @@ The Anti-Ragging Cell functions as a supervisory and advisory committee dedicate
 },
   {
     title: "Women’s Grievance Cell",
-    description: `The Institution has developed a Women's Grievance Cell as an innovative practise with the goal of resolving student and staff issues connected to women of any kind. The Supreme Court recognised and addressed the subject of workplace sexual harassment in Vishakha and others vs. State of Rajasthan in 1997.
-
-  The ruling established workplace sexual harassment prevention rules that are applicable throughout India. Knowledge and awareness about it can lead to a workplace where no one is subjected to sexual harassment. Sexual harassment instils the most humiliating sexual stereotypes in the workplace and is always a purposeful invasion of a person's personal space.`,
-   
+    description: `The Women’s Grievance Cell is established in accordance with UGC and Government guidelines to ensure a safe, respectful, and supportive environment for female students, teaching staff, and non-teaching staff. The Cell aims to safeguard the rights of women and provide a platform for addressing issues related to gender discrimination, sexual harassment, and other grievances faced by women within the institution.`,
+    obj:'Objectives of the Cell:',
+    points: [
+      "To create awareness about the rights and responsibilities of women.",
+      "To prevent any form of gender-based discrimination or harassment.",
+      "To provide a safe and confidential mechanism for redressal of grievances.",
+      "To promote gender equality and sensitize students and staff on women-related issues.",
+      "To organize workshops, seminars, and awareness programs on women empowerment, legal rights, and personal safety.",
+     
+    ],
+    Functions: "Functions of the Cell:",
+    pointFun: [
+      "Receiving complaints from aggrieved women students or staff.",
+      "Conducting inquiries in a confidential and impartial manner.",
+      "Recommending appropriate action against those found guilty of misconduct.",
+      "Providing counseling and support services to complainants.",
+      "Conducting gender-sensitization programs and campaigns within the campus.",
+    ],
+    Commitment: "The Women’s Grievance Cell consists of:",
+     pointcom: [
+        "Chairperson (Senior Faculty Member)",
+        "Faculty Members (both male and female)",
+        "Student Representatives",
+        "External Member (from NGO/Legal background, if required)",
+       
+    ],
+    scope: "Scope:",
+     pointsco: [
+        "Covers issues of harassment, discrimination, abuse, or any grievance related to women’s welfare.",
+        "Ensures strict confidentiality and fairness in handling complaints.",
+        "Works in line with the guidelines of the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013.",
+       
+    ],
 },
   {
     title: "Disciplinary Committee",
-    description: `The Disciplinary Committee is established to maintain discipline and order within the institution. The committee ensures that students adhere to the rules and regulations, promoting a conducive learning environment.
-
-The primary objective of the Disciplinary Committee is to uphold institutional rules and regulations, address disciplinary issues and misconduct, and promote a culture of responsibility and respect. The committee investigates incidents of misconduct, conducts disciplinary hearings, and imposes penalties or corrective measures as necessary. Additionally, the committee provides guidance and counseling to students to help them understand the importance of discipline and responsibility.
-
-The committee consists of faculty members and administrative representatives, ensuring a fair and impartial approach to disciplinary matters. By maintaining a disciplined and respectful campus environment, promoting student accountability and responsibility, and ensuring fairness and justice in disciplinary actions, the Disciplinary Committee plays a vital role in maintaining a positive and productive campus environment.`,
- 
+    description: `The Disciplinary Committee of the college is constituted to maintain discipline, decorum, and a healthy academic environment within the campus. It ensures that students adhere to the rules and regulations of the institution and take corrective measures whenever there is any deviation.`,
+    obj:'Objectives of the Committee::',
+    points: [
+      "To promote discipline and good conduct among students.",
+      "To create a safe and respectful environment conducive to learning.",
+      "To address cases of misconduct, indiscipline, and violation of college rules.",
+      "To take corrective and preventive measures in cases of disputes or conflicts.",
+    
+    ],
+    Functions: "Functions of the Committee:",
+    pointFun: [
+      "Monitor student behavior inside and outside the classroom.",
+       "Inquire into reported incidents of indiscipline.",
+       "Counsel students on values of responsibility, respect, and integrity.",
+       "Recommend disciplinary action as per the gravity of the case.",
+       "Work in coordination with teachers, parents, and administration for student welfare.",
+       "",
+    ],
+    Commitment: "Possible Actions by the Committee:",
+     pointcom: [
+        "Oral/written warnings.",
+        "Counseling sessions.",
+        "Intimation to parents/guardians.",
+        "Suspension from classes/college activities (in severe cases).",
+        "Any other action deemed necessary by the committee in accordance with college rules.",
+    ],
 },
   {
-    title: "Moot Court",
-    description: `The College has set up a spacious Moot Court hall with the necessary infrastructure. The Moot Court Society is in charge of putting up moot court competitions and selecting applicants for inter-collegiate competitions.
-
-  Inter-class moot court and trial advocacy competitions are held by the Society and are open to students in all semesters. The Society also holds judgement writing competitions and other advocacy-related activities.`,
- 
+    title: "Moot Court Society ",
+    description: `The Moot Court Society of Bengaluru Law College functions as a Statutory Committee in accordance with the Bar Council of India Rules of Legal Education, 2008. Moot Court exercises form a compulsory part of the LL.B. curriculum, ensuring that every law student gains practical training in advocacy, drafting, and court etiquette.`,
+    obj:'Objectives:',
+    points: [
+      "To organize and conduct compulsory moot court exercises as prescribed by BCI.",
+      "To train students in legal research, drafting of memorials, oral advocacy, and courtroom manners.",
+      "To conduct intra-college and inter-college moot court competitions.",
+      "To guide and prepare students for participation in national and international moot court competitions.",
+      "To bridge the gap between theoretical learning and practical exposure in the legal profession.",
+      "",
+    ],
+    Functions: "Composition",
+    pointFun: [
+    "Chairperson: Principal of the College",  
+    "Faculty Convenor(s): Nominated law faculty members",  
+    "Student Members: Selected from each year of the LL.B. course",  
+    "Moot Court Captains: Student representatives assisting in organization and training",  
+    "",  
+    "",  
+    ],
+    Commitment: "Statutory Nature",
+     pointcom: [
+"The Moot Court Society is recognized as a Statutory Committee, since it is established to fulfill the mandatory clinical legal education requirements under the BCI Rules. All law students are required to participate in its activities as part of their academic training.",
+"Through its activities, the Moot Court Society provides students with a platform to develop essential skills that are vital for their journey as future advocates, judges, academicians, and legal professionals."    
+],
 },
   {
     title: "Internal Quality Assurance Cell (IQAC)",
-    description: `The Internal Quality Assurance Cell (IQAC) is a vital component of our institution, dedicated to ensuring and enhancing the quality of education, research, and overall institutional performance. As per the guidelines of the National Assessment and Accreditation Council (NAAC), our IQAC plays a pivotal role in:`,
+    description: `The Internal Quality Assurance Cell (IQAC) of Bengaluru Law College has been established in accordance with the guidelines of the University Grants Commission (UGC) and the National Assessment and Accreditation Council (NAAC). The IQAC functions as a statutory and quality assurance body of the institution, with the primary aim of developing a systematic and consistent quality culture in all academic and administrative activities of the college.`,
+    obj:'Objectives of IQAC',
+    points: [
+      "To develop a system for conscious, consistent, and catalytic improvement in the academic and administrative performance of the institution.",
+      "To promote measures for institutional functioning towards quality enhancement through internalization of quality culture and institutionalization of best practices.",
+      "To ensure continuous improvement of teaching-learning processes, research, extension, and evaluation methods.",
+      "To prepare the institution for accreditation and quality audits by NAAC and other statutory bodies.",
     
+    ],
+    Functions: "Functions of IQAC",
+    pointFun: [
+    "Development and application of quality benchmarks for various academic and administrative activities.",  
+    "Facilitating a learner-centric environment conducive to quality education.",  
+    "Collection and analysis of feedback from students, parents, alumni, and other stakeholders.",  
+    "Organization of seminars, workshops, and training programs on quality-related themes.",  
+    "Documentation of various programs/activities leading to quality improvement.",  
+    "Preparation of the Annual Quality Assurance Report (AQAR) for submission to NAAC.",  
+    ],
+    Commitment: "Composition of IQAC As per NAAC guidelines, the IQAC consists of:",
+     pointcom: [
+        "Chairperson – Head of the Institution (Principal)",
+        "Senior Administrative Officers",
+        "Faculty Members",
+        "Management Representative",
+        "Nominees from Local Society/Alumni/Students",
+        "External Experts",
+        "Statutory Nature",
+        "The IQAC is a statutory committee as per the directives of the UGC and NAAC, and its recommendations are integral for the growth and development of the institution.",
+],  
     
+},
+
+{
+    title: "Alumni Relationship – Bengaluru Law College",
+    description: `The alumni of Bengaluru Law College form an integral part of the institution’s legacy and growth. They not only carry the name of the college into society and the legal profession but also continue to remain closely connected with their alma mater.`,
+    obj:'Expression of Gratitude',
+    points: [
+      "As a token of respect and thankfulness, the alumni organize Guru Vandana to honor their teachers for their invaluable guidance. This tradition reflects the values of respect, gratitude, and lifelong bonding between teachers and students.",
+    ],
+    Functions: "Alumni Contributions",
+    pointFun: [
+        "The alumni have shown their love and commitment towards the college through several contributions, such as:",
+        "Donation of water purifiers for students and staff welfare.",
+        "Providing mic stands and other facilities to support academic and cultural events.",
+        "Contributing mementos and assistance for college programs.",
+        "Extending continuous support towards the betterment of the institution.",
+        "",
+        "",
+    ],
+    Commitment: "Alumni Association",
+     pointcom: [
+        "The Alumni Association of Bengaluru Law College acts as a bridge between the past and present students. It regularly engages with the college by:",
+        "Organizing alumni meets and interactive sessions.",
+        "Guiding students through mentorship, career counseling, and internship opportunities.",
+        "Actively supporting the college in its developmental and outreach activities",    
+    ],  
+     scope: "College’s Gratitude Towards Alumni",
+     pointsco: [
+        "The college also expresses its gratitude to its alumni. On Graduation Day, alumni are felicitated and blessed by esteemed guests. They are warmly welcomed to all institutional programs and are always considered as an integral part of every event at Bengaluru Law College.",
+        "A Lifelong Bond:",
+        "This strong alumni relationship highlights mutual respect, continuous cooperation, and shared pride. The alumni remain an everlasting part of the college family, enriching its legacy and inspiring future generations.",
+       
+    ],
 },
 ];
 
@@ -191,7 +319,7 @@ const StatutoryCommittees = () => {
     
     
     <div className="newspaper-layout">
-      <h1 className="page-title">Statutory Committees</h1>
+      {/* <h1 className="page-title">Statutory Committees</h1> */}
       <div className="columns">
         {committees.map((item, idx) => (
           <div className="article" key={idx}>
@@ -220,6 +348,15 @@ const StatutoryCommittees = () => {
             {item.pointcom && (
               <ul>
                 {item.pointcom.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
+            )}
+           
+            <span>{item.scope}</span>
+            {item.pointsco && (
+              <ul>
+                {item.pointsco.map((point, i) => (
                   <li key={i}>{point}</li>
                 ))}
               </ul>

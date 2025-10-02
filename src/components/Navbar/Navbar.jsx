@@ -663,7 +663,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Logo */}
       <div className="logo">
-        <Link to="/Law_college" onClick={handleCloseMenu}>
+        <Link to="/" onClick={handleCloseMenu}>
           <img src={logo} alt="law collage" className="navbar-logo" />
         </Link>
       </div>
@@ -673,10 +673,10 @@ const Navbar = () => {
         {menuOpen ? <ImCross /> : <FaBars />}
       </div>
 
-      {/* Nav Links */}
+      {/* Home */}
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li>
-          <Link to="/Law_college" onClick={handleCloseMenu}>
+          <Link to="/" onClick={handleCloseMenu}>
             Home
           </Link>
         </li>
@@ -803,8 +803,8 @@ const Navbar = () => {
 {/* __________________________________________________________________________ */}
 
 
-
-       <li className="dropdown">
+{/* Admission */}
+  <li className="dropdown">
   <button onClick={() => toggleDropdown("admission")}>
     Admission 
   </button>
@@ -828,7 +828,7 @@ const Navbar = () => {
       
       <div className="sub-dropdown">
         <Link to="/CriteriaPage" onClick={handleCloseMenu}>
-          Job vacatins
+          job vacancy
         </Link>
       </div>
 
@@ -853,7 +853,35 @@ const Navbar = () => {
   )}
 </li>
 
-        {/* Courses */}
+        {/* achievement */}
+        <li className="dropdown">
+          <button onClick={() => toggleDropdown("achievement")}>
+          Achievement
+          </button>
+          {activeDropdown === "achievement" && (
+            <div className="dropdown-menu">
+              <Link to="/StudentAchievement" onClick={handleCloseMenu}>
+                Student Achievement
+              </Link>
+              <Link to="/CollegeAchievement" onClick={handleCloseMenu}>
+                College Achievements
+              </Link>
+              <Link to="/CompliancePage" onClick={handleCloseMenu}>
+                Reviews
+              </Link>
+            </div>
+          )}
+        </li>
+
+        {/* Gallery */}
+        <li>
+          <Link to="/gallery" onClick={handleCloseMenu}>
+            Gallery
+
+          </Link>
+        </li>
+
+        {/* Code of Conduct rules */}
         <li className="dropdown">
           <button onClick={() => toggleDropdown("CodeOfConductRules")}>
           Code of Conduct rules
@@ -872,8 +900,18 @@ const Navbar = () => {
               <Link to="/StudentsTowardsTeachers" onClick={handleCloseMenu}>
                 Students Towards Teachers rule
               </Link>
+              <Link to="/DutiesofParentsTowardstheCollege" onClick={handleCloseMenu}>
+                Duties of Parents Towards the College
+              </Link>
             </div>
           )}
+        </li>
+
+          {/* Statutory Committees */}
+        <li>
+          <Link to="/StatutoryCommittees" onClick={handleCloseMenu}>
+            Statutory Committees
+          </Link>
         </li>
 
         {/* Grievance */}
@@ -893,34 +931,10 @@ const Navbar = () => {
           )}
         </li>
 
-        {/* achievement */}
-        <li className="dropdown">
-          <button onClick={() => toggleDropdown("achievement")}>
-          Achievement
-          </button>
-          {activeDropdown === "achievement" && (
-            <div className="dropdown-menu">
-              <Link to="/ComplaintPage" onClick={handleCloseMenu}>
-                Student Achievement
-              </Link>
-              <Link to="/CompliancePage" onClick={handleCloseMenu}>
-                College Achievements
-              </Link>
-              <Link to="/CompliancePage" onClick={handleCloseMenu}>
-                Reviews
-              </Link>
-            </div>
-          )}
-        </li>
+
         
 
 
-        <li>
-          <Link to="/gallery" onClick={handleCloseMenu}>
-            Gallery
-
-          </Link>
-        </li>
 
 
         {/* About */}
@@ -950,14 +964,9 @@ const Navbar = () => {
         </li> */}
 
 
-         {/* Statutory Committees */}
-        <li>
-          <Link to="/StatutoryCommittees" onClick={handleCloseMenu}>
-            Statutory Committees
-          </Link>
-        </li>
+       
 
-
+{/* Contact */}
         <li>
           <Link to="/contact" onClick={handleCloseMenu}>
             Contact

@@ -51,6 +51,9 @@ import ComplaintPage from './pages/Grievance/ComplaintPage';
 import CompliancePage from './pages/Grievance/CompliancePage';
 import HistorySection from './pages/History/HistorySection';
 import StudentsTowardsTeachers from './pages/CollegeRules/StudentsTowardsTeachers';
+import DutiesofParentsTowardstheCollege from './pages/CollegeRules/DutiesofParentsTowardstheCollege';
+import StudentAchievement from './pages/Achievement/StudentAchievement';
+import CollegeAchievement from './pages/Achievement/CollegeAchievement';
 
 
 
@@ -60,7 +63,7 @@ function MainContent() {
       <ScrollingText />
       <Navbar />
       <Routes>
-        <Route path="/Law_college" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
@@ -104,7 +107,13 @@ function MainContent() {
         <Route path="/LibraryRules" element={<LibraryRules />} />
         <Route path="/LibraryRules" element={<LibraryRules />} />
         <Route path="/StudentsTowardsTeachers" element={<StudentsTowardsTeachers />} />
+        <Route path="/DutiesofParentsTowardstheCollege" element={<DutiesofParentsTowardstheCollege />} />
         <Route path="/CompliancePage" element={<CompliancePage />} />
+
+        {/* Achievement */}
+        <Route path="/StudentAchievement" element={<StudentAchievement />} />
+        <Route path="/CollegeAchievement" element={<CollegeAchievement />} />
+        <Route path="/PopupModal" element={<PopupModal />} />
 
 
       </Routes>

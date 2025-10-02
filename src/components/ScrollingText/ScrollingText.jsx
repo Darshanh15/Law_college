@@ -103,59 +103,118 @@
 
 
 
+// import React, { useState } from "react";
+// import { useNavigate } from "react-router-dom";
+// import "./ScrollingText.scss";
+// import PopupModal from "../../components/PopupModal/PopupModal";
+
+// const ScrollingText = () => {
+//   const currentYear = new Date().getFullYear();
+//   const [isModalOpen, setIsModalOpen] = useState(false);
+//   const navigate = useNavigate();
+
+//   return (
+//     <> 
+//     <div className="scroll-wrapper">
+//       {/* Scrolling text */}
+//       <div className="scroll-container">
+//         <p className="scroll-text">
+//           🚀 Welcome to Bangalore Law College | Admissions open for (3 Years LLB & 5 Years BA LLB){" "}
+//           {currentYear}-{currentYear + 1}
+//         </p>
+//       </div>
+
+//       {/* Buttons */}
+//       <div className="scroll-buttons">
+//         <button
+//           className="scroll-btn"
+//           onClick={() => navigate("/admissions")}
+//         >
+//           Apply Now
+//         </button>
+
+//         <button
+//           className="scroll-btn"
+//           onClick={() => handleApplyClick(criteria.title)}
+//         >
+//           Admission
+//         </button>
+
+//         {/* Example modal trigger button (if you want later) */}
+//         {/* <button
+//           className="scroll-btn"
+//           onClick={() => setIsModalOpen(true)}
+//         >
+//           Apply via Modal
+//         </button> */}
+//       </div>
+
+//       {/* Optional: Modal (only if you plan to add PopupModal component) */}
+//       {/* <PopupModal
+//         isOpen={isModalOpen}
+//         onClose={() => setIsModalOpen(false)}
+//       /> */}
+//     </div>
+//      {/* Popup Modal */}
+//       {showModal && (
+//         <PopupModal
+//           title={`Apply for ${selectedJob}`}
+//           onClose={() => setShowModal(false)}
+//         />
+//       )}</>
+//   );
+// };
+
+// export default ScrollingText;
+
+
+
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ScrollingText.scss";
+import PopupModal from "../../components/PopupModal/PopupModal";
 
 const ScrollingText = () => {
   const currentYear = new Date().getFullYear();
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   const navigate = useNavigate();
 
   return (
-    <div className="scroll-wrapper">
-      {/* Scrolling text */}
-      <div className="scroll-container">
-        <p className="scroll-text">
-          🚀 Welcome to Bangalore Law College | Admissions open for (3 Years LLB & 5 Years BA LLB){" "}
-          {currentYear}-{currentYear + 1}
-        </p>
+    <>
+      <div className="scroll-wrapper">
+        {/* Scrolling text */}
+        <div className="scroll-container">
+          <p className="scroll-text">
+            🚀 Welcome to Bangalore Law College | Admissions open for (3 Years LLB & 5 Years BA LLB){" "}
+            {currentYear}-{currentYear + 1}
+          </p>
+        </div>
+
+        {/* Buttons */}
+        <div className="scroll-buttons">
+          <button className="scroll-btn" onClick={() => navigate("/admissions")}>
+            Apply Now
+          </button>
+
+          <button className="scroll-btn" onClick={() => setShowModal(true)}>
+            Admission
+          </button>
+        </div>
       </div>
 
-      {/* Buttons */}
-      <div className="scroll-buttons">
-        <button
-          className="scroll-btn"
-          onClick={() => navigate("/admissions")}
-        >
-          Apply Now
-        </button>
-
-        <button
-          className="scroll-btn"
-          onClick={() => navigate("/internship")} // ✅ fixed spelling
-        >
-          Admission
-        </button>
-
-        {/* Example modal trigger button (if you want later) */}
-        {/* <button
-          className="scroll-btn"
-          onClick={() => setIsModalOpen(true)}
-        >
-          Apply via Modal
-        </button> */}
-      </div>
-
-      {/* Optional: Modal (only if you plan to add PopupModal component) */}
-      {/* <PopupModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      /> */}
-    </div>
+      {/* Popup Modal */}
+      {showModal && (
+        <PopupModal
+          title="Apply for Admission"
+          onClose={() => setShowModal(false)}
+        />
+      )}
+    </>
   );
 };
 
 export default ScrollingText;
+
 
 
