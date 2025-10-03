@@ -663,7 +663,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Logo */}
       <div className="logo">
-        <Link to="/" onClick={handleCloseMenu}>
+        <Link to="/Law_college" onClick={handleCloseMenu}>
           <img src={logo} alt="law collage" className="navbar-logo" />
         </Link>
       </div>
@@ -676,7 +676,7 @@ const Navbar = () => {
       {/* Home */}
       <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
         <li>
-          <Link to="/" onClick={handleCloseMenu}>
+          <Link to="/Law_college" onClick={handleCloseMenu}>
             Home
           </Link>
         </li>

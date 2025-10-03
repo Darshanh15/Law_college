@@ -63,7 +63,7 @@ function MainContent() {
       <ScrollingText />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Law_college" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
@@ -113,7 +113,7 @@ function MainContent() {
         {/* Achievement */}
         <Route path="/StudentAchievement" element={<StudentAchievement />} />
         <Route path="/CollegeAchievement" element={<CollegeAchievement />} />
-        <Route path="/PopupModal" element={<PopupModal />} />
+        <Route path="/PopupModal" element={<CollegeAchievement />} />
 
 
       </Routes>
