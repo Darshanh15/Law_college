@@ -109,6 +109,7 @@ function MainContent() {
         <Route path="/StudentsTowardsTeachers" element={<StudentsTowardsTeachers />} />
         <Route path="/DutiesofParentsTowardstheCollege" element={<DutiesofParentsTowardstheCollege />} />
         <Route path="/CompliancePage" element={<CompliancePage />} />
+        <Route path="/ComplaintPage" element={<ComplaintPage />} />
 
         {/* Achievement */}
         <Route path="/StudentAchievement" element={<StudentAchievement />} />
