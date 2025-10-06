@@ -235,8 +235,7 @@ The Anti-Ragging Cell functions as a supervisory and advisory committee dedicate
     "Faculty Convenor(s): Nominated law faculty members",  
     "Student Members: Selected from each year of the LL.B. course",  
     "Moot Court Captains: Student representatives assisting in organization and training",  
-    "",  
-    "",  
+    
     ],
     Commitment: "Statutory Nature",
      pointcom: [
@@ -278,36 +277,36 @@ The Anti-Ragging Cell functions as a supervisory and advisory committee dedicate
     
 },
 
-{
-    title: "Alumni Relationship – Bengaluru Law College",
-    description: `The alumni of Bengaluru Law College form an integral part of the institution’s legacy and growth. They not only carry the name of the college into society and the legal profession but also continue to remain closely connected with their alma mater.`,
-    obj:'Expression of Gratitude',
-    points: [
-      "As a token of respect and thankfulness, the alumni organize Guru Vandana to honor their teachers for their invaluable guidance. This tradition reflects the values of respect, gratitude, and lifelong bonding between teachers and students.",
-    ],
-    Functions: "Alumni Contributions",
-    pointFun: [
-        "The alumni have shown their love and commitment towards the college through several contributions, such as:",
-        "Donation of water purifiers for students and staff welfare.",
-        "Providing mic stands and other facilities to support academic and cultural events.",
-        "Contributing mementos and assistance for college programs.",
-        "Extending continuous support towards the betterment of the institution.",
-    ],
-    Commitment: "Alumni Association",
-     pointcom: [
-        "The Alumni Association of Bengaluru Law College acts as a bridge between the past and present students. It regularly engages with the college by:",
-        "Organizing alumni meets and interactive sessions.",
-        "Guiding students through mentorship, career counseling, and internship opportunities.",
-        "Actively supporting the college in its developmental and outreach activities",    
-    ],  
-     scope: "College’s Gratitude Towards Alumni",
-     pointsco: [
-        "The college also expresses its gratitude to its alumni. On Graduation Day, alumni are felicitated and blessed by esteemed guests. They are warmly welcomed to all institutional programs and are always considered as an integral part of every event at Bengaluru Law College.",
-        "A Lifelong Bond:",
-        "This strong alumni relationship highlights mutual respect, continuous cooperation, and shared pride. The alumni remain an everlasting part of the college family, enriching its legacy and inspiring future generations.",
+// {
+//     title: "Alumni Relationship – Bengaluru Law College",
+//     description: `The alumni of Bengaluru Law College form an integral part of the institution’s legacy and growth. They not only carry the name of the college into society and the legal profession but also continue to remain closely connected with their alma mater.`,
+//     obj:'Expression of Gratitude',
+//     points: [
+//       "As a token of respect and thankfulness, the alumni organize Guru Vandana to honor their teachers for their invaluable guidance. This tradition reflects the values of respect, gratitude, and lifelong bonding between teachers and students.",
+//     ],
+//     Functions: "Alumni Contributions",
+//     pointFun: [
+//         "The alumni have shown their love and commitment towards the college through several contributions, such as:",
+//         "Donation of water purifiers for students and staff welfare.",
+//         "Providing mic stands and other facilities to support academic and cultural events.",
+//         "Contributing mementos and assistance for college programs.",
+//         "Extending continuous support towards the betterment of the institution.",
+//     ],
+//     Commitment: "Alumni Association",
+//      pointcom: [
+//         "The Alumni Association of Bengaluru Law College acts as a bridge between the past and present students. It regularly engages with the college by:",
+//         "Organizing alumni meets and interactive sessions.",
+//         "Guiding students through mentorship, career counseling, and internship opportunities.",
+//         "Actively supporting the college in its developmental and outreach activities",    
+//     ],  
+//      scope: "College’s Gratitude Towards Alumni",
+//      pointsco: [
+//         "The college also expresses its gratitude to its alumni. On Graduation Day, alumni are felicitated and blessed by esteemed guests. They are warmly welcomed to all institutional programs and are always considered as an integral part of every event at Bengaluru Law College.",
+//         "A Lifelong Bond:",
+//         "This strong alumni relationship highlights mutual respect, continuous cooperation, and shared pride. The alumni remain an everlasting part of the college family, enriching its legacy and inspiring future generations.",
        
-    ],
-},
+//     ],
+// },
 ];
 
 const StatutoryCommittees = () => {

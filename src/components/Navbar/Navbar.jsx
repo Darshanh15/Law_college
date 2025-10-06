@@ -828,7 +828,7 @@ const Navbar = () => {
       
       <div className="sub-dropdown">
         <Link to="/CriteriaPage" onClick={handleCloseMenu}>
-          job vacancy
+          Job Vacancy
         </Link>
       </div>
 
