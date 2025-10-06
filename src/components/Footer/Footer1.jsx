@@ -11,7 +11,7 @@ const Footer1 = () => {
         <div className="footer-col">
           <img src={logo} alt="College Logo" className="footer-logo" />
           <p>
-            Bangalore Law College – shaping future legal professionals with
+           Bengaluru Law College – shaping future legal professionals with
             excellence in education and values.
           </p>
         </div>
@@ -32,7 +32,7 @@ const Footer1 = () => {
         {/* Contact Info */}
         <div className="footer-col">
           <h3>Contact Us</h3>
-          <p>📍 22/255A Hidayath Nagar, Kalamassery, Ernakulam</p>
+          <p>#19/74 8th Cross, Shakthi Ganapathi Nagar, Kamala nagar main road, Basaveshwaranagar, Near Ashoka Hospital, Bengaluru -560079</p>
           <p>📞 +91 9876543210</p>
           <p>✉️ info@bangalorelawcollege.com</p>
           <div className="social-icons">
@@ -46,7 +46,7 @@ const Footer1 = () => {
 
       {/* Bottom Bar */}
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Bangalore Law College. All Rights Reserved.</p>
+        <p>© {new Date().getFullYear()}Bengaluru Law College. All Rights Reserved.</p>
       </div>
     </footer>
   );

@@ -1,3 +1,70 @@
+// .newspaper-layout {
+//   padding: 2rem;
+//   background: #fdfdfd;
+//   font-family: "Georgia", serif;
+//   line-height: 1.6;
+//   text-align: justify;
+
+//   .page-title {
+//     text-align: center;
+//     font-size: 2.2rem;
+//     font-weight: bold;
+//     margin-bottom: 2rem;
+//     border-bottom: 2px solid #000;
+//     padding-bottom: 0.5rem;
+//     letter-spacing: 1px;
+//   }
+
+//   .columns {
+//     column-count: 3;
+//     column-gap: 2rem;
+
+//     @media (max-width: 1024px) {
+//       column-count: 2;
+//     }
+//     @media (max-width: 768px) {
+//       column-count: 1;
+//     }
+//   }
+
+//   .article {
+//     break-inside: avoid;
+//     margin-bottom: 1.5rem;
+//     padding-bottom: 1rem;
+//     border-bottom: 1px dashed #aaa;
+
+//     h2 {
+//       font-size: 1.3rem;
+//       font-weight: bold;
+//       margin-bottom: 0.5rem;
+//       color: #222;
+//     }
+
+//     p {
+//       margin-bottom: 0.5rem;
+//       font-size: 1rem;
+//       color: #444;
+//     }
+
+//     span{
+//         font-size: 1.1rem;
+//         font-weight: bold;
+//     }
+
+//     ul {
+//       padding-left: 1.2rem;
+//       margin: 0;
+
+//       li {
+//         font-size: 0.95rem;
+//         margin-bottom: 0.4rem;
+//         list-style-type: disc;
+//       }
+//     }
+//   }
+// }
+
+
 .newspaper-layout {
   padding: 2rem;
   background: #fdfdfd;
@@ -17,13 +84,17 @@
 
   .columns {
     column-count: 3;
-    column-gap: 2rem;
+    column-gap: 3rem;
+    column-rule: 1px solid #ccc; /* 👈 adds vertical lines between columns */
 
     @media (max-width: 1024px) {
       column-count: 2;
+      column-rule: 1px solid #ccc; /* keep line on tablet */
     }
+
     @media (max-width: 768px) {
       column-count: 1;
+      column-rule: none; /* hide line on mobile */
     }
   }
 
@@ -46,9 +117,11 @@
       color: #444;
     }
 
-    span{
-        font-size: 1.1rem;
-        font-weight: bold;
+    span {
+      font-size: 1.1rem;
+      font-weight: bold;
+      display: block;
+      margin-top: 0.5rem;
     }
 
     ul {

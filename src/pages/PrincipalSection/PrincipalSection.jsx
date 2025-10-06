@@ -48,11 +48,11 @@ const PrincipalSection = () => {
           <p className="quote">
             "Education is not just about acquiring knowledge but about developing
             wisdom, integrity, and the ability to stand for justice. At 
-            <strong> Bangalore Law College</strong>, we nurture future legal
+            <strong>Bengaluru Law College</strong>, we nurture future legal
             professionals with values, dedication, and commitment to society."
           </p>
           <h4>Dr. Devika S Ajila</h4>
-          <p className="designation">Principal, Bangalore Law College</p>
+          <p className="designation">Principal,Bengaluru Law College</p>
          
         </div>
       </div>

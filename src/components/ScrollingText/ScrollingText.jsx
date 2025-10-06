@@ -186,7 +186,7 @@ const ScrollingText = () => {
         {/* Scrolling text */}
         <div className="scroll-container">
           <p className="scroll-text">
-            🚀 Welcome to Bangalore Law College | Admissions open for (3 Years LLB & 5 Years BA LLB){" "}
+            🚀 Welcome to Bengaluru Law College | Admissions open for (3 Years LLB & 5 Years BA LLB){" "}
             {currentYear}-{currentYear + 1}
           </p>
         </div>

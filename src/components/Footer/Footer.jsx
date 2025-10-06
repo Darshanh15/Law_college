@@ -19,10 +19,12 @@ function Footer() {
         <div className="footer-links">
           <h4>Address</h4>
           <ul>
-            <li>#/#,  Bangalore</li>
-            <li>Bangalore Bangalore</li>
-            <li>Bangalore Post</li>
-            <li> Bangalore -560049</li>
+
+            <li>#19/74 8th Cross, Shakthi Ganapathi Nagar</li>
+            <li>Kamala nagar main road, </li>
+            <li>Basaveshwaranagar,</li>
+            <li>Near Ashoka Hospital, </li>
+            <li>Bengaluru -560079</li>
             {/* <li><a href="/privacy">Privacy Policy</a></li> */}
           </ul>
         </div>
@@ -56,7 +58,7 @@ function Footer() {
       
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} bangalorelawcollege All rights reserved.
+        © {new Date().getFullYear()}Bengalurulawcollege All rights reserved.
       </div>
     </footer>
   );

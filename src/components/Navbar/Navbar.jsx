@@ -927,6 +927,7 @@ const Navbar = () => {
               <Link to="/CompliancePage" onClick={handleCloseMenu}>
                 Compliance
               </Link>
+              
             </div>
           )}
         </li>
