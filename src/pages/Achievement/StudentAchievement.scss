@@ -1,8 +1,100 @@
-.achievement-section {
-  padding: 5rem 2rem;
-  text-align: center;
-  background: linear-gradient(135deg, #0b4a91, #1e88e5);
-  color: #fff;
+// .achievement-section {
+//   padding: 5rem 2rem;
+//   text-align: center;
+//   background: linear-gradient(135deg, #0b4a91, #1e88e5);
+//   color: #fff;
+
+//   .achievement-container {
+//     max-width: 800px;
+//     margin: 0 auto;
+
+//     h2 {
+//       font-size: 2.5rem;
+//       margin-bottom: 1rem;
+//       font-weight: 700;
+//       letter-spacing: 1px;
+//       text-transform: uppercase;
+//     }
+
+//     .achievement-text {
+//       font-size: 1.3rem;
+//       line-height: 1.8;
+//       font-weight: 400;
+//       animation: fadeIn 2s ease-in-out;
+//     }
+//   }
+// }
+
+// @keyframes fadeIn {
+//   from {
+//     opacity: 0;
+//     transform: translateY(20px);
+//   }
+//   to {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+
+
+// .achievement-section {
+//   max-width: 1000px;
+//   margin: 50px auto;
+//   padding: 30px;
+//   background: #fff;
+//   border-radius: 12px;
+//   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+//   h1 {
+//     text-align: center;
+//     font-size: 2rem;
+//     color: #0b4a91;
+//     margin-bottom: 20px;
+//   }
+
+//   h2 {
+//     margin-top: 30px;
+//     color: #444;
+//     border-left: 4px solid #0b4a91;
+//     padding-left: 10px;
+//     font-size: 1.4rem;
+//   }
+
+//   p {
+//     text-align: justify;
+//     margin: 15px 0;
+//     color: #333;
+//     line-height: 1.6;
+//   }
+
+//   .highlight {
+//     font-weight: bold;
+//     color: #0b4a91;
+//   }
+
+//   .list {
+//     list-style: none;
+//     padding: 0;
+//     margin: 15px 0;
+
+//     li {
+//       background: #6591e1;
+//       margin: 8px 0;
+//       padding: 12px;
+//       border-left: 5px solid #0b4a91;
+//       border-radius: 6px;
+//       font-size: 1rem;
+//       line-height: 1.5;
+//     }
+//   }
+// }
+
+
+.achievement-section.hero {
+  // padding: 5rem 2rem;
+  // text-align: center;
+  // background: linear-gradient(135deg, #0b4a91, #1e88e5);
+  // color: #fff;
 
   .achievement-container {
     max-width: 800px;
@@ -35,7 +127,6 @@
     transform: translateY(0);
   }
 }
-
 
 .achievement-section {
   max-width: 1000px;
@@ -85,6 +176,7 @@
       border-radius: 6px;
       font-size: 1rem;
       line-height: 1.5;
+      color: #fff;
     }
   }
 }

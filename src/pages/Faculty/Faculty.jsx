@@ -177,6 +177,7 @@ import Prakasha from "../../assets/clints/faculty/Prakash.jpg";
 import Shivakumar from "../../assets/clints/faculty/Shivakumar.jpg";
 import Spoorthi from "../../assets/clints/faculty/Spoorthi.jpg";
 import Siddappa from "../../assets/clints/faculty/SiddappaN.jpg";
+import Vynika from "../../assets/clints/faculty/Vynika chikkanagouda.jpeg";
 
 
 import NagaveniN from "../../assets/clints/Guest Faculty/NagaveniN.jpg";
@@ -312,6 +313,13 @@ const facultyMembers = [
     name: "Sri. Shivakumar",
     role: "Assistant Professor",
     image: Shivakumar,
+    description:
+      "LL.M"
+  },
+      {
+    name: "Vynika chikkanagouda",
+    role: "Assistant Professor",
+    image: Vynika,
     description:
       "LL.M"
   },

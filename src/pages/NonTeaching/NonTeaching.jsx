@@ -13,6 +13,7 @@ import Sarswathamma from '../../assets/Non Teaching Staff/Sarswathamma.jpg'
 import Mayigowda from '../../assets/Non Teaching Staff/Mayigowda.jpg'
 import Manjunath from '../../assets/Non Teaching Staff/Manjunath.jpg'
 import Christ from '../../assets/Non Teaching Staff/Christ Das.jpeg'
+import rashmi1 from '../../assets/Non Teaching Staff/rashmi1.jpeg'
 
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 
@@ -24,10 +25,22 @@ const staff = [
     img: Shivaprasad,
   },
   {
+    id: 2,
+    name: "Rashmishree m shetty",
+    role: "FDA",
+    img: rashmi1,
+  },
+  {
     id: 4,
     name: "Mr. Darshan N",
     role: "FDC",
     img: Darshan,
+  },
+   {
+      id: 12,
+    name: "Mr. Christ Das",
+    role: "FDA",
+    img: Christ,
   },
    {
     id: 5,
@@ -70,12 +83,7 @@ const staff = [
     role: "Night Security",
     img: Manjunath,
   },
-   {
-      id: 12,
-    name: "Mr. Christ Das",
-    role: "FDA",
-    img: Christ,
-  },
+  
 ];
 
 const NonTeaching = () => {

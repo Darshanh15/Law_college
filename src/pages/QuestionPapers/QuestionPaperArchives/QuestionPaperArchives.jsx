@@ -56,22 +56,38 @@ const subjects = [
 
 const QuestionPaperArchives = () => {
   return (
-    <div className="container-fluid">
-      <h3 className="text-center my-4">LIST OF SYLLABUS</h3>
-      <div className="row">
-        {subjects.map((subject, index) => (
-          <div className="col-lg-8 mb-4" key={index}>
-            <h5 className="text-center mb-3">{subject.name}</h5>
-            <iframe
-              src={subject.fileId}  
-              className="w-100"
-              style={{ height: "90vh", border: "none" }}
-              title={subject.name}
-            />
-          </div>
-        ))}
+    // <div className="container-fluid">
+    //   <h3 className="text-center my-4">LIST OF SYLLABUS</h3>
+    //   <div className="row">
+    //     {subjects.map((subject, index) => (
+    //       <div className="col-lg-8 mb-4" key={index}>
+    //         <h5 className="text-center mb-3">{subject.name}</h5>
+    //         <iframe
+    //           src={subject.fileId}  
+    //           className="w-100"
+    //           style={{ height: "90vh", border: "none" }}
+    //           title={subject.name}
+    //         />
+    //       </div>
+    //     ))}
+    //   </div>
+    // </div>
+    <div className="container-fluid syllabus-container">
+  <h3 className="text-center my-4">LIST OF SYLLABUS</h3>
+  <div className="row justify-content-center">
+    {subjects.map((subject, index) => (
+      <div className="col-12 col-lg-10 mb-5 text-center" key={index}>
+        <h5 className="text-center mb-3">{subject.name}</h5>
+        <iframe
+          src={subject.fileId}
+          className="syllabus-iframe"
+          title={subject.name}
+        />
       </div>
-    </div>
+    ))}
+  </div>
+</div>
+
   );
 };
 
