@@ -292,8 +292,6 @@ The Anti-Ragging Cell functions as a supervisory and advisory committee dedicate
         "Providing mic stands and other facilities to support academic and cultural events.",
         "Contributing mementos and assistance for college programs.",
         "Extending continuous support towards the betterment of the institution.",
-        "",
-        "",
     ],
     Commitment: "Alumni Association",
      pointcom: [

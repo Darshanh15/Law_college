@@ -18,8 +18,6 @@ const rules = [
 "Library timings must be strictly followed for issue/return/reading.",
 "Library users should maintain discipline and respect the rights of others.",
 "Misuse of library resources or violation of rules may lead to suspension of library membership.",
-"",
-"",
 ];
 
 const LibraryRules = () => {
