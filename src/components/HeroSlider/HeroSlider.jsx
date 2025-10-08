@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./HeroSlider.scss";
 
-import img1 from '../../assets/collage_img/blc.jpeg'
+// import img1 from '../../assets/collage_img/blc.jpeg'
+import img1 from '../../assets/collage_img/clg.jpg'
 import img2 from '../../assets/home/university.jpg'
 import img3 from '../../assets/home/Samford.jpg'
 import img4 from '../../assets/collage_img/blc1.jpeg'
@@ -29,15 +30,15 @@ const slides = [
     primaryBtn: "View more",
     secondaryBtn: "Contact Us",
   },
-  // {
-  //   id: 3,
-  //   image: img5,
-  //   subtitle: "Join Us",
-  //   title: "Let’s <span class='highlight'>Collaborate</span>",
-  //   description: "Your success is our mission. Let’s grow together. Cut down the intermediaries and grow profits.",
-  //   primaryBtn: "Join Now",
-  //   secondaryBtn: "Contact Us",
-  // },
+  {
+    id: 3,
+    image: img5,
+    subtitle: "Join Us",
+    title: "Let’s <span class='highlight'>Collaborate</span>",
+    description: "Your success is our mission. Let’s grow together. Cut down the intermediaries and grow profits.",
+    primaryBtn: "Join Now",
+    secondaryBtn: "Contact Us",
+  },
 ];
 
 const HeroSlider = () => {
@@ -62,14 +63,11 @@ const HeroSlider = () => {
         >
           <div className="overlay"></div>
           <div className="content">
-            <h3 className="subtitle">{slide.subtitle}</h3>
-            <h1
-              className="title"
-              dangerouslySetInnerHTML={{ __html: slide.title }}
-            />
-            <p className="description">{slide.description}</p>
-            <button className="btn primary" onClick={() => navigate("/intrship")}>{slide.primaryBtn}</button>
-            <button className="btn secondary" onClick={() => navigate("/contact")}>{slide.secondaryBtn}</button>
+            {/* <h3 className="subtitle">{slide.subtitle}</h3> */}
+            {/* <h1              className="title" dangerouslySetInnerHTML={{ __html: slide.title }} /> */}
+            {/* <p className="description">{slide.description}</p> */}
+            {/* <button className="btn primary" onClick={() => navigate("/intrship")}>{slide.primaryBtn}</button> */}
+            {/* <button className="btn secondary" onClick={() => navigate("/contact")}>{slide.secondaryBtn}</button> */}
           </div>
         </div>
       ))}

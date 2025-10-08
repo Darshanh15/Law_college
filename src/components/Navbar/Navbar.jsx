@@ -722,10 +722,10 @@ const Navbar = () => {
           {activeDropdown === "courses" && (
             <div className="dropdown-menu">
               <Link to="/Years3llb" onClick={handleCloseMenu}>
-                 3 Years LLB
+                 3 Year LLB
               </Link>
               <Link to="/Years5llb" onClick={handleCloseMenu}>
-                5 Years B.A LLB
+                5 Year B.A LLB
               </Link>
               
             </div>
