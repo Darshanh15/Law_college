@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Law_college/static/css/main.206d1fc5.css",
-    "main.js": "/Law_college/static/js/main.a7b38a37.js",
+    "main.css": "/Law_college/static/css/main.407cd4f1.css",
+    "main.js": "/Law_college/static/js/main.212ea6d1.js",
     "static/js/453.75fa99c7.chunk.js": "/Law_college/static/js/453.75fa99c7.chunk.js",
     "static/media/5y.pdf": "/Law_college/static/media/5y.55e0aed0c3c18e39ea0f.pdf",
     "static/media/3y.pdf": "/Law_college/static/media/3y.ebbf18926522aeb59679.pdf",
@@ -13,6 +13,7 @@
     "static/media/main (2).jpeg": "/Law_college/static/media/main (2).9fd4691c204660ebc2da.jpeg",
     "static/media/Christ Das.jpeg": "/Law_college/static/media/Christ Das.fcc9bc997afe064ccbd3.jpeg",
     "static/media/prasanna v raju.png": "/Law_college/static/media/prasanna v raju.46130f9f91cd99b2e55e.png",
+    "static/media/clg.jpg": "/Law_college/static/media/clg.fd44a8fb5141c9f7bac5.jpg",
     "static/media/main.jpg": "/Law_college/static/media/main.fd44a8fb5141c9f7bac5.jpg",
     "static/media/main (6).jpeg": "/Law_college/static/media/main (6).1ee0646049a2a71eda36.jpeg",
     "static/media/blc1.jpeg": "/Law_college/static/media/blc1.405d866b0fd05ba55fb2.jpeg",
@@ -24,7 +25,6 @@
     "static/media/main (8).jpeg": "/Law_college/static/media/main (8).2db9ee86a1e24a2cc345.jpeg",
     "static/media/main (4).jpeg": "/Law_college/static/media/main (4).7031b72469cdda5533a5.jpeg",
     "static/media/thejaswini.png": "/Law_college/static/media/thejaswini.e75ade3860ab17859c88.png",
-    "static/media/blc.jpeg": "/Law_college/static/media/blc.3f5c734047202e90dfe0.jpeg",
     "static/media/main (7).jpeg": "/Law_college/static/media/main (7).324a2e7e144659d7bcc7.jpeg",
     "static/media/main (10).jpeg": "/Law_college/static/media/main (10).c8e084165bc734831a80.jpeg",
     "static/media/main (9).jpeg": "/Law_college/static/media/main (9).061abfd3adf0ca463706.jpeg",
@@ -55,12 +55,12 @@
     "static/media/Indira.jpg": "/Law_college/static/media/Indira.5f8cf5107e819673c2a3.jpg",
     "static/media/Gowri.jpg": "/Law_college/static/media/Gowri.6585d613ad4e59ac7223.jpg",
     "index.html": "/Law_college/index.html",
-    "main.206d1fc5.css.map": "/Law_college/static/css/main.206d1fc5.css.map",
-    "main.a7b38a37.js.map": "/Law_college/static/js/main.a7b38a37.js.map",
+    "main.407cd4f1.css.map": "/Law_college/static/css/main.407cd4f1.css.map",
+    "main.212ea6d1.js.map": "/Law_college/static/js/main.212ea6d1.js.map",
     "453.75fa99c7.chunk.js.map": "/Law_college/static/js/453.75fa99c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.206d1fc5.css",
-    "static/js/main.a7b38a37.js"
+    "static/css/main.407cd4f1.css",
+    "static/js/main.212ea6d1.js"
   ]
 }
