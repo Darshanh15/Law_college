@@ -34,7 +34,7 @@ function Footer() {
   <ul>
     <li><Link to="/Law_college" >Home</Link></li>
     <li><Link to="/gallery" >Gallery</Link></li>
-    <li><Link to="/history" >History</Link></li>
+    <li><Link to="/HistorySection" >History</Link></li>
     <li><Link to="/admissions" >Admission</Link></li>
     {/* <li><Link to="/crops" > Crops</Link></li> */}
     <li><Link to="/contact" >Contact Us</Link></li>

@@ -57,7 +57,7 @@ const Home1 = () => {
           <p>Leadership and guidance for the institution.</p>
         </div>
         <div className="link-card" onClick={() => navigate("/history")}>
-          <h3>📖 Milestone of the collage</h3>
+          <h3>📖 Milestone of the college</h3>
           <p>Learn about our legacy and achievements.</p>
         </div>
         <div className="link-card" onClick={() => navigate("/contact")}>

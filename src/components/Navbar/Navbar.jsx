@@ -664,7 +664,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="logo">
         <Link to="/Law_college" onClick={handleCloseMenu}>
-          <img src={logo} alt="law collage" className="navbar-logo" />
+          <img src={logo} alt="law college" className="navbar-logo" />
         </Link>
       </div>
 
@@ -705,10 +705,10 @@ const Navbar = () => {
                 Non Teaching Staff
               </Link>
               {/* <Link to="/history" onClick={handleCloseMenu}>
-                 Milestone of the collage
+                 Milestone of the college
               </Link> */}
               <Link to="/HistorySection" onClick={handleCloseMenu}>
-                 Milestone of the collage
+                 Milestone of the college
               </Link>
             </div>
           )}

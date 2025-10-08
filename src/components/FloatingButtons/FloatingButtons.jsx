@@ -73,7 +73,7 @@ const FloatingButtons = () => {
       </a>
 
       {/* Call */}
-      <a href="tel:+919876543210" className="floating-btn">
+      <a href="tel:+918618235882" className="floating-btn">
         <div className="icon-box">
           <FaPhoneAlt className="icon" />
         </div>
@@ -81,7 +81,7 @@ const FloatingButtons = () => {
       </a>
 
       {/* Email */}
-      <a href="mailto:info@bangalorelawcollege.com" className="floating-btn">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bangalorelawcollege6@gmail.com" className="floating-btn">
         <div className="icon-box">
           <FaEnvelope className="icon" />
         </div>
@@ -89,7 +89,7 @@ const FloatingButtons = () => {
       </a>
 
       {/* Whatsup */}
-      <a href="https://wa.me/$199731543787" className="floating-btn">
+      <a href="https://wa.me/918618235882" className="floating-btn">
         <div className="icon-box">
           <FaWhatsapp className="icon" />
         </div>

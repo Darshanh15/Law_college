@@ -19,7 +19,7 @@ function Home() {
      {/* <AdmissionForm /> */}
      {/* <VisionMission /> */}
      <Contact1 />
-      <Testimonials />
+      {/* <Testimonials /> */}
 
     </>
   )

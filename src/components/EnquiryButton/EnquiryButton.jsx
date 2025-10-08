@@ -19,7 +19,7 @@ function EnquiryButton() {
 
   const sendToWhatsApp = () => {
     const { name, phone, message } = formData;
-    const phoneNumber = "91XXXXXXXXXX"; // 👉 Replace with your WhatsApp number
+    const phoneNumber = "918618235882"; // 👉 Replace with your WhatsApp number
     const text = `Hello, I am ${name}. My phone number is ${phone}. Message: ${message}`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
