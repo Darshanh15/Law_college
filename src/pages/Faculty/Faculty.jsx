@@ -178,7 +178,7 @@ import Shivakumar from "../../assets/clints/faculty/Shivakumar.jpg";
 import Spoorthi from "../../assets/clints/faculty/Spoorthi.jpg";
 import Siddappa from "../../assets/clints/faculty/SiddappaN.jpg";
 import Vynika from "../../assets/clints/faculty/Vynika chikkanagouda.jpeg";
-
+import Hareesh from "../../assets/clints/faculty/Hareesh M G.jpeg"
 
 import NagaveniN from "../../assets/clints/Guest Faculty/NagaveniN.jpg";
 import Sumathi from "../../assets/clints/Guest Faculty/Sumathi.jpg";
@@ -253,9 +253,16 @@ const facultyMembers = [
       "LL.M"
   },
   {
-    name: "Mrs. Vikshitha M H",
+    name: "Mrs. Vikshita M H",
     role: "Assistant Professor",
     image: Vikshitha,
+    description:
+      "LL.M"
+  },
+    {
+    name: "Hareesh M G",
+    role: "Assistant Professor",
+    image: Hareesh,
     description:
       "LL.M"
   },
