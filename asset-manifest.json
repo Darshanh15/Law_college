@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Law_college/static/css/main.407cd4f1.css",
-    "main.js": "/Law_college/static/js/main.212ea6d1.js",
+    "main.css": "/Law_college/static/css/main.d63bc0a7.css",
+    "main.js": "/Law_college/static/js/main.d04fc416.js",
     "static/js/453.75fa99c7.chunk.js": "/Law_college/static/js/453.75fa99c7.chunk.js",
     "static/media/5y.pdf": "/Law_college/static/media/5y.55e0aed0c3c18e39ea0f.pdf",
     "static/media/3y.pdf": "/Law_college/static/media/3y.ebbf18926522aeb59679.pdf",
@@ -31,6 +31,7 @@
     "static/media/main (5).jpeg": "/Law_college/static/media/main (5).e90e676f1b6106a5035d.jpeg",
     "static/media/amma.jpg": "/Law_college/static/media/amma.595e548a1d3cfc6ecba3.jpg",
     "static/media/rashmi1.jpeg": "/Law_college/static/media/rashmi1.c71485cc50a33d3956b5.jpeg",
+    "static/media/Hareesh M G.jpeg": "/Law_college/static/media/Hareesh M G.d7a1f8ca265add505b07.jpeg",
     "static/media/Vynika chikkanagouda.jpeg": "/Law_college/static/media/Vynika chikkanagouda.38b2f09e095fff51b9fd.jpeg",
     "static/media/2021.jpg": "/Law_college/static/media/2021.ee82579b8707910700c4.jpg",
     "static/media/Raghavendra Auradkar IPS.jpeg": "/Law_college/static/media/Raghavendra Auradkar IPS.0a5485171340e6daaedd.jpeg",
@@ -55,12 +56,12 @@
     "static/media/Indira.jpg": "/Law_college/static/media/Indira.5f8cf5107e819673c2a3.jpg",
     "static/media/Gowri.jpg": "/Law_college/static/media/Gowri.6585d613ad4e59ac7223.jpg",
     "index.html": "/Law_college/index.html",
-    "main.407cd4f1.css.map": "/Law_college/static/css/main.407cd4f1.css.map",
-    "main.212ea6d1.js.map": "/Law_college/static/js/main.212ea6d1.js.map",
+    "main.d63bc0a7.css.map": "/Law_college/static/css/main.d63bc0a7.css.map",
+    "main.d04fc416.js.map": "/Law_college/static/js/main.d04fc416.js.map",
     "453.75fa99c7.chunk.js.map": "/Law_college/static/js/453.75fa99c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.407cd4f1.css",
-    "static/js/main.212ea6d1.js"
+    "static/css/main.d63bc0a7.css",
+    "static/js/main.d04fc416.js"
   ]
 }
