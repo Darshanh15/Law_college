@@ -91,7 +91,7 @@ const BoardSection2 = () => {
 
         {/* Profile Middle */}
         <div className="board-middle">
-          <h2 className="title">Profile</h2>
+          {/* <h2 className="title">Profile</h2>   */}
           <h3>{member.role} <span>{member.name}</span></h3>
           <p className="quote">
             {member.quote}

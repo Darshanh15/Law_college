@@ -15,19 +15,19 @@ const members = [
   {
     id: 1,
     name: "Prof. Dr. T.R. Subramanya",
-    role: "CMR Law College - Dean",
+    role: "Dean of CMR University School of Legal Studies, Bengaluru",
     img: Subramanya
   },
   {
     id: 2,
     name: "Sri. Raghavendra Auradkar IPS (R)",
-    role: "Event Coordinator",
+    role: "Karnataka State Administrative Tribunal, Bengaluru",
     img: Raghavendra
   },
   {
     id: 3,
     name: "Prof. Dr. C S Patil",
-    role: "Karnataka State Law University",
+    role: "Former acting Vice-Chancellor of Karnataka State Law University (KSLU).  currently the Director of the Karnataka Institute for Law and Parliamentary Reform (KILPAR)",
     img: Patil
   },
   {
@@ -48,12 +48,6 @@ const members = [
     role: "Manasa Education Center",
     img: Chandrashekar
   },
-  {
-    id: 7,
-    name: "Sri. Anil Kumar M.O",
-    role: "Director",
-    img: Anil
-  }
 
 ];
 

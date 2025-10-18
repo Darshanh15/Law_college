@@ -56,7 +56,7 @@ const Home1 = () => {
           <h3>🏛 Governing Council</h3>
           <p>Leadership and guidance for the institution.</p>
         </div>
-        <div className="link-card" onClick={() => navigate("/history")}>
+        <div className="link-card" onClick={() => navigate("/HistorySection")}>
           <h3>📖 Milestone of the college</h3>
           <p>Learn about our legacy and achievements.</p>
         </div>

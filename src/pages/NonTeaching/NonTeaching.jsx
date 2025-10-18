@@ -20,31 +20,31 @@ import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 const staff = [
   {
     id: 1,
-    name: "Mr. Shivaprasad S Ajila",
+    name: "Sri. Shivaprasad S Ajila",
     role: "Office Superintendent",
     img: Shivaprasad,
   },
   {
     id: 2,
-    name: "Rashmishree m shetty",
+    name: "Smt. Rashmishree M Shetty",
     role: "FDA",
     img: rashmi1,
   },
   {
     id: 4,
-    name: "Mr. Darshan N",
+    name: "Sri.  Darshan N",
     role: "FDC",
     img: Darshan,
   },
    {
       id: 12,
-    name: "Mr. Christ Das",
-    role: "FDA",
+    name: "Dri. Christ Das",
+    role: "SDA",
     img: Christ,
   },
    {
     id: 5,
-    name: "Mr. Durgesh",
+    name: "Sri. Durgesh",
     role: "Attender",
     img: Durgesh,
   },
@@ -61,13 +61,13 @@ const staff = [
     img: Lalita,
   },   {
     id: 8,
-    name: "Mrs. Parvathi",
+    name: "Smt. Parvathi",
     role: "Sweeper",
     img: Parvathi,
   },
   {
       id: 9,
-    name: "Mrs. Sarswathamma",
+    name: "Smt. Sarswathamma",
     role: "Sweeper",
     img: Sarswathamma,
   },

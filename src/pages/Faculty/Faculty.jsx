@@ -184,6 +184,8 @@ import NagaveniN from "../../assets/clints/Guest Faculty/NagaveniN.jpg";
 import Sumathi from "../../assets/clints/Guest Faculty/Sumathi.jpg";
 
 import Rajashekar from "../../assets/clints/Visiting Faculty/Rajashekar.jpg";
+import Ajith from "../../assets/clints/Guest Faculty/Ajith.jpeg"
+import Arun from "../../assets/clints/Guest Faculty/Arun Kumar K.jpeg"
 
 const facultyMembers = [
   {
@@ -201,35 +203,40 @@ const facultyMembers = [
       "LL.M, Ph.D"
   },
   {
-    name: "Sri. Prasanna V.R",
+    name: "Sri. Prasanna V. Raju",
     role: "Assistant Professor",
     image: Prasanna,
     description:
       "LL.M, MA(Pol.Science), MA(Sociology)(PH.D)"
   },
-  {
-    name: "Mrs. Bhavya N",
-    role: "Assistant Professor",
-    image: Bhavya,
-    description:
-      "LL.M (NET, KSET)(PH.D)"
-  },
-  {
+    {
     name: "Smt. Sona C.Y",
     role: "Assistant Professor",
     image: Sona,
     description:
       "LL.M"
   },
+    {
+    name: "Sri Hareesh M G",
+    role: "Assistant Professor",
+    image: Hareesh,
+    description:
+      "LL.M"
+  },
   {
+    name: "Smt. Bhavya N",
+    role: "Assistant Professor",
+    image: Bhavya,
+    description:
+      "LL.M (NET, KSET)(PH.D)"
+  },
+ {
     name: "Smt. Harika S S",
     role: "Assistant Professor",
     image: Harika,
     description:
       "LL.M"
   },
-
-
   {
     name: "Smt. Ayesha Kausar",
     role: "Assistant Professor",
@@ -237,35 +244,28 @@ const facultyMembers = [
     description:
       "LL.M"
   },
-  {
+ {
     name: "Smt. Gowri S",
     role: "Assistant Professor",
     image: Gowri,
     description:
       "MA in political science (PH.D)"
   },
-
   {
-    name: "Mrs. Shreya Gopi",
-    role: "Assistant Professor",
-    image: Shreya,
-    description:
-      "LL.M"
-  },
-  {
-    name: "Mrs. Vikshita M H",
+    name: "Smt. Vikshita M H",
     role: "Assistant Professor",
     image: Vikshitha,
     description:
       "LL.M"
   },
-    {
-    name: "Hareesh M G",
+ {
+    name: "Smt. Shreya Gopi",
     role: "Assistant Professor",
-    image: Hareesh,
+    image: Shreya,
     description:
       "LL.M"
   },
+
   {
     name: "Miss. Harshitha",
     role: "Assistant Professor",
@@ -274,47 +274,39 @@ const facultyMembers = [
       "LL.M"
   },
   {
-    name: "Mr. Chaluvaraju.B C",
+    name: "Sri. Chaluvaraju.B C",
     role: "Assistant Professor",
     image: Chaluvaraju,
     description:
       "LL.M"
   },
-  {
-    name: "Mrs. Sujatha H.M",
+   {
+    name: "Smt. Sujatha H.M",
     role: "Assistant Professor",
     image: Sujatha,
     description:
       "LL.M"
   },
-  {
+   {
     name: "Sri. Narendra Prakash",
     role: "Assistant Professor",
     image: Narendra,
     description:
       "LL.M"
   },
-  {
-    name: "Mrs. Usha K M",
+    {
+    name: "Sri. Usha K M",
     role: "Assistant Professor",
     image: Usha,
     description:
       "LL.M"
   },
-
-  {
-    name: "Mrs. Veena Pujar",
+    {
+    name: "Smt. Veena Pujar",
     role: "Assistant Professor",
     image: Veena,
     description:
       "LL.M"
-  },
-  {
-    name: "Sri. Prakasha Paramesh Nayak Lamani",
-    role: "Assistant Professor",
-    image: Prakasha,
-    description:
-      "M.A (Economics), KSET, KARTET"
   },
     {
     name: "Sri. Shivakumar",
@@ -323,19 +315,50 @@ const facultyMembers = [
     description:
       "LL.M"
   },
-      {
-    name: "Vynika chikkanagouda",
+
+    {
+    name: "Smt. Sumathi",
+    role: "Assistant Professor",
+    image: Sumathi,
+    description:
+      "M.A in Sociology"
+  },
+
+     {
+    name: "Smt. Vynika chikkanagouda",
     role: "Assistant Professor",
     image: Vynika,
     description:
       "LL.M"
   },
+
+
+ 
+
+ 
+
+
+
+
+ 
+
+
+
+  {
+    name: "Sri. Prakasha Paramesh Nayak Lamani",
+    role: "Assistant Professor",
+    image: Prakasha,
+    description:
+      "M.A (Economics), KSET, KARTET"
+  },
+  
+ 
     {
-    name: "Smt. Spoorthi D J",
+    name: "Miss. Spoorthi D J",
     role: "Librarian",
     image: Spoorthi,
     description:
-      "MLSc"
+      "MLISc"
   },
     {
     name: "Sri. Siddappa S.B",
@@ -356,15 +379,23 @@ const Guest = [
     role: "Assistant Professor",
     image: NagaveniN,
     description:
-      "PH.D in Kannada "
+      "Ph.D(Kannada)"
   },
-  {
-    name: "Smt. Sumathi",
-    role: "Assistant Professor",
-    image: Sumathi,
+    {
+    name: "Arun Kumar K",
+    role: "",
+    image: Arun,
     description:
-      "M.A in Sociology"
-  },]
+      ""
+  },
+    {
+    name: "Ajith",
+    role: "",
+    image: Ajith,
+    description:
+      ""
+  },
+]
 
 
   const GuesVisitingFacultyt = [

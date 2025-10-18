@@ -12,6 +12,10 @@ import Chandrashekar from "../../assets/clints/Chandrashekar.jpeg";
 import Anil from "../../assets/clints/Anil Kumar M.O.jpg";
 import Rajendrakumar from "../../assets/clints/Rajendrakumar1.jpg";
 import Gowda from "../../assets/clints/Gowda.jpg";
+import demo from "../../assets/clints/Ranjit Shankar Varma.jpeg";
+// import Ranjit from "../../assets/clints/Ranjit Shankar Varma.jpeg";
+
+// import Ranjit from "../../assets/clints/Ranjit Shankar Varma.jpeg";
 
 const councilMembers = [
   {
@@ -47,14 +51,14 @@ const councilMembers = [
     role: "Member",
     image: Chandrashekar,
     description:
-      "."
+      "Academic in-charge"
   },
-  {
-    name: "Sri. Anil Kumar M.O",
-    role: "Member",
-    image: Anil,
+    {
+    name: "Pro. Sri Prasanna V Raju",
+    role: "Managing Trustee and Treasurer",
+    image: demo,
     description:
-      ""
+      "Law Wingis Educational Trust"
   },
 ];
 
