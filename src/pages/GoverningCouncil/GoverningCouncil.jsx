@@ -3,7 +3,7 @@ import "./GoverningCouncil.scss";
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 
 import principal from "../../assets/collage_img/principal.jpeg";
-import Subramanya from "../../assets/clints/Subramanya.jpg";
+import Subramanya from "../../assets/clints/Subramanya.jpeg";
 import Raghavendra from "../../assets/clints/Raghavendra Auradkar IPS.jpeg";
 import Patil from "../../assets/clints/C S Patil.jpeg";
 import Ranjit from "../../assets/clints/Ranjit Shankar Varma.jpeg";
@@ -27,21 +27,21 @@ const councilMembers = [
   },
   {
     name: "Prof. Dr. C S Patil",
-    role: "Member",
+    role: "Former acting Vice-Chancellor of Karnataka State Law University (KSLU).  Currently the Director of the Karnataka Institute for Law and Parliamentary Reform (KILPAR)",
     image: Patil,
     description:
       ""
   },
   {
     name: "Dr. RajendraKumar Hittangi",
-    role: "Assistant professor",
+    role: "Academic in-charge",
     image: Rajendrakumar,
     description:
       "KSLU's' law school"
   },
   {
     name: "Dr. N D GOWDA",
-    role: "Assistant professor",
+    role: "Faculties selection incharge",
     image: Gowda,
     description:
       "Saraswathi law college Chitradurga."

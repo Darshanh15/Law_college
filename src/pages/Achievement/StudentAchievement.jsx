@@ -99,17 +99,18 @@ export default function StudentAchievement() {
       </section> */}
 
       <section className="achievement-section">
-        <p>
+        {/* <p>
           It is with great pride and enthusiasm that I,{" "}
           <span className="highlight">Dr. Devika S Ajila, Principal</span>,
           present the College Report of{" "}
           <span className="highlight">Bengaluru Law College</span>, highlighting
           our academic achievements, service initiatives, and institutional
           progress over the past years.
-        </p>
+        </p> */}
+        <p>It gives me great pride and pleasure to present the College Report of Bengaluru Law College, showcasing our academic accomplishments, community service initiatives, and institutional growth over the past years.</p>
 
         <p>
-          Since its establishment as <strong>R.K. Law College (2009)</strong> and
+          Since its establishment as <strong>R.K. Law College (2005)</strong> and
           its transformation into{" "}
           <strong>Bengaluru Law College (2015)</strong> under the Law Wings
           Educational Trust, our institution has consistently upheld a tradition
@@ -132,7 +133,7 @@ export default function StudentAchievement() {
           </li>
           <li>🎓 <strong>Swathi N.</strong> – 2nd Rank (2020 Batch)</li>
           <li>
-            🎓 <strong>Divyashree</strong> – 5th Rank (English Medium, 2020
+            🎓 <strong>Divyashree</strong> – 5th Rank and gold medal in environmental law (English Medium, 2020
             Batch)
           </li>
         </ul>

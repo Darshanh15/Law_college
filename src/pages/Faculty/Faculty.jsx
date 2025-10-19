@@ -331,26 +331,23 @@ const facultyMembers = [
     description:
       "LL.M"
   },
-
-
- 
-
- 
-
-
-
-
- 
-
-
-
-  {
-    name: "Sri. Prakasha Paramesh Nayak Lamani",
+      {
+    name: "Abhijith",
     role: "Assistant Professor",
-    image: Prakasha,
+    image: Ajith,
     description:
-      "M.A (Economics), KSET, KARTET"
+      "LLM"
   },
+
+
+ 
+
+ 
+
+
+
+
+
   
  
     {
@@ -360,13 +357,13 @@ const facultyMembers = [
     description:
       "MLISc"
   },
-    {
-    name: "Sri. Siddappa S.B",
-    role: "Physical Director",
-    image: Siddappa,
-    description:
-      "BA BPED, (P.E)"
-  },
+  //   {
+  //   name: "Sri. Siddappa S.B",
+  //   role: "Physical Director",
+  //   image: Siddappa,
+  //   description:
+  //     "BA BPED, (P.E)"
+  // },
 ];
 
 
@@ -383,18 +380,12 @@ const Guest = [
   },
     {
     name: "Arun Kumar K",
-    role: "",
+    role: "Assistant Professor",
     image: Arun,
     description:
-      ""
+      "MA(Economics)"
   },
-    {
-    name: "Ajith",
-    role: "",
-    image: Ajith,
-    description:
-      ""
-  },
+
 ]
 
 

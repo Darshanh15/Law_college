@@ -22,7 +22,7 @@ const Years3LLB = () => {
       <section className="llb-about container">
         <h2>About the Course</h2>
         <p>
-          Our 3-Year LLB program is designed for graduates who aspire to build a career in law. 
+          3-Year LLB program is designed for graduates who aspire to build a career in law. 
           The course emphasizes a strong foundation in legal studies, professional ethics, 
           and practical exposure through moot courts, internships, and workshops.
         </p>

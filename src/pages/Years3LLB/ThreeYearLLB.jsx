@@ -18,7 +18,7 @@ const ThreeYearLLB = () => {
           <h4>Eligibility</h4>
           <ul>
             <li>Bachelor’s Degree in any discipline from a recognized university.</li>
-            <li>Admission based on merit as per BCI & KSLU norms.</li>
+            <li>Based on merit as per BCI & KSLU norms.</li>
           </ul>
         </div>
         <div className="info-card">

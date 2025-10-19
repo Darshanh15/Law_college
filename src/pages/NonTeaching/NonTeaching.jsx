@@ -14,6 +14,7 @@ import Mayigowda from '../../assets/Non Teaching Staff/Mayigowda.jpg'
 import Manjunath from '../../assets/Non Teaching Staff/Manjunath.jpg'
 import Christ from '../../assets/Non Teaching Staff/Christ Das.jpeg'
 import rashmi1 from '../../assets/Non Teaching Staff/rashmi1.jpeg'
+import radha from '../../assets/Non Teaching Staff/Radha.jpeg'
 
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 
@@ -48,22 +49,17 @@ const staff = [
     role: "Attender",
     img: Durgesh,
   },
-     {
-    id: 6,
-    name: "Mrs. Bhagyamma",
-    role: "Attender",
-    img: Bhagyamma,
-  },
+  //    {
+  //   id: 6,
+  //   name: "Mrs. Bhagyamma",
+  //   role: "Attender",
+  //   img: Bhagyamma,
+  // },
      {
     id: 7,
-    name: "Mrs. Lalita",
+    name: "Radha",
     role: "Attender",
-    img: Lalita,
-  },   {
-    id: 8,
-    name: "Smt. Parvathi",
-    role: "Sweeper",
-    img: Parvathi,
+    img: radha,
   },
   {
       id: 9,
@@ -71,18 +67,24 @@ const staff = [
     role: "Sweeper",
     img: Sarswathamma,
   },
-    {
-      id: 10,
-    name: "Mr. Mayigowda",
-    role: "Day Security",
-    img: Mayigowda,
+     {
+    id: 8,
+    name: "Smt. Parvathi",
+    role: "Sweeper",
+    img: Parvathi,
   },
-    {
-      id: 11,
-    name: "Mr. Manjunath S",
-    role: "Night Security",
-    img: Manjunath,
-  },
+  //   {
+  //     id: 10,
+  //   name: "Mr. Mayigowda",
+  //   role: "Day Security",
+  //   img: Mayigowda,
+  // },
+  //   {
+  //     id: 11,
+  //   name: "Mr. Manjunath S",
+  //   role: "Night Security",
+  //   img: Manjunath,
+  // },
   
 ];
 

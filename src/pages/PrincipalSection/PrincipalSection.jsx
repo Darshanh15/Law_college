@@ -47,7 +47,7 @@ const PrincipalSection = () => {
           <h2>Message from the Principal</h2>
           <p className="quote">
             "Education is not just about acquiring knowledge but about developing
-            wisdom, integrity, and the ability to stand for justice. At 
+            wisdom, integrity, and the ability to stand for justice. At  
             <strong> Bengaluru Law College</strong>, we nurture future legal
             professionals with values, dedication, and commitment to society."
           </p>

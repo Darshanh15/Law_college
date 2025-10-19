@@ -43,7 +43,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./QuestionPaperArchives.scss";
 
-import s1 from "../../../assets/Pdf/sylobus/3y.pdf";
+import s1 from "../../../assets/Pdf/sylobus/Syllabusof3NewCriminalLaws (1).pdf";
 import s2 from "../../../assets/Pdf/sylobus/5y.pdf";
 
 const subjects = [
@@ -51,6 +51,10 @@ const subjects = [
   {
     name: "5 Year LLB Syllabus",
     fileId: s2,
+  },
+  {
+    name: "NEW CRIMINAL LAWS SYLLABUS",
+    fileId: s1,
   },
 ];
 

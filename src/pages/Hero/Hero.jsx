@@ -13,7 +13,7 @@ const Hero = () => {
           Bengaluru Law College focuses on excellence as continuous process and is functioning under the able support of Law wings educational Trust..
         </p> */}
         <p>Bengaluru Law College is committed to excellence as a continuous process and operates under the able guidance of the Law Wings Educational Trust.</p>
-        <p>Situated in the heart of the city with excellent accessibility, the college with approved by Government of Karnataka, approved by the Bar council of India, New Delhi , affiliated to Karnataka state law University (KSLU)</p>
+        <p>Situated in the heart of the city with excellent accessibility, the college with Approved by Government of Karnataka, Approved by the Bar council of India, New Delhi , Affiliated to Karnataka State Law University (KSLU)</p>
         
         {/* <p>The college is located in the heart of the city with easy accessibility. The College is affiliated to Karnataka State Law University (KSLU) and is approved by the Bar Council of India, New Delhi.</p> */}
         {/* <p>The college endeavours to transmit quality legal education. Bengaluru Law College provides an affluent infrastructure with highly qualified and determined faculty. The institution boasts a spacious library with a collection of 15000 books and journals which are updated periodically. Moot Court coaching bestowed by the college, effectively equips the students in enhancing their capability on instituting legal proceeding.</p> */}

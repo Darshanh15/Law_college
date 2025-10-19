@@ -122,7 +122,7 @@ Over the years, the college has developed into a vibrant hub for legal education
                   vision to provide affordable and quality legal education,
                   focusing on
                 </p> */}
-                <p>Bengaluru Law College stands today as a symbol of excellence in legal education, discipline, and community service, but its journey has been one of steady growth and visionary leadership. <strong>The institution was originally established in 2009</strong> as R.K. Law College, with the primary mission of providing affordable and quality legal education to aspiring students. At its inception, the college was guided by the ideals of nurturing legal professionals who would embody the principles of justice, ethics, and service to society.</p>
+                <p>Bengaluru Law College stands today as a symbol of excellence in legal education, discipline, and community service, but its journey has been one of steady growth and visionary leadership. <strong>The institution was originally established in 2005</strong> as R.K. Law College, with the primary mission of providing affordable and quality legal education to aspiring students. At its inception, the college was guided by the ideals of nurturing legal professionals who would embody the principles of justice, ethics, and service to society.</p>
               </div>
             </div>
 

@@ -44,14 +44,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./QuestionPaperArchives.scss";
 
 import s1 from "../../../assets/Pdf/sylobus/3y.pdf";
-import s2 from "../../../assets/Pdf/sylobus/5y.pdf";
+import s2 from "../../../assets/Pdf/sylobus/Syllabusof3NewCriminalLaws (1).pdf";
 
 const subjects = [
   {
     name: "3 Year LLB Syllabus",
     fileId: s1,
   },
-  
+    {
+      name: "NEW CRIMINAL LAWS SYLLABUS",
+      fileId: s2,
+    },
 ];
 
 const QuestionPaperArchives = () => {
