@@ -19,12 +19,13 @@ function Footer() {
         <div className="footer-links">
           <h4>Address</h4>
           <ul>
+            <li>#19/74 8th Cross, Shakthi Ganapathi Nagar, Kamala nagar main road, Basaveshwaranagar, Near Ashoka Hospital, Bengaluru -560079</li>
 
-            <li>#19/74 8th Cross, Shakthi Ganapathi Nagar</li>
+            {/* <li>#19/74 8th Cross, Shakthi Ganapathi Nagar</li>
             <li>Kamala nagar main road, </li>
             <li>Basaveshwaranagar,</li>
             <li>Near Ashoka Hospital, </li>
-            <li>Bengaluru -560079</li>
+            <li>Bengaluru -560079</li> */}
             {/* <li><a href="/privacy">Privacy Policy</a></li> */}
           </ul>
         </div>
