@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Law_college/static/css/main.7e51d297.css",
-    "main.js": "/Law_college/static/js/main.57ef60bd.js",
+    "main.js": "/Law_college/static/js/main.c9f28949.js",
     "static/js/453.75fa99c7.chunk.js": "/Law_college/static/js/453.75fa99c7.chunk.js",
     "static/media/5y.pdf": "/Law_college/static/media/5y.55e0aed0c3c18e39ea0f.pdf",
     "static/media/3y.pdf": "/Law_college/static/media/3y.ebbf18926522aeb59679.pdf",
@@ -59,11 +59,11 @@
     "static/media/Gowri.jpg": "/Law_college/static/media/Gowri.6585d613ad4e59ac7223.jpg",
     "index.html": "/Law_college/index.html",
     "main.7e51d297.css.map": "/Law_college/static/css/main.7e51d297.css.map",
-    "main.57ef60bd.js.map": "/Law_college/static/js/main.57ef60bd.js.map",
+    "main.c9f28949.js.map": "/Law_college/static/js/main.c9f28949.js.map",
     "453.75fa99c7.chunk.js.map": "/Law_college/static/js/453.75fa99c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e51d297.css",
-    "static/js/main.57ef60bd.js"
+    "static/js/main.c9f28949.js"
   ]
 }
