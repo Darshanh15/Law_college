@@ -238,7 +238,7 @@ const Testimonials = () => {
 
   return (
     <section className="testimonials">
-      <h2 className="section-heading">What Our Students Say</h2>
+      {/* <h2 className="section-heading">What Our Students Say</h2> */}
       <div className="testimonials-scroll" ref={scrollRef}>
         {testimonials.map((t, index) => (
           <div className="testimonial-card" key={index}>

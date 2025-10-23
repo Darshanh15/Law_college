@@ -39,7 +39,7 @@ const staff = [
   },
    {
       id: 12,
-    name: "Dri. Christ Das",
+    name: "Sri. Christ Das",
     role: "SDA",
     img: Christ,
   },
@@ -57,7 +57,7 @@ const staff = [
   // },
      {
     id: 7,
-    name: "Radha",
+    name: "Smt. Radha",
     role: "Attender",
     img: radha,
   },

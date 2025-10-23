@@ -866,7 +866,7 @@ const Navbar = () => {
               <Link to="/CollegeAchievement" onClick={handleCloseMenu}>
                 College Achievements
               </Link>
-              <Link to="/CompliancePage" onClick={handleCloseMenu}>
+              <Link to="/Reviews" onClick={handleCloseMenu}>
                 Reviews
               </Link>
             </div>

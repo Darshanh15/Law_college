@@ -227,7 +227,7 @@ The Anti-Ragging Cell functions as a supervisory and advisory committee dedicate
       "To conduct intra-college and inter-college moot court competitions.",
       "To guide and prepare students for participation in national and international moot court competitions.",
       "To bridge the gap between theoretical learning and practical exposure in the legal profession.",
-      "",
+      
     ],
     Functions: "Composition",
     pointFun: [
@@ -237,7 +237,7 @@ The Anti-Ragging Cell functions as a supervisory and advisory committee dedicate
     "Moot Court Captains: Student representatives assisting in organization and training",  
     
     ],
-    Commitment: "Statutory Nature",
+    Commitment: "",
      pointcom: [
 "The Moot Court Society is recognized as a Statutory Committee, since it is established to fulfill the mandatory clinical legal education requirements under the BCI Rules. All law students are required to participate in its activities as part of their academic training.",
 "Through its activities, the Moot Court Society provides students with a platform to develop essential skills that are vital for their journey as future advocates, judges, academicians, and legal professionals."    

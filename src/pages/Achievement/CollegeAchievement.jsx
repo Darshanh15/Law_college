@@ -26,7 +26,7 @@
 //             The past year stands as a testimony to the academic growth, resilience, 
 //             and dedication of <strong>Bengaluru Law College</strong>. 
 //             We take immense pride in the collective achievements of our students, 
-//             faculty, and staff who uphold the values and vision of the institution.
+//             faculty, and staff who uphold the values and vision of the Institution.
 //           </p>
 //           <p>
 //             The curricular, co-curricular, and extracurricular initiatives highlight 
@@ -133,10 +133,10 @@ const CollegeAchievement = () => {
       <div className="achievement-category">
         <h3>Bengaluru Law College</h3>
         <p>
-          Bengaluru Law College, established under the Law Wings Educational Trust, is a premier institution dedicated to imparting quality legal education and fostering professional excellence. Situated in the heart of Bengaluru, the college is affiliated to Karnataka State Law University (KSLU), Hubballi, and approved by the Bar Council of India (BCI), New Delhi.
+          Bengaluru Law College, established under the Law Wings Educational Trust, is a premier Institution dedicated to imparting quality legal education and fostering professional excellence. Situated in the heart of Bengaluru, the college is affiliated to Karnataka State Law University (KSLU), Hubballi, and approved by the Bar Council of India (BCI), New Delhi.
         </p>
         <p>The college offers both 3-year LL.B. and 5-year B.A. LL.B. integrated programs designed to provide students with a strong foundation in law, humanities, and social sciences. With a team of highly qualified faculty members, a well-equipped library, and modern infrastructure, Bengaluru Law College emphasizes not only academic excellence but also the holistic development of its students.</p>
-        <p>The institution encourages active participation in moot court competitions, legal aid camps, seminars, debates, NSS activities, and various outreach programs that nurture leadership, advocacy, and ethical values. The college continually strives to produce competent, socially responsible, and justice-oriented legal professionals who contribute meaningfully to society and the legal fraternity.</p>
+        <p>The Institution encourages active participation in moot court competitions, legal aid camps, seminars, debates, NSS activities, and various outreach programs that nurture leadership, advocacy, and ethical values. The college continually strives to produce competent, socially responsible, and justice-oriented legal professionals who contribute meaningfully to society and the legal fraternity.</p>
       </div>
 
       {/* NSS & Social Responsibility */}

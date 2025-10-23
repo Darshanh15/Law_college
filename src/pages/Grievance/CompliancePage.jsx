@@ -1,6 +1,7 @@
 import React from "react";
 import "./CompliancePage.scss";
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
+import Antirag from "./Antirag";
 
 const CompliancePage = () => {
   return (
@@ -20,7 +21,7 @@ const CompliancePage = () => {
           The Joint Secretary, University Grants Commission, New Delhi, through
           his letter cited above has instructed all the Higher Educational
           Institutions to take the following action in order to prevent caste-based
-          discrimination in higher educational institutions:
+          discrimination in higher educational Institutions:
         </p>
 
         <ul>
@@ -80,6 +81,9 @@ const CompliancePage = () => {
         </p>
       </div>
     </div>
+    <Antirag />
+    
+    
     </>
   );
 };

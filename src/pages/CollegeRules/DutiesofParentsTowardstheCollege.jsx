@@ -18,7 +18,7 @@ const rules = [
   "Discourage any form of misconduct such as ragging, malpractice, or disrespectful behavior.",
   "Cooperation with College Activities Extend cooperation for seminars, workshops, moot courts, internships, and other academic initiatives",
   "Support the college in organizing and participating in community service and legal awareness programs.",
-  "Feedback and Suggestions Provide constructive feedback and suggestions to help the institution improve.",
+  "Feedback and Suggestions Provide constructive feedback and suggestions to help the Institution improve.",
   "Approach the Principal or designated authorities respectfully for grievance redressal, rather than direct confrontation.",
 ];
 

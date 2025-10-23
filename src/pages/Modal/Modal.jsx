@@ -16,10 +16,13 @@ const Modal = ({ isOpen, onClose, member }) => {
           <div>
             <h2>{member.name}</h2>
             <span className="role">{member.role}</span>
+            <span className="role">Law Wings Educational Trust</span>
+            
           </div>
         </div>
 
         <blockquote className="bio-quote">“{member.quote}”</blockquote>
+        <span>{member.by}</span>
 
         <div className="bio-details">
           <div className="scrolbar">

@@ -20,17 +20,17 @@ import demo from "../../assets/clints/Ranjit Shankar Varma.jpeg";
 const councilMembers = [
   {
     name: "Dr. Devika S Ajila",
-    role: "Principal (Convenor) Bengaluru Law College",
+    role: "Convenor",
     image: principal,
     description:
-      ""
+      "Principal, Bengaluru Law College"
   },
   {
     name: "Prof. Dr. C S Patil",
-    role: "Former acting Vice-Chancellor of Karnataka State Law University (KSLU).  Currently the Director of the Karnataka Institute for Law and Parliamentary Reform (KILPAR)",
+    role: "Member",
     image: Patil,
     description:
-      ""
+      "Former acting Vice-Chancellor of Karnataka State Law University (KSLU).  Currently the Director of the Karnataka Institute for Law and Parliamentary Reform (KILPAR)"
   },
   {
     name: "Dr. RajendraKumar Hittangi",
@@ -51,15 +51,15 @@ const councilMembers = [
     role: "Member",
     image: Chandrashekar,
     description:
-      "Academic in-charge"
+      ""
   },
-    {
-    name: "Pro. Sri Prasanna V Raju",
-    role: "Managing Trustee and Treasurer",
-    image: demo,
-    description:
-      "Law Wingis Educational Trust"
-  },
+  //   {
+  //   name: "Pro. Sri Prasanna V Raju",
+  //   role: "Managing Trustee and Treasurer",
+  //   image: demo,
+  //   description:
+  //     "Law Wingis Educational Trust"
+  // },
 ];
 
 const GoverningCouncil = () => {

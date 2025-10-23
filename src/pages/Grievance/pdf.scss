@@ -1,0 +1,91 @@
+.complaint-page {
+  padding: 3rem 2rem;
+  font-family: "Arial", sans-serif;
+  background: #f9f9f9;
+  min-height: 100vh;
+margin-top: 15rem;
+
+  .page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0b4a91;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  .complaint-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      font-weight: 500;
+      color: #333;
+      font-size: 1rem;
+
+      input,
+      textarea {
+        margin-top: 0.5rem;
+        padding: 0.8rem 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 1rem;
+        resize: vertical;
+        transition: border 0.3s ease;
+
+        &:focus {
+          border-color: #0b4a91;
+          outline: none;
+        }
+      }
+
+      textarea {
+        min-height: 120px;
+      }
+    }
+
+    button {
+      background: #0b4a91;
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: #07306f;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+
+    .complaint-form {
+      gap: 1rem;
+
+      input,
+      textarea {
+        font-size: 0.95rem;
+      }
+
+      button {
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -204,7 +204,7 @@ const facultyMembers = [
   },
   {
     name: "Sri. Prasanna V. Raju",
-    role: "Assistant Professor",
+    role: "Associate Professor",
     image: Prasanna,
     description:
       "LL.M, MA(Pol.Science), MA(Sociology)(PH.D)"
@@ -218,14 +218,14 @@ const facultyMembers = [
   },
     {
     name: "Sri Hareesh M G",
-    role: "Assistant Professor",
+    role: "Associate Professor",
     image: Hareesh,
     description:
       "LL.M"
   },
   {
     name: "Smt. Bhavya N",
-    role: "Assistant Professor",
+    role: "Associate Professor",
     image: Bhavya,
     description:
       "LL.M (NET, KSET)(PH.D)"
@@ -332,11 +332,11 @@ const facultyMembers = [
       "LL.M"
   },
       {
-    name: "Abhijith",
+    name: "Sri. Ajith G G",
     role: "Assistant Professor",
     image: Ajith,
     description:
-      "LLM"
+      "LL.M"
   },
 
 
@@ -379,7 +379,7 @@ const Guest = [
       "Ph.D(Kannada)"
   },
     {
-    name: "Arun Kumar K",
+    name: "Sri. Arun Kumar K",
     role: "Assistant Professor",
     image: Arun,
     description:
@@ -391,8 +391,8 @@ const Guest = [
 
   const GuesVisitingFacultyt = [
   {
-    name: "Prof. Rajashekar",
-    role: "Professor",
+    name: "Sri. Rajashekar",
+    role: "Assistant Professor",
     image: Rajashekar,
     description:
       "LL.M"

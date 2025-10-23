@@ -19,7 +19,7 @@ function Footer() {
         <div className="footer-links">
           <h4>Address</h4>
           <ul>
-            <li>#19/74 8th Cross, Shakthi Ganapathi Nagar, Kamala nagar main road, Basaveshwaranagar, Near Ashoka Hospital, Bengaluru -560079</li>
+            <li>#19/74 8th Cross, Shakthi Ganapathi Nagar, Kamala Nagar main road, Basaveshwaranagar, Near Ashoka Hospital, Bengaluru -560079</li>
 
             {/* <li>#19/74 8th Cross, Shakthi Ganapathi Nagar</li>
             <li>Kamala nagar main road, </li>
@@ -35,7 +35,6 @@ function Footer() {
   <ul>
     <li><Link to="/Law_college" >Home</Link></li>
     <li><Link to="/gallery" >Gallery</Link></li>
-    <li><Link to="/HistorySection" >History</Link></li>
     <li><Link to="/admissions" >Admission</Link></li>
     {/* <li><Link to="/crops" > Crops</Link></li> */}
     <li><Link to="/contact" >Contact Us</Link></li>

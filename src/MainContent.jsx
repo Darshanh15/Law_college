@@ -54,6 +54,7 @@ import StudentsTowardsTeachers from './pages/CollegeRules/StudentsTowardsTeacher
 import DutiesofParentsTowardstheCollege from './pages/CollegeRules/DutiesofParentsTowardstheCollege';
 import StudentAchievement from './pages/Achievement/StudentAchievement';
 import CollegeAchievement from './pages/Achievement/CollegeAchievement';
+import Reviews from './pages/Testimonials/Reviews';
 
 
 
@@ -114,6 +115,7 @@ function MainContent() {
         {/* Achievement */}
         <Route path="/StudentAchievement" element={<StudentAchievement />} />
         <Route path="/CollegeAchievement" element={<CollegeAchievement />} />
+        <Route path="/Reviews" element={<Reviews />} />
         <Route path="/PopupModal" element={<CollegeAchievement />} />
 
 

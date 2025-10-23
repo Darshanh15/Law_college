@@ -77,7 +77,7 @@ const FiveYearLLB = () => {
 
         <h3>Litigation and Practice</h3>
         <p>
-          EWork under senior advocates and gradually start independent practice.
+          Work under senior advocates and gradually start independent practice.
 
 Appear before District Courts, High Courts, and Supreme Court (after proper registration with the State Bar Council).
         </p>

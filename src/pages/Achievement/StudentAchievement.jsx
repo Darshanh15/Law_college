@@ -23,13 +23,13 @@
 //         <span className="highlight">Dr. Devika S Ajila, Principal</span>, present the
 //         College Report of <span className="highlight">Bengaluru Law College</span>,
 //         highlighting our academic achievements, service initiatives, and
-//         institutional progress over the past years.
+//         Institutional progress over the past years.
 //       </p>
 
 //       <p>
 //         Since its establishment as <strong>R.K. Law College (2009)</strong> and its
 //         transformation into <strong>Bengaluru Law College (2015)</strong> under the
-//         Law Wings Educational Trust, our institution has consistently upheld a
+//         Law Wings Educational Trust, our Institution has consistently upheld a
 //         tradition of academic excellence and community service.
 //       </p>
 
@@ -104,16 +104,16 @@ export default function StudentAchievement() {
           <span className="highlight">Dr. Devika S Ajila, Principal</span>,
           present the College Report of{" "}
           <span className="highlight">Bengaluru Law College</span>, highlighting
-          our academic achievements, service initiatives, and institutional
+          our academic achievements, service initiatives, and Institutional
           progress over the past years.
         </p> */}
-        <p>It gives me great pride and pleasure to present the College Report of Bengaluru Law College, showcasing our academic accomplishments, community service initiatives, and institutional growth over the past years.</p>
+        <p>It gives me great pride and pleasure to present the College Report of Bengaluru Law College, showcasing our academic accomplishments, community service initiatives, and Institutional growth over the past years.</p>
 
         <p>
           Since its establishment as <strong>R.K. Law College (2005)</strong> and
           its transformation into{" "}
           <strong>Bengaluru Law College (2015)</strong> under the Law Wings
-          Educational Trust, our institution has consistently upheld a tradition
+          Educational Trust, our Institution has consistently upheld a tradition
           of academic excellence and community service.
         </p>
 
@@ -156,7 +156,7 @@ export default function StudentAchievement() {
             Judge, Honnalli
           </li>
           <li>
-            ⚖️ <strong>N. Narasimha Murthy</strong> – Additional Civil Judge, JMFC
+            ⚖️ <strong>N. Narasimha Murthy (2017 Batch)</strong> – Additional Civil Judge, JMFC
           </li>
         </ul>
 
@@ -180,7 +180,7 @@ export default function StudentAchievement() {
         <h2>Alumni Relationship – Bengaluru Law College</h2>
         <p>
           The alumni of Bengaluru Law College form an integral part of the
-          institution’s legacy and growth. They not only carry the name of the
+          Institution’s legacy and growth. They not only carry the name of the
           college into society and the legal profession but also continue to
           remain closely connected with their alma mater.
         </p>
@@ -207,7 +207,7 @@ export default function StudentAchievement() {
           <li>🎁 Contributing mementos and assistance for college programs.</li>
           <li>
             🤝 Extending continuous support towards the betterment of the
-            institution.
+            Institution.
           </li>
         </ul>
 
@@ -232,7 +232,7 @@ export default function StudentAchievement() {
         <p>
           The college also expresses its gratitude to its alumni. On Graduation
           Day, alumni are felicitated and blessed by esteemed guests. They are
-          warmly welcomed to all institutional programs and are always considered
+          warmly welcomed to all Institutional programs and are always considered
           as an integral part of every event at Bengaluru Law College.
         </p>
 

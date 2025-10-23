@@ -85,7 +85,7 @@ const BoardSection2 = () => {
         <div className="board-left">
           <img src={member.img} alt={member.name} />
           {/* <a href="/" className="download-btn">Click here to Download</a> */}
-          <h3>{member.name}</h3>
+          {/* <h3>{member.name}</h3> */}
           <span className="role">{member.role}</span>
         </div>
 
