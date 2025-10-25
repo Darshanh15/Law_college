@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Principal.scss";
 // import principalImg from "../../assets/collage_img/principal.jpeg"; // replace with your image
-import principalImg from "../../assets/collage_img/principal.png"; // replace with your image
+import principalImg from "../../assets/collage_img/DEVIKA.jpg"; // replace with your image
 
 const boardMembers = [
   {

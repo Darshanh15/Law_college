@@ -17,28 +17,36 @@ const testimonials = [
     role: "3years LLB (2021Batch)",
     img: Divyashree,
     feedback:
-      "Bangalore Law College gave me the confidence and practical exposure to excel in my legal career. The faculty support is amazing!"
+      `A dedicated and hardworking student with a deep interest in constitutional law.
+Actively participates in debates and classroom discussions.
+Shows great potential to become a strong legal professional.`
   },
   {
     name: "Swathi",
     role: "3years LLB (2020 Batch)",
     img: Swathi,
     feedback:
-      "The mock court sessions and internships arranged by the college were invaluable. Highly recommend this institution."
+      `An enthusiastic learner who consistently completes assignments on time.
+Has a clear understanding of legal principles and case analysis.
+Displays excellent communication and teamwork skills.`
   },
   {
     name: "Pranathi",
     role: "5years BA LLb (2017 Batch)",
     img: Pranathi,
     feedback:
-      "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
+      `A sincere and disciplined student with a positive attitude.
+Shows growing confidence in legal research and presentation skills.
+Respects faculty and peers, maintaining a good academic record.`
   },
   {
     name: "Kajol vishwanth",
     role: "5 year BA LLB (2018 Batch)",
     img: Kajol,
     feedback:
-      "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
+      `Highly attentive in class and demonstrates strong analytical thinking.
+Takes initiative in moot court activities and academic projects.
+A promising student with leadership qualities.`
   }
   ,
   {
@@ -46,7 +54,9 @@ const testimonials = [
     role: "Batch 2020 5year BA LLB",
     img: Amrutha1,
     feedback:
-      "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
+      `Shows consistent improvement in academics and class participation.
+Has a good grasp of legal terminology and drafting.
+Cooperative, punctual, and dependable in all academic tasks.`
   }
   ,
   {
@@ -54,7 +64,9 @@ const testimonials = [
     role: "2019 5 years batch",
     img: Vishwanath,
     feedback:
-      "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
+     `A bright and curious learner with an interest in criminal and civil law.
+Engages actively in discussions and group activities.
+Displays professionalism and enthusiasm in all assignments.`
   }
   ,
   
