@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 import "./PrincipalSection.scss";
-import principalImg from '../../assets/collage_img/principal.jpeg'
+// import principalImg from '../../assets/collage_img/principal.jpeg'
+import principalImg from '../../assets/collage_img/principal.png'
 
 const boardMembers = [
   {

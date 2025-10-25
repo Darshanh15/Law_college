@@ -37,7 +37,7 @@ const boardMembers = [
     by: "--by Benjamin Franklin",
     description: "Shri Prasanna V. Raju is a distinguished officer from the 1994 batch who has served the nation with exceptional dedication, integrity, and leadership. He began his illustrious career as a Sub-Inspector of Police and rose through the ranks, displaying exemplary professionalism and commitment to justice. Since 2006, he has rendered commendable service in the Anti-Corruption Bureau and was promoted as Deputy Superintendent of Police (DySP) in the Lokayukta in 2011.",
     p1: "During his tenure, Shri Raju played a crucial role as part of the Special Task Force (STF) that successfully brought down the notorious forest brigand Veerappan, a historic achievement that stands as a testament to his courage, tactical skill, and dedication to public service. Over the years, he has served in various districts across Karnataka, earning the trust and respect of colleagues and citizens alike for his unwavering sense of duty and ethical conduct.",
-    p3: "In recognition of his outstanding service, he was decorated with the Chief Minister’s Medal, one of the highest honors conferred upon police officers in the state. His distinguished career also extended to the international arena, where he represented India with great distinction as part of the United Nations Peacekeeping Forces in Sudan, South Sudan, and Kosovo.",
+    p3: "The Managing Trustee of Law Wings Educational Trust believes that education is the foundation for social change and aims to provide quality legal education through Bengaluru Law College. The Trust’s goal is to nurture students into knowledgeable, disciplined, and socially responsible legal professionals who uphold justice, equality, and integrity. With a vision to create a centre of excellence in legal learning, the mission focuses on providing practical training, promoting human rights and social awareness, encouraging ethical values, and preparing students to contribute positively to society through their knowledge of law and commitment to justice.",
     p2: `Further expanding his global contributions, Shri Raju served as a Police Advisor with the United Nations Development Programme (UNDP) to the Interim Ministry Government of Afghanistan from 2019 to June 2021, where he played a key role in policy development and law enforcement training initiatives. Upon his return, he continued to serve the country as a Legal Advisor and Consultant with the National Investigation Agency (NIA) in Bengaluru, and subsequently as an Investigation Expert with the agency from 2022 to 2025, lending his expertise to cases of national importance.
 
 After taking voluntary retirement from the Lokayukta, Shri Prasanna V. Raju transitioned his focus to education—driven by his deep belief in nation-building through knowledge and youth empowerment. In 2015, he joined Bengaluru Law College as a Professor, where his experience in law enforcement, governance, and ethics added immense value to the academic environment. His dedication and vision for holistic legal education led him to take on the role of Managing Trustee, where he continues to guide the Institution with purpose and vision.
@@ -72,7 +72,7 @@ const BoardSection3 = () => {
                 <a className="read-more"  onClick={(e) => { e.preventDefault(); setActiveMember(member);}}>
                   Bio
                 </a>
-                
+
                 )}
               </div>
 

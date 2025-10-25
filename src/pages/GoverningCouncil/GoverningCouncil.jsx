@@ -2,7 +2,8 @@ import React from "react";
 import "./GoverningCouncil.scss";
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 
-import principal from "../../assets/collage_img/principal.jpeg";
+// import principal from "../../assets/collage_img/principal.jpeg";
+import principal from "../../assets/collage_img/principal.png";
 import Subramanya from "../../assets/clints/Subramanya.jpeg";
 import Raghavendra from "../../assets/clints/Raghavendra Auradkar IPS.jpeg";
 import Patil from "../../assets/clints/C S Patil.jpeg";

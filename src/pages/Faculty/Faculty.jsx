@@ -151,7 +151,8 @@ import "./Faculty.scss";
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 
 import img from "../../assets/law.jpg";
-import principal from "../../assets/collage_img/principal.jpeg";
+// import principal from "../../assets/collage_img/principal.jpeg";
+import principal from "../../assets/collage_img/principal.png";
 import Indira from "../../assets/clints/faculty/Indira.jpg";
 import Prasanna from "../../assets/clints/faculty/prasanna v raju.png";
 import Bhavya from "../../assets/clints/faculty/Bhavya.jpg";

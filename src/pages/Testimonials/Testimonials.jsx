@@ -3,61 +3,61 @@ import "./Testimonials.scss";
 import { useEffect, useRef } from "react";
 
 
-import img from '../../assets/law.jpg'
+import Amrutha from '../../assets/student/Amrutha HS.jpeg'
+import Divyashree from '../../assets/student/Divyashree.jpeg'
+import Swathi from '../../assets/student/Swathi.jpeg'
+import Pranathi from '../../assets/student/Pranathi1.png'
+import Kajol from '../../assets/student/Kajol vishwanth.jpeg'
+import Amrutha1 from '../../assets/student/Amrutha HS.jpeg'
+import Vishwanath from '../../assets/student/Vishwanath.jpeg'
 
 const testimonials = [
   {
-    name: "Aishwarya R",
-    role: "Alumni, BA LLB",
-    img: img,
+    name: "Divyashree",
+    role: "3years LLB (2021Batch)",
+    img: Divyashree,
     feedback:
       "Bangalore Law College gave me the confidence and practical exposure to excel in my legal career. The faculty support is amazing!"
   },
   {
-    name: "Rahul Sharma",
-    role: "Final Year LLB Student",
-    img: img,
+    name: "Swathi",
+    role: "3years LLB (2020 Batch)",
+    img: Swathi,
     feedback:
       "The mock court sessions and internships arranged by the college were invaluable. Highly recommend this institution."
   },
   {
-    name: "Priya Verma",
-    role: "Parent",
-    img: img,
+    name: "Pranathi",
+    role: "5years BA LLb (2017 Batch)",
+    img: Pranathi,
     feedback:
       "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
   },
   {
-    name: "Priya Verma",
-    role: "Parent",
-    img: img,
+    name: "Kajol vishwanth",
+    role: "5 year BA LLB (2018 Batch)",
+    img: Kajol,
     feedback:
       "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
   }
   ,
   {
-    name: "Priya Verma",
-    role: "Parent",
-    img: img,
+    name: "Amrutha HS",
+    role: "Batch 2020 5year BA LLB",
+    img: Amrutha1,
     feedback:
       "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
   }
   ,
   {
-    name: "Priya Verma",
-    role: "Parent",
-    img: img,
+    name: "Vishwanath",
+    role: "2019 5 years batch",
+    img: Vishwanath,
     feedback:
       "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
   }
   ,
-  {
-    name: "Priya Verma",
-    role: "Parent",
-    img: img,
-    feedback:
-      "The discipline, dedication, and holistic education approach at this college is commendable. Proud parent!"
-  }
+  
 ];
 
 // const Testimonials = () => {

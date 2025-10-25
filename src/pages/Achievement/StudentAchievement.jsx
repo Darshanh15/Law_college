@@ -133,7 +133,7 @@ export default function StudentAchievement() {
           </li>
           <li>🎓 <strong>Swathi N.</strong> – 2nd Rank (2020 Batch)</li>
           <li>
-            🎓 <strong>Divyashree</strong> – 5th Rank and gold medal in environmental law (English Medium, 2020
+            🎓 <strong>Divyashree</strong> – 5th Rank and Gold medal in environmental law (English Medium, 2020
             Batch)
           </li>
         </ul>
