@@ -1,0 +1,112 @@
+/* ---------------- AntiRaggingPage.scss ---------------- */
+
+:root {
+  --bg: #f7f9fb;
+  --card: #ffffff;
+  --accent: #0b5cff;
+  --muted: #667085;
+  --danger: #d64545;
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+.arc {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  padding: 32px;
+  color: #0b1220;
+}
+
+.arc__header {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.arc__title {
+  font-size: 28px;
+  margin: 0 0 6px;
+}
+
+.arc__subtitle {
+  color: var(--muted);
+  margin: 0;
+}
+
+.arc__grid {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+  gap: 18px;
+  align-items: start;
+  text-align: justify;
+}
+
+.arc__card {
+  background: var(--card);
+  padding: 18px;
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(8,15,30,0.06);
+}
+
+.arc__card img{
+    
+}
+
+.card__title {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.arc__card--img { grid-column: 6 / span 2; }
+.arc__card--info { grid-column: 1 / span 12; }
+.arc__card--helpline { grid-column: 4 / span 4  ; }
+.arc__card--committee { grid-column: 4 / span 6; }
+.arc__card--duties { grid-column: 4 / span 6; }
+.arc__card--measures { grid-column: 1 / span 4; }
+.arc__card--reporting { grid-column: 5 / span 4; }
+.arc__card--disciplinary { grid-column: 9 / span 4; }
+.arc__card--squad { grid-column: 1 / span 4; }
+.arc__card--awareness { grid-column: 5 / span 8; }
+.arc__card--declaration { grid-column: 1 / span 12; }
+
+.committee { display: flex; flex-direction: column; gap: 8px; }
+.arc__row { display: flex; border-radius: 8px; overflow: hidden; }
+.arc__cell { padding: 10px 12px; border: 1px solid #eef2f6; background: #fff; flex: 1; }
+.arc__cell--title { font-weight: 600; background: linear-gradient(90deg, rgba(11,92,255,0.06), rgba(11,92,255,0.02)); }
+
+.helpline__item { margin-bottom: 12px; }
+.helpline__value { margin-top: 6px; font-weight: 700; }
+.helpline__note { margin-top: 8px; font-size: 13px; color: var(--muted); }
+
+.arc__small { color: var(--muted); font-size: 13px; }
+
+.declaration { margin: 0; padding: 12px 14px; background: #fff7f7; border-left: 3px solid var(--danger); border-radius: 6px; }
+
+.arc__footer { display:flex; justify-content:space-between; align-items:center; margin-top:22px; }
+
+.btn { border: 1px solid #e6eefc; padding: 8px 12px; border-radius: 8px; background: transparent; cursor: pointer; }
+.btn--primary { background: linear-gradient(90deg,var(--accent), #0066ff); color: #fff; border: none; }
+
+.muted { color: var(--muted); }
+
+/* Responsive */
+@media (max-width: 980px) {
+    .arc__grid { grid-template-columns: repeat(6, 1fr); }
+    .arc__card--img { grid-column: 1 / span 6; }
+  .arc__card--info { grid-column: 1 / span 6; }
+  .arc__card--helpline { grid-column: 1 / span 6; }
+  .arc__card--committee { grid-column: 1 / span 6; }
+  .arc__card--duties { grid-column: 1 / span 6; }
+  .arc__card--measures { grid-column: 1 / span 6; }
+  .arc__card--reporting { grid-column: 1 / span 6; }
+  .arc__card--disciplinary { grid-column: 1 / span 6; }
+  .arc__card--squad { grid-column: 1 / span 6; }
+  .arc__card--awareness { grid-column: 1 / span 6; }
+  .arc__card--declaration { grid-column: 1 / span 6; }
+}
+
+@media (max-width: 520px) {
+  .arc { padding: 18px; }
+  .arc__title { font-size: 20px; }
+}

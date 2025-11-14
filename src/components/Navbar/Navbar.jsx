@@ -735,12 +735,23 @@ const Navbar = () => {
 
 
          {/* Courses */}
-        <li className="dropdown">
+         <li>
+          <Link to="/LawLibrary" onClick={handleCloseMenu}>
+            Library
+
+          </Link>
+        </li>
+
+        {/* <li className="dropdown">
           <button onClick={() => toggleDropdown("questionpaper")}>
-            Question Paper 
+            Library
           </button>
           {activeDropdown === "questionpaper" && (
             <div className="dropdown-menu">
+              
+              <Link to="/LawLibrary" onClick={handleCloseMenu}>
+                LawLibrary
+              </Link>
               <Link to="/QuestionPapers" onClick={handleCloseMenu}>
                 Law
               </Link>
@@ -749,7 +760,7 @@ const Navbar = () => {
               </Link>
             </div>
           )}
-        </li>
+        </li> */}
 
 
 
@@ -906,6 +917,38 @@ const Navbar = () => {
             </div>
           )}
         </li>
+        {/* Grievance */}
+        <li className="dropdown">
+          <button onClick={() => toggleDropdown("Grievance")}>
+          Grievance
+          </button>
+          {activeDropdown === "Grievance" && (
+            <div className="dropdown-menu">
+              <Link to="/AntiRaggingPage" onClick={handleCloseMenu}>
+                Anti-Ragging Policy-BLC
+              </Link>
+              <Link to="/UGCAntiRaggingPage" onClick={handleCloseMenu}>
+                UGC Anti-Ragging Policy
+              </Link>
+              <Link to="/AntiSexualHarassment" onClick={handleCloseMenu}>
+                Anti-Sexual Harassment
+              </Link>
+              <Link to="/ScstobcGrievance" onClick={handleCloseMenu}>
+                SC/ST/OBC Grievance
+              </Link>
+              <Link to="/StudentGrievance" onClick={handleCloseMenu}>
+                Student Grievance
+              </Link>
+              <Link to="/ComplaintPage" onClick={handleCloseMenu}>
+                Complaint
+              </Link>
+              <Link to="/CompliancePage" onClick={handleCloseMenu}>
+                Compliance
+              </Link>
+                          
+            </div>
+          )}
+        </li>
 
           {/* Statutory Committees */}
         <li>
@@ -914,23 +957,7 @@ const Navbar = () => {
           </Link>
         </li>
 
-        {/* Grievance */}
-        <li className="dropdown">
-          <button onClick={() => toggleDropdown("Grievance")}>
-          Grievance
-          </button>
-          {activeDropdown === "Grievance" && (
-            <div className="dropdown-menu">
-              <Link to="/ComplaintPage" onClick={handleCloseMenu}>
-                Complaint
-              </Link>
-              <Link to="/CompliancePage" onClick={handleCloseMenu}>
-                Compliance
-              </Link>
-              
-            </div>
-          )}
-        </li>
+        
 
 
         

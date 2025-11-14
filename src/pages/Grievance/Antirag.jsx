@@ -8,10 +8,10 @@ import s2 from "../../assets/Pdf/complance/student.pdf";
 
 
 const subjects = [
-  {
-    name: "Anti-Ragging-Poster",
-    fileId: s1,
-  },
+  // {
+  //   name: "Anti-Ragging-Poster",
+  //   fileId: s1,
+  // },
     {
       name: "Student Redressal Grievance Cell",
       fileId: s2,

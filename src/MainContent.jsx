@@ -55,6 +55,12 @@ import DutiesofParentsTowardstheCollege from './pages/CollegeRules/DutiesofParen
 import StudentAchievement from './pages/Achievement/StudentAchievement';
 import CollegeAchievement from './pages/Achievement/CollegeAchievement';
 import Reviews from './pages/Testimonials/Reviews';
+import AntiRaggingPage from './pages/Ragging/AntiRaggingPage';
+import UGCAntiRaggingPage from './pages/Ragging/UGCAntiRaggingPage';
+import AntiSexualHarassment from './pages/Ragging/AntiSexualHarassment';
+import ScstobcGrievance from './pages/Ragging/ScstobcGrievance';
+import StudentGrievance from './pages/Ragging/StudentGrievance';
+import LawLibrary from './pages/QuestionPaper/LawLibrary/LawLibrary';
 
 
 
@@ -89,6 +95,7 @@ function MainContent() {
 
         <Route path="/Nonlawqp100" element={<NonlawQp100 />} />
         <Route path="/Nonlawqp80" element={<NonlawQp80 />} />
+        <Route path="/LawLibrary" element={<LawLibrary />} />
 
 
 
@@ -111,6 +118,11 @@ function MainContent() {
         <Route path="/DutiesofParentsTowardstheCollege" element={<DutiesofParentsTowardstheCollege />} />
         <Route path="/CompliancePage" element={<CompliancePage />} />
         <Route path="/ComplaintPage" element={<ComplaintPage />} />
+        <Route path="/AntiRaggingPage" element={<AntiRaggingPage />} />
+        <Route path="/UGCAntiRaggingPage" element={<UGCAntiRaggingPage />} />
+        <Route path="/AntiSexualHarassment" element={<AntiSexualHarassment />} />
+        <Route path="/ScstobcGrievance" element={<ScstobcGrievance />} />
+        <Route path="/StudentGrievance" element={<StudentGrievance />} />
 
         {/* Achievement */}
         <Route path="/StudentAchievement" element={<StudentAchievement />} />

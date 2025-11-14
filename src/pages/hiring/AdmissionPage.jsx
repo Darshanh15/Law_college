@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"
 import "./AdmissionPage.scss";
-import teachingImg from "../../assets/Gallery/2021.jpg"; // replace with actual image
-import nonTeachingImg from "../../assets/Gallery/2021.jpg"; // replace with actual image
+import teachingImg from "../../assets/Gallery/img (10).jpeg"; // replace with actual image
+import nonTeachingImg from "../../assets/Gallery/img (1).jpeg"; // replace with actual image
 import SectionTitle2 from "../../components/SectionTitle/SectionTitle2";
 import CheckList from "./CheckList";
 

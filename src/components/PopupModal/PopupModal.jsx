@@ -194,7 +194,7 @@ const PopupModal = () => {
         </button>
 
         {/* Title */}
-        <h2 className="popup-title">Admission Form</h2>
+        <h2 className="popup-title">Apply Form</h2>
 
         {/* Form */}
         <form className="admission-form" onSubmit={handleSubmit}>
