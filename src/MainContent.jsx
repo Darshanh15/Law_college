@@ -61,6 +61,7 @@ import AntiSexualHarassment from './pages/Ragging/AntiSexualHarassment';
 import ScstobcGrievance from './pages/Ragging/ScstobcGrievance';
 import StudentGrievance from './pages/Ragging/StudentGrievance';
 import LawLibrary from './pages/QuestionPaper/LawLibrary/LawLibrary';
+import LegalServicesclinic from './pages/Ragging/LegalServicesclinic';
 
 
 
@@ -123,6 +124,7 @@ function MainContent() {
         <Route path="/AntiSexualHarassment" element={<AntiSexualHarassment />} />
         <Route path="/ScstobcGrievance" element={<ScstobcGrievance />} />
         <Route path="/StudentGrievance" element={<StudentGrievance />} />
+        <Route path="/LegalServicesclinic" element={<LegalServicesclinic />} />
 
         {/* Achievement */}
         <Route path="/StudentAchievement" element={<StudentAchievement />} />
