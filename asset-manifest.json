@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Law_college/static/css/main.8ddde32a.css",
-    "main.js": "/Law_college/static/js/main.c7a7e05b.js",
+    "main.css": "/Law_college/static/css/main.29511f13.css",
+    "main.js": "/Law_college/static/js/main.78f77ac7.js",
     "static/js/453.75fa99c7.chunk.js": "/Law_college/static/js/453.75fa99c7.chunk.js",
     "static/media/5y.pdf": "/Law_college/static/media/5y.55e0aed0c3c18e39ea0f.pdf",
     "static/media/3y.pdf": "/Law_college/static/media/3y.ebbf18926522aeb59679.pdf",
@@ -49,6 +49,7 @@
     "static/media/veena pujar.png": "/Law_college/static/media/veena pujar.4ccabb15a86723cf8c76.png",
     "static/media/main (1).jpeg": "/Law_college/static/media/main (1).1541fb740a0fdafe4a63.jpeg",
     "static/media/udc.png": "/Law_college/static/media/udc.7ebae6cd9115961cabe2.png",
+    "static/media/leagalservices.jpg": "/Law_college/static/media/leagalservices.6caa388a83c5804fa5b9.jpg",
     "static/media/Vishwanath.jpeg": "/Law_college/static/media/Vishwanath.e51cd7e301a65ca92096.jpeg",
     "static/media/main (8).jpeg": "/Law_college/static/media/main (8).2db9ee86a1e24a2cc345.jpeg",
     "static/media/main (4).jpeg": "/Law_college/static/media/main (4).7031b72469cdda5533a5.jpeg",
@@ -91,12 +92,12 @@
     "static/media/Indira.jpg": "/Law_college/static/media/Indira.5f8cf5107e819673c2a3.jpg",
     "static/media/Gowri.jpg": "/Law_college/static/media/Gowri.6585d613ad4e59ac7223.jpg",
     "index.html": "/Law_college/index.html",
-    "main.8ddde32a.css.map": "/Law_college/static/css/main.8ddde32a.css.map",
-    "main.c7a7e05b.js.map": "/Law_college/static/js/main.c7a7e05b.js.map",
+    "main.29511f13.css.map": "/Law_college/static/css/main.29511f13.css.map",
+    "main.78f77ac7.js.map": "/Law_college/static/js/main.78f77ac7.js.map",
     "453.75fa99c7.chunk.js.map": "/Law_college/static/js/453.75fa99c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ddde32a.css",
-    "static/js/main.c7a7e05b.js"
+    "static/css/main.29511f13.css",
+    "static/js/main.78f77ac7.js"
   ]
 }
