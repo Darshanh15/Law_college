@@ -59,12 +59,11 @@ const HeroSlider = () => {
         <div
           key={slide.id}
           className={`slide ${index === current ? "active" : ""}`}
-          style={{ backgroundImage: `url(${slide.image})` }}
-        >
+          style={{ backgroundImage: `url(${slide.image})` }} >
           <div className="overlay"></div>
           <div className="content">
             {/* <h3 className="subtitle">{slide.subtitle}</h3> */}
-            {/* <h1              className="title" dangerouslySetInnerHTML={{ __html: slide.title }} /> */}
+            {/* <h1 className="title" dangerouslySetInnerHTML={{ __html: slide.title }} /> */}
             {/* <p className="description">{slide.description}</p> */}
             {/* <button className="btn primary" onClick={() => navigate("/intrship")}>{slide.primaryBtn}</button> */}
             {/* <button className="btn secondary" onClick={() => navigate("/contact")}>{slide.secondaryBtn}</button> */}
