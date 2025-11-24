@@ -939,15 +939,16 @@ const Navbar = () => {
               <Link to="/StudentGrievance" onClick={handleCloseMenu}>
                 Student Grievance
               </Link>
+              <Link to="/LegalServicesclinic" onClick={handleCloseMenu}>
+                Legal Services Clinic
+              </Link>
               <Link to="/ComplaintPage" onClick={handleCloseMenu}>
                 Complaint
               </Link>
               <Link to="/CompliancePage" onClick={handleCloseMenu}>
                 Compliance
               </Link>
-              <Link to="/LegalServicesclinic" onClick={handleCloseMenu}>
-                Legal Services Clinic
-              </Link>
+              
                           
             </div>
           )}

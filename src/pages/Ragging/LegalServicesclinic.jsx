@@ -1,7 +1,15 @@
 import React from 'react'
 import './LegalServicesclinic.scss'
 import SectionTitle2 from '../../components/SectionTitle/SectionTitle2'
-import img from '../../assets/ragging/leagalservices.jpg'
+import img from '../../assets/ragging/leagalservices.jpeg'
+
+const CommitteeRow = ({ title, role }) => (
+  <div className="lsc__row">
+    <div className="lsc__cell lsc__cell--title">{title}</div>
+    <div className="lsc__cell">{role}</div>
+  </div>
+);
+
 
 export default function LegalServicesclinic() {
   return (
@@ -77,11 +85,11 @@ export default function LegalServicesclinic() {
             <li>Conducts legal aid camps in rural and urban areas</li>
             <li>Helps citizens understand rights, documentation, and legal remedies</li>
           </ul>
-            <strong>3. Research & Documentation Cell</strong>
+            <strong>3. Reselsch & Documentation Cell</strong>
             <ul>
-                <li>Prepares research reports, case studies, and publications</li>
+                <li>Prepares reselsch reports, case studies, and publications</li>
                 <li>Documents all outreach activities</li>
-                <li>Maintains archives for institutional records</li>
+                <li>Maintains lschives for institutional records</li>
             </ul>
             <strong>4. Training & Development Cell</strong>
             <ul>
@@ -122,20 +130,7 @@ export default function LegalServicesclinic() {
             The college ensures emotional and psychological support to victims through counseling sessions and peer guidance. The institution stands by every student and staff member to ensure justice, fairness, and dignity.
           </p>
         </div>
-        <div className="lsc__card lsc__card--9">
-          <h2 className="card__title">Declaration</h2>
-          <p>
-            Bengaluru Law College believes that education thrives in an environment of mutual trust and respect. By enforcing a strict Anti-Sexual Harassment Policy and fostering awareness, the institution aims to build a culture of equality, accountability, and integrity.
-          </p>
-          <ul>
-            <li>Conducting legal awareness programs on women’s rights, child protection, domestic violence, consumer laws, environmental laws, cyber safety</li>
-            <li>Organizing pro bono counseling and documentation support</li>
-            <li>Encouraging student participation in outreach programs and rural camps</li>
-            <li>Promoting inclusivity on campus through scholarships and grievance redressal mechanisms</li>
-            <li>Fostering interdisciplinary learning through seminars and research initiatives</li>
-          </ul>
-          <p>Through these efforts, the college nurtures committed professionals who understand the importance of legal service in nation-building.</p>
-        </div>
+        
         <div className="lsc__card lsc__card--10">
             <h2 className="card__title">Key Activities of the Legal Services Committee</h2>
             <strong>A. Legal Awareness Programs</strong>
@@ -234,6 +229,29 @@ export default function LegalServicesclinic() {
                 <li>Social justice mechanisms</li>
             </ul>
             <p>Outcomes include improved professionalism, ethical awareness, and access-to-justice understanding.</p>
+        </div>
+        <article className="lsc__card lsc__card--committee mt-1">
+          <h3 className="card__title">For Legal  service</h3>
+          <div className="committee ">
+            <CommitteeRow title=" legal services coordinator" role="Smt.Harika s s" />
+            <CommitteeRow title="Contact" role="+91 8147142990" />
+            
+          </div>
+          {/* <p className="lsc__small">(Note: Names & contacts should be displayed on the notice board and website.)</p> */}
+        </article>
+        <div className="lsc__card lsc__card--9">
+          <h2 className="card__title">Declaration</h2>
+          <p>
+            Bengaluru Law College believes that education thrives in an environment of mutual trust and respect. By enforcing a strict Anti-Sexual Harassment Policy and fostering awareness, the institution aims to build a culture of equality, accountability, and integrity.
+          </p>
+          <ul>
+            <li>Conducting legal awareness programs on women’s rights, child protection, domestic violence, consumer laws, environmental laws, cyber safety</li>
+            <li>Organizing pro bono counseling and documentation support</li>
+            <li>Encouraging student participation in outreach programs and rural camps</li>
+            <li>Promoting inclusivity on campus through scholarships and grievance redressal mechanisms</li>
+            <li>Fostering interdisciplinary learning through seminars and reselsch initiatives</li>
+          </ul>
+          <p>Through these efforts, the college nurtures committed professionals who understand the importance of legal service in nation-building.</p>
         </div>
       </section>
     </>
