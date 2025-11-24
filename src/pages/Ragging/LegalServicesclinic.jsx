@@ -59,8 +59,8 @@ export default function LegalServicesclinic() {
             Convenor
           </strong>
           <ul>
-            <li><strong>Dr. Devika S. Ajila,</strong> Principal, Bengaluru Law College</li>
-            <li><strong>Coordinator:</strong> Smt. Harika S. S, Assistant Professor</li>
+            <li><strong>Convenor : </strong>Dr. Devika S. Ajila, Principal, Bengaluru Law College</li>
+            <li><strong>Co ordinator :</strong> Smt. Harika S. S, Assistant Professor</li>
           </ul>
           <strong>Student Leadership</strong>
           <ul>
